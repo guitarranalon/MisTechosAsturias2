@@ -1,1 +1,4 @@
-<p *ngFor="let pico of (picos$ | async)">{{pico.nombre}} ({{pico.altura}}m)</p>
+<div *ngFor="let pico of (picos$ | async)">
+    <h2>{{pico.nombre}} ({{pico.altura}}m)</h2>
+    <p>{{pico.concejo}}</p>
+</div>

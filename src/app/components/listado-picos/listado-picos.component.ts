@@ -13,13 +13,10 @@ export class ListadoPicosComponent implements OnInit {
   picos$: Observable<Pico[]> = new Observable();
 
   constructor(
-    private picosService: PicosService, 
     private picosQuery: PicosQuery    
   ) {  }
 
-  ngOnInit(): void {
-    this.picosService.get();
-    
+  ngOnInit(): void {    
     this.picos$ = this.picosQuery.selectAll();
   }
 

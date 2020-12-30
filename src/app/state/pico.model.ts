@@ -17,6 +17,7 @@ export interface Pico {
  */
 export function createPico(params: Partial<Pico>) {
   return {
+    ascendido: false,
     ...params
   } as Pico;
 }
