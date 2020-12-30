@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Pico } from 'src/app/state/pico.model';
+import { PicosQuery } from 'src/app/state/picos.query';
 
 @Component({
   selector: 'app-mapa-progreso',
@@ -6,10 +9,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mapa-progreso.component.scss']
 })
 export class MapaProgresoComponent implements OnInit {
+  picos$: Observable<Pico[]> = new Observable();
 
-  constructor() { }
+  constructor(
+    private picosQuery: PicosQuery    
+  ) {  }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
+    this.picos$ = this.picosQuery.selectAll();
   }
-
 }
