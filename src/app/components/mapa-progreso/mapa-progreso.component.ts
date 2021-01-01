@@ -10,6 +10,7 @@ import { PicosQuery } from 'src/app/state/picos.query';
 })
 export class MapaProgresoComponent implements OnInit {
   picos$: Observable<Pico[]> = new Observable();
+  totalAscendidos = 0;
 
   constructor(
     private picosQuery: PicosQuery    
@@ -17,5 +18,6 @@ export class MapaProgresoComponent implements OnInit {
 
   ngOnInit(): void {    
     this.picos$ = this.picosQuery.selectAll();
+    this.totalAscendidos = this.picosQuery.getTotalAscendidos();
   }
 }
