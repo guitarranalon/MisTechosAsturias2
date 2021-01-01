@@ -7,6 +7,7 @@ import { MapaTopograficoComponent } from './components/mapa-topografico/mapa-top
 import { MapaProgresoComponent } from './components/mapa-progreso/mapa-progreso.component';
 import { ListadoPicosComponent } from './components/listado-picos/listado-picos.component';
 import { MapaAsturiasSVGComponent } from './components/mapa-asturias-svg/mapa-asturias-svg.component';
+import { MainNavComponent } from './components/main-nav/main-nav.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MapaAsturiasSVGComponent } from './components/mapa-asturias-svg/mapa-as
     MapaTopograficoComponent,
     MapaProgresoComponent,
     ListadoPicosComponent,
-    MapaAsturiasSVGComponent
+    MapaAsturiasSVGComponent,
+    MainNavComponent
   ],
   imports: [
     BrowserModule,

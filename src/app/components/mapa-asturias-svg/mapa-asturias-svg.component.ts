@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable, of } from 'rxjs';
+import { Pico } from 'src/app/state/pico.model';
+import { PicosQuery } from 'src/app/state/picos.query';
 
 @Component({
   selector: 'app-mapa-asturias-svg',
@@ -7,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MapaAsturiasSVGComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private picosQuery: PicosQuery
+  ) {  }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
+  
   }
 
+  getAscendido(id: number): Observable<boolean | undefined> {
+    const ascendido$ = this.picosQuery.selectEntity(id, 'ascendido');
+    return ascendido$;
+  }
 }
