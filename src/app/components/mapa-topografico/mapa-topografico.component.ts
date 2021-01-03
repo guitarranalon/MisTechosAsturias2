@@ -19,8 +19,8 @@ import { Pico } from 'src/app/state/pico.model';
 })
 export class MapaTopograficoComponent implements OnInit, AfterViewInit {
 
-  Map: Map | undefined;
-  view: View | undefined;
+  Map: Map;
+  view: View;
   picos: Pico[] = [];
 
   constructor(
@@ -55,6 +55,10 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
     });
 
     // markers
+    this.createMarkers();
+  }
+
+  private createMarkers(): void {
     let features: Feature[] = [];
 
     var iconStyle = new Style({
