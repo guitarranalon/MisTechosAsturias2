@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { utils } from 'protractor';
 import { Observable } from 'rxjs';
+import { Utils } from 'src/app/classes/utils';
 import { Pico } from 'src/app/state/pico.model';
 import { PicosQuery } from 'src/app/state/picos.query';
 
@@ -11,6 +13,7 @@ import { PicosQuery } from 'src/app/state/picos.query';
 export class MapaProgresoComponent implements OnInit {
   picos$: Observable<Pico[]> = new Observable();
   totalAscendidos = 0;
+  readonly totalTechos = Utils.totalTechos;
 
   constructor(
     private picosQuery: PicosQuery    
