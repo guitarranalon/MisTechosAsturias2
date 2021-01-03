@@ -21,7 +21,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
 
   Map: Map | undefined;
   view: View | undefined;
-  picos: Pico[] | undefined;
+  picos: Pico[] = [];
 
   constructor(
     private zone: NgZone, 
@@ -55,26 +55,25 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
     });
 
     // markers
-    var iconFeature = new Feature({
-      geometry: new Point(olProj.fromLonLat([-6.660072, 43.269427])),
-      name: 'Tocino Island',
-      population: 4000,
-      rainfall: 500,
-    });
-    
+    let features: Feature[] = [];
+
     var iconStyle = new Style({
       image: new Icon({
-        anchor: [0.5, 46],
+        anchor: [0.5, 0.5],
         anchorXUnits: IconAnchorUnits.FRACTION,
-        anchorYUnits: IconAnchorUnits.PIXELS,
+        anchorYUnits: IconAnchorUnits.FRACTION,
         src: 'assets/img/pinMapa.png',
       }),
-    });
-    
-    iconFeature.setStyle(iconStyle);
+    });    
+
+    for(const pico of this.picos) {
+      let iconFeature = this.createFeature(pico);
+      iconFeature.setStyle(iconStyle);
+      features.push(iconFeature);
+    }
     
     var vectorSource = new VectorSource({
-      features: [iconFeature],
+      features: features,
     });
     
     var vectorLayer = new VectorLayer({
@@ -82,5 +81,14 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
     });
 
     this.Map.addLayer(vectorLayer);
-  }  
+  }
+  
+  private createFeature(pico: Pico): Feature {
+    return new Feature({
+      geometry: new Point(olProj.fromLonLat([ pico.longitud, pico.latitud])),
+      name: pico.nombre,
+      altitud: pico.altura,
+      concejo: pico.concejo,
+    });
+  }
 }
