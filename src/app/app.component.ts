@@ -7,7 +7,7 @@ import { PicosService } from './state/picos.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'MisTechosAsturias2';
+  title = 'Mis Techos de Asturias';
 
   constructor( private picosService: PicosService ) {}
 
