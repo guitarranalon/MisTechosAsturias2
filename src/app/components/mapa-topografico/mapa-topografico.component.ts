@@ -1,4 +1,4 @@
-import { AfterViewInit, ChangeDetectorRef, Component, NgZone, OnInit } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, NgZone, OnInit, ViewChild } from '@angular/core';
 import {View, Map, Feature } from 'ol';
 import { ScaleLine, defaults as DefaultControls} from 'ol/control';
 import OSM from 'ol/source/OSM';
@@ -9,8 +9,11 @@ import Point from 'ol/geom/Point';
 import VectorSource from 'ol/source/Vector';
 import {Icon, Style} from 'ol/style';
 import IconAnchorUnits from 'ol/style/IconAnchorUnits';
+import Overlay from 'ol/Overlay';
 import { PicosQuery } from 'src/app/state/picos.query';
 import { Pico } from 'src/app/state/pico.model';
+import OverlayPositioning from 'ol/OverlayPositioning';
+import { Coordinate } from 'ol/coordinate';
 
 @Component({
   selector: 'app-mapa-topografico',
@@ -22,6 +25,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
   Map: Map;
   view: View;
   picos: Pico[] = [];
+  @ViewChild("popup") popup: ElementRef;
 
   constructor(
     private zone: NgZone, 
@@ -56,6 +60,9 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
 
     // markers
     this.createMarkers();
+
+    // popup
+    this.createPopup();
   }
 
   private createMarkers(): void {
@@ -93,6 +100,48 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
       name: pico.nombre,
       altitud: pico.altura,
       concejo: pico.concejo,
+      dificultad: pico.dificultad,
+      coordenadas: `${pico.latitud}, ${pico.longitud}`
     });
+  }
+
+  private createPopup() {
+    let popup = new Overlay({
+      element: this.popup.nativeElement,
+      positioning: OverlayPositioning.BOTTOM_CENTER,
+      stopEvent: false,
+      offset: [0, -50],
+      autoPan: true,
+      autoPanAnimation: {
+        duration: 250,
+      }
+    });
+    this.Map.addOverlay(popup);
+
+    // display popup on click
+    this.Map.on('click', (evt) => {
+      var feature = this.Map.forEachFeatureAtPixel(evt.pixel, function (feature) {
+        return feature;
+      });
+      if (feature) {
+        let point: Point = <Point>feature.getGeometry();
+        let coordinates: Coordinate = point.getCoordinates();
+
+        this.popup.nativeElement.innerHTML = this.getPopupMarkup(feature);    
+        popup.setPosition(coordinates);
+      } else {
+        popup.setPosition(undefined);
+      }
+    });    
+  }
+
+  private getPopupMarkup(feature: any): string {
+    let content = `<h2>${feature.get('name')} (${feature.get('altitud')}m)</h2>`;
+
+    content += `<p>Techo de: ${feature.get('concejo')}</p>`;
+    content += `<p>Dificultad: ${feature.get('dificultad')}</p>`;
+    content += `<p>Coordenadas: ${feature.get('coordenadas')}</p>`;
+
+    return content;
   }
 }
