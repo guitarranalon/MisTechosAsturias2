@@ -132,7 +132,21 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
       } else {
         popup.setPosition(undefined);
       }
-    });    
+    }); 
+    
+    // cambiar cursor al pasar sobre los iconos del mapa
+    this.Map.on('pointermove', (e) => {
+      if (e.dragging) {
+        return;
+      }
+      var pixel = this.Map.getEventPixel(e.originalEvent);
+      var hit = this.Map.hasFeatureAtPixel(pixel);
+      let mapElement = (<HTMLElement>this.Map.getTargetElement());
+
+      if (mapElement.style) {
+        mapElement.style.cursor = hit ? 'pointer' : '';
+      }
+    });
   }
 
   private getPopupMarkup(feature: any): string {
