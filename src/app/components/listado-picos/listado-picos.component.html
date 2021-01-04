@@ -4,8 +4,8 @@
             <div class="card-body">
                 <h2 class="card-title">{{pico.nombre}} ({{pico.altura}}m)</h2>
                 <h3 class="card-subtitle">{{pico.concejo}}</h3>
-                <button type="button" class="btn btn-outline-primary btn-block  mt-3" (click)="clickAscendido(pico)">Ascendido:
-                    {{pico.ascendido}}</button>
+                <button type="button" [ngClass]="{'btn btn-block mt-3': true, 'btn-outline-primary': !pico.ascendido, 'btn-primary': pico.ascendido }" (click)="clickAscendido(pico)">Ascendido:
+                    <span *ngIf="pico.ascendido else picoNoAscendido">Sí</span><ng-template #picoNoAscendido>No</ng-template></button>
             </div>
         </div>
     </div>
