@@ -1,5 +1,5 @@
 <form class="row my-3">
-    <div *ngFor="let pico of (picos$ | async)" class="col-6 col-md-4 col-xl-3 my-3">
+    <div *ngFor="let pico of (picos$ | async)" class="col-12 col-sm-6 col-md-4 col-xl-3 my-3">
         <div class="card h-100">
             <div class="card-body">
                 <h2 class="card-title">{{pico.nombre}} ({{pico.altura | number:'3.0-1':'es'}}m)</h2>
