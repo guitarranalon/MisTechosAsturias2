@@ -1,7 +1,7 @@
-<div *ngFor="let pico of (picos$ | async)">
-    <h2>{{pico.nombre}} ({{pico.altura}}m)</h2>
-    <p>{{pico.concejo}}</p>
-    <form>
-        <button type="button" (click)="clickAscendido(pico)">Ascendido: {{pico.ascendido}}</button>
-    </form>
-</div>
+<form>
+    <div *ngFor="let pico of (picos$ | async)">
+        <h2>{{pico.nombre}} ({{pico.altura}}m)</h2>
+        <p>{{pico.concejo}}</p>
+        <button type="button" class="btn btn-outline-primary" (click)="clickAscendido(pico)">Ascendido: {{pico.ascendido}}</button>
+    </div>
+</form>

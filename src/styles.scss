@@ -1,1 +1,12 @@
 @import "../node_modules/ol/ol.css";
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+.navbar .container-fluid {
+    padding: 0;
+}
+
+.container-fluid.main-content {
+    padding-top: 56px;
+}

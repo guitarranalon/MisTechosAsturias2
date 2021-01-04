@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-nav.component.scss']
 })
 export class MainNavComponent implements OnInit {
+  public isCollapsed = true;
 
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  toggleMenu() {
+    this.isCollapsed = !this.isCollapsed;
+  }
+
 
 }

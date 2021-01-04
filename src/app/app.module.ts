@@ -8,6 +8,7 @@ import { MapaProgresoComponent } from './components/mapa-progreso/mapa-progreso.
 import { ListadoPicosComponent } from './components/listado-picos/listado-picos.component';
 import { MapaAsturiasSVGComponent } from './components/mapa-asturias-svg/mapa-asturias-svg.component';
 import { MainNavComponent } from './components/main-nav/main-nav.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MainNavComponent } from './components/main-nav/main-nav.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
