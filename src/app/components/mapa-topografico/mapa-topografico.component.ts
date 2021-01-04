@@ -110,7 +110,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
       element: this.popup.nativeElement,
       positioning: OverlayPositioning.BOTTOM_CENTER,
       stopEvent: false,
-      offset: [0, -50],
+      offset: [0, -25],
       autoPan: true,
       autoPanAnimation: {
         duration: 250,
