@@ -2,7 +2,7 @@
     <div *ngFor="let pico of (picos$ | async)" class="col-6 col-md-4 col-xl-3 my-3">
         <div class="card h-100">
             <div class="card-body">
-                <h2 class="card-title">{{pico.nombre}} ({{pico.altura}}m)</h2>
+                <h2 class="card-title">{{pico.nombre}} ({{pico.altura | number:'3.0-1':'es'}}m)</h2>
                 <h3 class="card-subtitle">{{pico.concejo}}</h3>
                 <button type="button" [ngClass]="{'btn btn-block mt-3': true, 'btn-outline-primary': !pico.ascendido, 'btn-primary': pico.ascendido }" (click)="clickAscendido(pico)">Ascendido:
                     <span *ngIf="pico.ascendido else picoNoAscendido">Sí</span><ng-template #picoNoAscendido>No</ng-template></button>

@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +9,10 @@ import { ListadoPicosComponent } from './components/listado-picos/listado-picos.
 import { MapaAsturiasSVGComponent } from './components/mapa-asturias-svg/mapa-asturias-svg.component';
 import { MainNavComponent } from './components/main-nav/main-nav.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import localeEsES from '@angular/common/locales/es';
+import { registerLocaleData } from '@angular/common';
+
+registerLocaleData(localeEsES, 'es');
 
 @NgModule({
   declarations: [
@@ -24,7 +28,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     NgbModule
   ],
-  providers: [],
+  providers: [
+    { provide: LOCALE_ID, useValue: 'es' }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
