@@ -3,8 +3,8 @@
         <div class="card h-100">
             <div class="card-body">
                 <h2 class="card-title">{{pico.nombre}} ({{pico.altura | number:'3.0-1':'es'}}m)</h2>
-                <h3 class="card-subtitle">{{pico.concejo}}</h3>
-                <button type="button" [ngClass]="{'btn btn-block mt-3': true, 'btn-outline-primary': !pico.ascendido, 'btn-primary': pico.ascendido }" (click)="clickAscendido(pico)">Ascendido:
+                <h3 class="card-subtitle mb-3">{{pico.concejo}}</h3>
+                <button type="button" [ngClass]="{'btn btn-block align-self-end': true, 'btn-outline-secondary': !pico.ascendido, 'btn-secondary': pico.ascendido }" (click)="clickAscendido(pico)">Ascendido:
                     <span *ngIf="pico.ascendido else picoNoAscendido">Sí</span><ng-template #picoNoAscendido>No</ng-template></button>
             </div>
         </div>

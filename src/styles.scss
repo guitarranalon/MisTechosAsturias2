@@ -1,8 +1,21 @@
 @import "../node_modules/ol/ol.css";
 
+$primary:       #50636a;
+$secondary:     #f28705;
+
+$border-width:    3px;
+
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
+
+
 .container-fluid.main-content {
-    padding-top: 56px;
+    padding-top: 136px;
+}
+
+#main-nav {
+    background-image: url(assets/img/header-bg.jpg);
+    background-position: 20% -24px;
+    background-repeat: no-repeat;
 }
