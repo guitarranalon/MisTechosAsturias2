@@ -25,6 +25,8 @@ $secondary:     #f28705;
 
 $border-width:    3px;
 
+$navbar-dark-color: white;
+
 $font-family-sans-serif: fauna, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-serif: playfair, Georgia, Times, 'Times new roman', serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
@@ -44,7 +46,11 @@ svg.icon{
 }
 
 .container-fluid.main-content {
-    padding-top: 193px;
+    padding-top: 139px;
+
+    @include media-breakpoint-up(md) {
+        padding-top: 99px;
+    }
 }
 
 #main-nav {
@@ -54,6 +60,54 @@ svg.icon{
 
     h1 {
         font-family: $font-family-serif;
+
+        .small {
+            font-size: 70%;
+        }
+
+        .big {
+            font-size: 148%;
+        }
+
+        .brand-text {
+            margin-left: 0.75rem;
+            padding: 0;
+        }
+    }
+
+    .icon {
+        height: 55px;
+        width: 75px;
+    }
+
+    .navbar-nav {
+        @include media-breakpoint-up(md) {
+            position: relative;
+            top: 16px;
+        }
+    }
+
+    .nav-item {
+        position: relative;
+    }
+
+    .nav-link:after{
+        background: rgba($secondary, 1);
+        border-radius: 100%;
+        bottom: -3px;
+        content: '';
+        display: block;
+        height: 6px;
+        left: 50%;
+        margin-left: -3px;
+        opacity: 0;
+        position: absolute;
+        transition: opacity 0.3s ease;
+        width: 6px;
+    }
+
+    .nav-link.active:after {
+        opacity: 1;
     }
 }
 
