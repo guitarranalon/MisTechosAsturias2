@@ -75,13 +75,22 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
         anchor: [0.5, 0.5],
         anchorXUnits: IconAnchorUnits.FRACTION,
         anchorYUnits: IconAnchorUnits.FRACTION,
-        src: 'assets/img/pinMapa.png',
+        src: 'assets/img/pinMapa.svg',
       }),
-    });    
+    });
+
+    var iconStyleAscendido = new Style({
+      image: new Icon({
+        anchor: [0.5, 0.5],
+        anchorXUnits: IconAnchorUnits.FRACTION,
+        anchorYUnits: IconAnchorUnits.FRACTION,
+        src: 'assets/img/pinMapaAscendido.svg',
+      }),
+    });
 
     for(const pico of this.picos) {
       let iconFeature = this.createFeature(pico);
-      iconFeature.setStyle(iconStyle);
+      iconFeature.setStyle(pico.ascendido ? iconStyleAscendido : iconStyle);
       features.push(iconFeature);
     }
     
