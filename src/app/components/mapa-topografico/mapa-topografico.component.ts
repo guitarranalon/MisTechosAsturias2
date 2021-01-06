@@ -15,6 +15,7 @@ import { Pico } from 'src/app/state/pico.model';
 import OverlayPositioning from 'ol/OverlayPositioning';
 import { Coordinate } from 'ol/coordinate';
 import { DecimalPipe } from '@angular/common';
+import { Utils } from 'src/app/classes/utils';
 
 @Component({
   selector: 'app-mapa-topografico',
@@ -112,7 +113,8 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
       altitud: this.decimalPipe.transform(pico.altura, '3.0-1', 'es'),
       concejo: pico.concejo,
       dificultad: pico.dificultad,
-      coordenadas: `${pico.latitud}, ${pico.longitud}`
+      coordenadas: `${pico.latitud}, ${pico.longitud}`,
+      ascendido: pico.ascendido ? Utils.si : Utils.no
     });
   }
 
@@ -166,6 +168,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
     content += `<p>Techo de: ${feature.get('concejo')}</p>`;
     content += `<p>Dificultad: ${feature.get('dificultad')}</p>`;
     content += `<p>Coordenadas: ${feature.get('coordenadas')}</p>`;
+    content += `<p>Ascendido: ${feature.get('ascendido')}</p>`;
 
     return content;
   }

@@ -119,3 +119,13 @@ svg.icon{
 .card-subtitle {
     font-size: 1.17rem;
 }
+
+.map-container #popup {
+    h2 {
+        font-family: $font-family-serif;
+    }
+
+    p {
+        margin-bottom: 0.5rem;
+    }
+}
