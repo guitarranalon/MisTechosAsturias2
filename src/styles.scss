@@ -31,6 +31,17 @@ $font-family-serif: playfair, Georgia, Times, 'Times new roman', serif, "Apple C
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
+svg.icon{
+    height: 15px;
+    width: 15px;
+    fill: $brand-primary;
+    &.grey{
+        fill: $gray-dark;
+    }
+    &.greydark{
+        fill: $gray-darker;
+    }
+}
 
 .container-fluid.main-content {
     padding-top: 193px;

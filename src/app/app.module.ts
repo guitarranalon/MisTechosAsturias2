@@ -11,6 +11,7 @@ import { MainNavComponent } from './components/main-nav/main-nav.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import localeEsES from '@angular/common/locales/es';
 import { DecimalPipe, registerLocaleData } from '@angular/common';
+import { SvgSpriteComponent } from './components/svg-sprite/svg-sprite.component';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -21,7 +22,8 @@ registerLocaleData(localeEsES, 'es');
     MapaProgresoComponent,
     ListadoPicosComponent,
     MapaAsturiasSVGComponent,
-    MainNavComponent
+    MainNavComponent,
+    SvgSpriteComponent
   ],
   imports: [
     BrowserModule,
