@@ -14,6 +14,7 @@ import { PicosQuery } from 'src/app/state/picos.query';
 import { Pico } from 'src/app/state/pico.model';
 import OverlayPositioning from 'ol/OverlayPositioning';
 import { Coordinate } from 'ol/coordinate';
+import { DecimalPipe } from '@angular/common';
 
 @Component({
   selector: 'app-mapa-topografico',
@@ -30,7 +31,8 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
   constructor(
     private zone: NgZone, 
     private cd: ChangeDetectorRef,
-    private picosQuery: PicosQuery ) { }
+    private picosQuery: PicosQuery,
+    private decimalPipe: DecimalPipe ) { }
 
   ngOnInit() {
     this.picos = this.picosQuery.getAll();
@@ -98,7 +100,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
     return new Feature({
       geometry: new Point(olProj.fromLonLat([ pico.longitud, pico.latitud])),
       name: pico.nombre,
-      altitud: pico.altura,
+      altitud: this.decimalPipe.transform(pico.altura, '3.0-1', 'es'),
       concejo: pico.concejo,
       dificultad: pico.dificultad,
       coordenadas: `${pico.latitud}, ${pico.longitud}`

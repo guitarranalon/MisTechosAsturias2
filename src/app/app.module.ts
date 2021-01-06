@@ -10,7 +10,7 @@ import { MapaAsturiasSVGComponent } from './components/mapa-asturias-svg/mapa-as
 import { MainNavComponent } from './components/main-nav/main-nav.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import localeEsES from '@angular/common/locales/es';
-import { registerLocaleData } from '@angular/common';
+import { DecimalPipe, registerLocaleData } from '@angular/common';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -29,6 +29,7 @@ registerLocaleData(localeEsES, 'es');
     NgbModule
   ],
   providers: [
+    DecimalPipe,
     { provide: LOCALE_ID, useValue: 'es' }
   ],
   bootstrap: [AppComponent]
