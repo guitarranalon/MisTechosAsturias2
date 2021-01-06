@@ -29,6 +29,7 @@ $navbar-dark-color: white;
 
 $font-family-sans-serif: fauna, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-serif: playfair, Georgia, Times, 'Times new roman', serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-family:  $font-family-serif;
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
@@ -46,10 +47,10 @@ svg.icon{
 }
 
 .container-fluid.main-content {
-    padding-top: 139px;
+    padding-top: 149px;
 
     @include media-breakpoint-up(md) {
-        padding-top: 99px;
+        padding-top: 109px;
     }
 }
 
@@ -128,4 +129,9 @@ svg.icon{
     p {
         margin-bottom: 0.5rem;
     }
+}
+
+.not-found-block {
+    margin: 0 auto;
+    max-width: 500px;
 }
