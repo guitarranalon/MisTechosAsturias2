@@ -32,7 +32,6 @@ $font-family-serif: playfair, Georgia, Times, 'Times new roman', serif, "Apple C
 @import '~bootstrap/scss/bootstrap';
 
 
-
 .container-fluid.main-content {
     padding-top: 136px;
 }
@@ -41,6 +40,10 @@ $font-family-serif: playfair, Georgia, Times, 'Times new roman', serif, "Apple C
     background-image: url(assets/img/header-bg.jpg);
     background-position: 20% -24px;
     background-repeat: no-repeat;
+
+    h1 {
+        font-family: $font-family-serif;
+    }
 }
 
 .card-title {
