@@ -76,7 +76,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
         anchor: [0.5, 0.5],
         anchorXUnits: IconAnchorUnits.FRACTION,
         anchorYUnits: IconAnchorUnits.FRACTION,
-        src: 'assets/img/pinMapa.svg',
+        src: '/assets/img/pinMapa.svg',
       }),
     });
 
@@ -85,7 +85,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
         anchor: [0.5, 0.5],
         anchorXUnits: IconAnchorUnits.FRACTION,
         anchorYUnits: IconAnchorUnits.FRACTION,
-        src: 'assets/img/pinMapaAscendido.svg',
+        src: '/assets/img/pinMapaAscendido.svg',
       }),
     });
 
