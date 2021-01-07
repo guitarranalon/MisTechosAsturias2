@@ -116,6 +116,20 @@ svg.icon{
     }
 }
 
+#main-nav .filigrana {
+    bottom: -4px;
+    fill: #fff;
+    height: 32px;
+    position: absolute;
+    right: 1rem;
+    width: 45px;
+
+    @include media-breakpoint-up(md) {
+        height: 37px;
+        width: 54px;
+    }
+}
+
 .card-title {
     font-family: $font-family-serif;
     font-size: 1.5rem;
