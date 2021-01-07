@@ -1,0 +1,1675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Techos de Asturias.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Techos de Asturias</name>
+		<open>1</open>
+	<Placemark>
+			<name>Pico Panchón (1411m), Techo de Allande</name>
+			<description>Techo de Allande</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.660072</longitude>
+				<latitude>43.269427</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.660072,43.269427,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Estorbín de Valverde (2115m), Techo de Aller</name>
+			<description>Techo de Aller</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.6504222</longitude>
+				<latitude>43.0443583</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.6504222,43.0443583,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Torre de Enmedio (2465m), Techo de Amieva</name>
+			<description>Techo de Amieva</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-4.97495</longitude>
+				<latitude>43.2085805</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-4.97495,43.2085805,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>El Vallín (131m), Techo de Avilés</name>
+			<description>Techo de Avilés</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.9335194</longitude>
+				<latitude>43.5362083</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.9335194,43.5362083,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Picu Horru (1527m), Techo de Belmonte de Miranda</name>
+			<description>Techo de Belmonte de Miranda</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.3054305</longitude>
+				<latitude>43.2358305</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.3054305,43.2358305,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Peña Mayor (1144m), Techo de Bimenes</name>
+			<description>Techo de Bimenes</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.5138555</longitude>
+				<latitude>43.3102583</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.5138555,43.3102583,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Prado Roque (1104m), Techo de Boal</name>
+			<description>Techo de Boal</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.7763166</longitude>
+				<latitude>43.3503166</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.7763166,43.3503166,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Torrecerredo (2648m), Techo de Cabrales</name>
+			<description>Techo de Cabrales</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-4.8528388</longitude>
+				<latitude>43.197775</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-4.8528388,43.197775,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Monte Incós (581m), Techo de Cabranes</name>
+			<description>Techo de Cabranes</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.3847638</longitude>
+				<latitude>43.3913777</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.3847638,43.3913777,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Pedroso (614m), Techo de Candamo</name>
+			<description>Techo de Candamo</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.0203916</longitude>
+				<latitude>43.4356249</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.0203916,43.4356249,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Torre Santa de Enol (2478m), Techo de Cangas de Onís</name>
+			<description>Techo de Cangas de Onís</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-4.9745138</longitude>
+				<latitude>43.2124333</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-4.9745138,43.2124333,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Cueto Arbás (2007m), Techo de Cangas del Narcea</name>
+			<description>Techo de Cangas del Narcea</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.4369805</longitude>
+				<latitude>42.9930194</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.4369805,42.9930194,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Piedra Redonda (631m), Techo de Caravia</name>
+			<description>Techo de Caravia</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.1947555</longitude>
+				<latitude>43.4391583</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.1947555,43.4391583,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Monte Areo (264m), Techo de Carreño</name>
+			<description>Techo de Carreño</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.7792638</longitude>
+				<latitude>43.5278555</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.7792638,43.5278555,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Torres (2104m), Techo de Caso</name>
+			<description>Techo de Caso</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.4085444</longitude>
+				<latitude>43.0783222</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.4085444,43.0783222,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Prado del Marqués (431m), Techo de Castrillón</name>
+			<description>Techo de Castrillón</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.0201138</longitude>
+				<latitude>43.5127888</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.0201138,43.5127888,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Peña el Filso (1201m), Techo de Castropol</name>
+			<description>Techo de Castropol</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.9464277</longitude>
+				<latitude>43.3781333</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.9464277,43.3781333,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Fonteblanca (741m), Techo de Coaña</name>
+			<description>Techo de Coaña</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.7802083</longitude>
+				<latitude>43.4654916</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.7802083,43.4654916,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Pienzu (1159m), Techo de Colunga</name>
+			<description>Techo de Colunga</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.2422305</longitude>
+				<latitude>43.4318611</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.2422305,43.4318611,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Prieto (366m), Techo de Corvera</name>
+			<description>Techo de Corvera</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.8957583</longitude>
+				<latitude>43.5016111</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.8957583,43.5016111,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Cueto (778m), Techo de Cudillero</name>
+			<description>Techo de Cudillero</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.2652583</longitude>
+				<latitude>43.5069972</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.2652583,43.5069972,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Alcornón de Busmori (1934m), Techo de Degaña</name>
+			<description>Techo de Degaña</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.5428138</longitude>
+				<latitude>42.9129944</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.5428138,42.9129944,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico la Penouta (899m), Techo de El Franco</name>
+			<description>Techo de El Franco</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.8226333</longitude>
+				<latitude>43.4555472</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.8226333,43.4555472,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Peña de los Cuatro Jueces (662m), Techo de Gijón</name>
+			<description>Techo de Gijón</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.5843166</longitude>
+				<latitude>43.4426444</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.5843166,43.4426444,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Tabladas (138m), Techo de Gozón</name>
+			<description>Techo de Gozón</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.8833777</longitude>
+				<latitude>43.5762777</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.8833777,43.5762777,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico la Berza (1454m), Techo de Grado</name>
+			<description>Techo de Grado</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.2005111</longitude>
+				<latitude>43.1833305</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.2005111,43.1833305,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Piedras Apañadas (1201m), Techo de Grandas de Salime</name>
+			<description>Techo de Grandas de Salime</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.9571194</longitude>
+				<latitude>43.1394583</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.9571194,43.1394583,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Peña Roguera o Torrunteira (1961m), Techo de Ibias</name>
+			<description>Techo de Ibias</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.7050361</longitude>
+				<latitude>42.9166055</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.7050361,42.9166055,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Gargalois (1167m), Techo de Illano</name>
+			<description>Techo de Illano</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.7816805</longitude>
+				<latitude>43.3405527</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.7816805,43.3405527,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Friera o Bufarán (619m), Techo de Illas</name>
+			<description>Techo de Illas</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.9426555</longitude>
+				<latitude>43.4913666</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.9426555,43.4913666,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico San Justo o Cogollu (1021m), Techo de Langreo</name>
+			<description>Techo de Langreo</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.6899833</longitude>
+				<latitude>43.2312694</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.6899833,43.2312694,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Peña Mea (1560m), Techo de Laviana</name>
+			<description>Techo de Laviana</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.5610777</longitude>
+				<latitude>43.1750861</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.5610777,43.1750861,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Peña Ubiña (2417m), Techo de Lena</name>
+			<description>Techo de Lena</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.9567055</longitude>
+				<latitude>43.0183638</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.9567055,43.0183638,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Gorfolí (585m), Techo de Llanera</name>
+			<description>Techo de Llanera</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.9313194</longitude>
+				<latitude>43.4809805</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.9313194,43.4809805,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Cabeza Bubena (1199m), Techo de Llanes</name>
+			<description>Techo de Llanes</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-4.8573527</longitude>
+				<latitude>43.3594194</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-4.8573527,43.3594194,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Cuetu Ventosu (1149m), Techo de Mieres</name>
+			<description>Techo de Mieres</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.6458027</longitude>
+				<latitude>43.1954749</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.6458027,43.1954749,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico La Gamonal (1712m), Techo de Morcín</name>
+			<description>Techo de Morcín</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.9481027</longitude>
+				<latitude>43.2288111</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.9481027,43.2288111,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Muros (132m), Techo de Muros del Nalón</name>
+			<description>Techo de Muros del Nalón</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.1054277</longitude>
+				<latitude>43.5422416</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.1054277,43.5422416,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Triguero (1291m), Techo de Nava</name>
+			<description>Techo de Nava</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.4999638</longitude>
+				<latitude>43.2769722</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.4999638,43.2769722,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>El Can (842m), Techo de Navia</name>
+			<description>Techo de Navia</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.6435999</longitude>
+				<latitude>43.4851472</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.6435999,43.4851472,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Santo Medero (522m), Techo de Noreña</name>
+			<description>Techo de Noreña</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.7310027</longitude>
+				<latitude>43.3384222</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.7310027,43.3384222,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico la Verdilluenga (2129m), Techo de Onís</name>
+			<description>Techo de Onís</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-4.9427305</longitude>
+				<latitude>43.2247777</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-4.9427305,43.2247777,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Picajo (709m), Techo de Oviedo</name>
+			<description>Techo de Oviedo</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.7736222</longitude>
+				<latitude>43.2961083</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.7736222,43.2961083,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico la Mota de Cetín (1134m), Techo de Parres</name>
+			<description>Techo de Parres</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.2029305</longitude>
+				<latitude>43.2804222</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.2029305,43.2804222,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Jajao (1425m), Techo de Peñamellera Alta</name>
+			<description>Techo de Peñamellera Alta</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-4.7042833</longitude>
+				<latitude>43.2649527</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-4.7042833,43.2649527,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Picu Cuetu la Cerralosa (1563m), Techo de Peñamellera Baja</name>
+			<description>Techo de Peñamellera Baja</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-4.6839777</longitude>
+				<latitude>43.265875</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-4.6839777,43.265875,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Mosqueiro (888m), Techo de Pesoz</name>
+			<description>Techo de Pesoz</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.8900361</longitude>
+				<latitude>43.3181555</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.8900361,43.3181555,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Vízcares (1419m), Techo de Piloña</name>
+			<description>Techo de Piloña</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.2993027</longitude>
+				<latitude>43.2659555</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.2993027,43.2659555,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Peña Ten (2140m), Techo de Ponga</name>
+			<description>Techo de Ponga</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.1418611</longitude>
+				<latitude>43.103475</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.1418611,43.103475,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Llan de Cubel (678m), Techo de Pravia</name>
+			<description>Techo de Pravia</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.2180777</longitude>
+				<latitude>43.5145555</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.2180777,43.5145555,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Peña Barzanalgas (1489m), Techo de Proaza</name>
+			<description>Techo de Proaza</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.0589138</longitude>
+				<latitude>43.1691555</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.0589138,43.1691555,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Fontán Norte (2417m), Techo de Quirós</name>
+			<description>Techo de Quirós</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.9589611</longitude>
+				<latitude>43.034875</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.9589611,43.034875,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Alto la Degollada (613m), Techo de Las Regueras</name>
+			<description>Techo de Las Regueras</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.0058944</longitude>
+				<latitude>43.4520138</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.0058944,43.4520138,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Cuetu el Plaganu (605m), Techo de Ribadedeva</name>
+			<description>Techo de Ribadedeva</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-4.6256416</longitude>
+				<latitude>43.3499277</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-4.6256416,43.3499277,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Mofrechu (891m), Techo de Ribadesella</name>
+			<description>Techo de Ribadesella</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.0412361</longitude>
+				<latitude>43.4075333</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.0412361,43.4075333,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Magarrón (655m), Techo de Ribera de Arriba</name>
+			<description>Techo de Ribera de Arriba</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.8443083</longitude>
+				<latitude>43.2845472</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.8443083,43.2845472,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Xistras (1775m), Techo de Riosa</name>
+			<description>Techo de Riosa</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.9165333</longitude>
+				<latitude>43.1897527</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.9165333,43.1897527,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Aguión (927m), Techo de Salas</name>
+			<description>Techo de Salas</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.3020833</longitude>
+				<latitude>43.46235</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.3020833,43.46235,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Tres Concejos (1096m), Techo de San Martín del Rey Aurelio</name>
+			<description>Techo de San Martín del Rey Aurelio</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.6288666</longitude>
+				<latitude>43.2206611</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.6288666,43.2206611,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico La Vaga (1081m), Techo de San Martín de Oscos</name>
+			<description>Techo de San Martín de Oscos</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.9298777</longitude>
+				<latitude>43.356675</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.9298777,43.356675,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Oteiro Grande (948m), Techo de Santa Eulalia de Oscos</name>
+			<description>Techo de Santa Eulalia de Oscos</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-7.05345</longitude>
+				<latitude>43.3002277</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-7.05345,43.3002277,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Xunqueira (661m), Techo de San Tirso de Abres</name>
+			<description>Techo de San Tirso de Abres</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-7.1136694</longitude>
+				<latitude>43.390075</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-7.1136694,43.390075,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Grandamiana (806m), Techo de Santo Adriano</name>
+			<description>Techo de Santo Adriano</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.0211611</longitude>
+				<latitude>43.2871833</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.0211611,43.2871833,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Cima (733m), Techo de Sariego</name>
+			<description>Techo de Sariego</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.5922388</longitude>
+				<latitude>43.4345416</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.5922388,43.4345416,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Cerro Gabio (709m), Techo de Siero</name>
+			<description>Techo de Siero</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.5976638</longitude>
+				<latitude>43.4294055</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.5976638,43.4294055,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Retriñón (1862m), Techo de Sobrescobio</name>
+			<description>Techo de Sobrescobio</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.4637527</longitude>
+				<latitude>43.1342083</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.4637527,43.1342083,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Peña Orniz (2194m), Techo de Somiedo</name>
+			<description>Techo de Somiedo</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.1222972</longitude>
+				<latitude>43.0238194</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.1222972,43.0238194,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Alto la Corona (467m), Techo de Soto del Barco</name>
+			<description>Techo de Soto del Barco</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.0553222</longitude>
+				<latitude>43.4820333</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.0553222,43.4820333,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Pousadoiro (643m), Techo de Tapia de Casariego</name>
+			<description>Techo de Tapia de Casariego</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.9576222</longitude>
+				<latitude>43.4755416</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.9576222,43.4755416,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Abrego de Ouroso (1032m), Techo de Taramundi</name>
+			<description>Techo de Taramundi</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-7.0296194</longitude>
+				<latitude>43.3403388</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-7.0296194,43.3403388,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Ferreirúa (1980m), Techo de Teverga</name>
+			<description>Techo de Teverga</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.03715</longitude>
+				<latitude>43.0626138</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.03715,43.0626138,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico la Patana (1526m), Techo de Tineo</name>
+			<description>Techo de Tineo</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.3538138</longitude>
+				<latitude>43.1624583</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.3538138,43.1624583,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Capiella Martín (986m), Techo de Valdés</name>
+			<description>Techo de Valdés</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.5988777</longitude>
+				<latitude>43.4547611</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.5988777,43.4547611,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Pozo de la Nieve (1130m), Techo de Vegadeo</name>
+			<description>Techo de Vegadeo</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.9624388</longitude>
+				<latitude>43.3748194</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.9624388,43.3748194,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Fuente Sagrada (1162m), Techo de Villanueva de Oscos</name>
+			<description>Techo de Villanueva de Oscos</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.9407916</longitude>
+				<latitude>43.3725388</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.9407916,43.3725388,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Viesca Redonda (643m), Techo de Villaviciosa</name>
+			<description>Techo de Villaviciosa</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-5.5592527</longitude>
+				<latitude>43.4282194</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.5592527,43.4282194,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Pico Carondio (1221m), Techo de Villayón</name>
+			<description>Techo de Villayón</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.7506277</longitude>
+				<latitude>43.3202444</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.7506277,43.3202444,0</coordinates>
+			</Point>
+		</Placemark>
+					
+	<Placemark>
+			<name>Peña Cruzada (1374m), Techo de Yernes y Tameza</name>
+			<description>Techo de Yernes y Tameza</description>
+			<LookAt>
+				<gx:TimeStamp><when>2011-11-24T09:39:47Z</when>
+</gx:TimeStamp>
+				<longitude>-6.1447138</longitude>
+				<latitude>43.2167583</latitude>
+				<altitude>0</altitude>
+				<heading>0.009725963247389021</heading>
+				<tilt>0</tilt>
+				<range>2990.255299351888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.1447138,43.2167583,0</coordinates>
+			</Point>
+		</Placemark>			
+	</Folder>
+</Document>
+</kml>
