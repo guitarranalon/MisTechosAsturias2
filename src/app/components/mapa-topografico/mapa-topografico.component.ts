@@ -16,6 +16,7 @@ import OverlayPositioning from 'ol/OverlayPositioning';
 import { Coordinate } from 'ol/coordinate';
 import { DecimalPipe } from '@angular/common';
 import { Utils } from 'src/app/classes/utils';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-mapa-topografico',
@@ -76,7 +77,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
         anchor: [0.5, 0.5],
         anchorXUnits: IconAnchorUnits.FRACTION,
         anchorYUnits: IconAnchorUnits.FRACTION,
-        src: '/assets/img/pinMapa.svg',
+        src: `${environment.baseHref}/assets/img/pinMapa.svg`,
       }),
     });
 
@@ -85,7 +86,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
         anchor: [0.5, 0.5],
         anchorXUnits: IconAnchorUnits.FRACTION,
         anchorYUnits: IconAnchorUnits.FRACTION,
-        src: '/assets/img/pinMapaAscendido.svg',
+        src: `${environment.baseHref}/assets/img/pinMapaAscendido.svg`,
       }),
     });
 
