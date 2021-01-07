@@ -13,6 +13,8 @@ import localeEsES from '@angular/common/locales/es';
 import { DecimalPipe, registerLocaleData } from '@angular/common';
 import { SvgSpriteComponent } from './components/svg-sprite/svg-sprite.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ObservacionesComponent } from './components/observaciones/observaciones.component';
+import { AvisoLegalComponent } from './components/aviso-legal/aviso-legal.component';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -25,7 +27,9 @@ registerLocaleData(localeEsES, 'es');
     MapaAsturiasSVGComponent,
     MainNavComponent,
     SvgSpriteComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ObservacionesComponent,
+    AvisoLegalComponent
   ],
   imports: [
     BrowserModule,

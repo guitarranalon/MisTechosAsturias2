@@ -54,6 +54,10 @@ svg.icon{
     }
 }
 
+.container-fluid.main-content a {
+    text-decoration: underline;
+}
+
 #main-nav {
     background-image: url(assets/img/header-bg.jpg);
     background-position: 20% -34px;
