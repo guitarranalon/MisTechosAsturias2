@@ -15,6 +15,7 @@ import { SvgSpriteComponent } from './components/svg-sprite/svg-sprite.component
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ObservacionesComponent } from './components/observaciones/observaciones.component';
 import { AvisoLegalComponent } from './components/aviso-legal/aviso-legal.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -29,7 +30,8 @@ registerLocaleData(localeEsES, 'es');
     SvgSpriteComponent,
     NotFoundComponent,
     ObservacionesComponent,
-    AvisoLegalComponent
+    AvisoLegalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
