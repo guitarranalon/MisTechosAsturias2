@@ -2,3 +2,18 @@
 
 <p>Picos ascendidos: <span>{{ totalAscendidos }}</span> / {{totalTechos}}</p>
 <ngb-progressbar [showValue]="true" type="primary" [value]="totalAscendidos/totalTechos*100" [height]="'1.5rem'"></ngb-progressbar>
+
+<h2 class="mt-4">Estadística</h2>
+<div class="estadistica">
+    <div class="panel-picos">
+        <ng-container *ngFor="let pico of picos$ | async">
+            <div class="pico-container" (click)="toggleAscendido(pico)">
+                <div class="data">
+                    <div class="nombre">{{pico.nombre}}</div>
+                    <div class="altitud">({{pico.altura | number:'3.0-1':'es'}}m)</div>
+                </div>
+                <svg [ngClass]="{'icon pico': true, 'ascendido fill-secondary': pico.ascendido}" [style.height.px]="pico.altura/10"><use xlink:href="#pico" /></svg>
+            </div>
+        </ng-container>
+    </div>
+</div>

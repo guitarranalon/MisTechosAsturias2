@@ -1,0 +1,43 @@
+$item-width: 120px;
+
+.estadistica {
+    overflow-x: scroll;
+
+    .panel-picos {
+        align-items: stretch;
+        display: flex;
+    }
+}
+
+.pico-container {
+    display: flex;
+    flex-basis: $item-width;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    text-align: center;
+
+    .data {
+        border-bottom: 4px solid #f28705;
+        margin: 0 5px 10px;
+        padding: 5px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+svg.icon.pico {
+    transition: fill 0.25s ease;
+    width: $item-width;
+
+    &:hover,
+    .data:hover + & {
+        cursor: pointer;
+        fill: #f28705;
+    }
+}
+
+

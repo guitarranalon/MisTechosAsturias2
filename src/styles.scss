@@ -49,6 +49,10 @@ svg.icon{
     &.greydark{
         fill: map-get($grays, 800);
     }
+
+    &.fill-secondary {
+        fill: $secondary;
+    }
 }
 
 .container-fluid.main-content {

@@ -179,7 +179,7 @@ export class PicosService {
     this.picosStore.set(listado);
   }
 
-  setAscendido({ id, ascendido }: Pico) {
+  toggleAscendido({ id, ascendido }: Pico) {
     const nuevoValor = !ascendido;
     this.picosStore.update(id, { ascendido: nuevoValor });
   }

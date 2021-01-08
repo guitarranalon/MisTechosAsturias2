@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { Utils } from 'src/app/classes/utils';
 import { Pico } from 'src/app/state/pico.model';
 import { PicosQuery } from 'src/app/state/picos.query';
+import { PicosService } from 'src/app/state/picos.service';
 
 @Component({
   selector: 'app-mapa-progreso',
@@ -16,11 +17,16 @@ export class MapaProgresoComponent implements OnInit {
   readonly totalTechos = Utils.totalTechos;
 
   constructor(
-    private picosQuery: PicosQuery    
+    private picosQuery: PicosQuery,
+    private picosService: PicosService   
   ) {  }
 
   ngOnInit(): void {    
     this.picos$ = this.picosQuery.selectAll();
     this.totalAscendidos = this.picosQuery.getTotalAscendidos();
+  }
+
+  toggleAscendido(pico: Pico) {
+    this.picosService.toggleAscendido(pico);
   }
 }

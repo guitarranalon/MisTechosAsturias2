@@ -22,7 +22,7 @@ export class ListadoPicosComponent implements OnInit {
   }
 
   clickAscendido(pico: Pico) {
-    this.picosService.setAscendido(pico);
+    this.picosService.toggleAscendido(pico);
   }
 
 }
