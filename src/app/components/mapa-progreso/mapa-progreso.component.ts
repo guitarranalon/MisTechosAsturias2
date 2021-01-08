@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { utils } from 'protractor';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { SubscriptionManager } from 'src/app/classes/subscription-manager';
 import { Utils } from 'src/app/classes/utils';
 import { Pico } from 'src/app/state/pico.model';
 import { PicosQuery } from 'src/app/state/picos.query';
@@ -11,10 +11,11 @@ import { PicosService } from 'src/app/state/picos.service';
   templateUrl: './mapa-progreso.component.html',
   styleUrls: ['./mapa-progreso.component.scss']
 })
-export class MapaProgresoComponent implements OnInit {
+export class MapaProgresoComponent implements OnInit, OnDestroy {
   picos$: Observable<Pico[]> = new Observable();
   totalAscendidos = 0;
   readonly totalTechos = Utils.totalTechos;
+  subs: SubscriptionManager = new SubscriptionManager();
 
   constructor(
     private picosQuery: PicosQuery,
@@ -23,10 +24,14 @@ export class MapaProgresoComponent implements OnInit {
 
   ngOnInit(): void {    
     this.picos$ = this.picosQuery.selectAll();
-    this.totalAscendidos = this.picosQuery.getTotalAscendidos();
+    this.subs.addSubscription(this.picosQuery.getTotalAscendidos().subscribe( resp => this.totalAscendidos = resp.length ));
   }
 
   toggleAscendido(pico: Pico) {
     this.picosService.toggleAscendido(pico);
+  }
+
+  ngOnDestroy() {
+    this.subs.removeAllSubscriptions();
   }
 }

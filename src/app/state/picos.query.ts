@@ -19,9 +19,9 @@ export class PicosQuery extends QueryEntity<PicosState, Pico> {
     });
   }
 
-  getTotalAscendidos(): number {
-    return this.getAll({ 
+  getTotalAscendidos(): Observable<Pico[]> {
+    return this.selectAll({ 
       filterBy: pico => (pico.ascendido === true)
-    }).length;    
+    });    
   }
 }
