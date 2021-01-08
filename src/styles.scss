@@ -3,8 +3,8 @@
 // fonts
 @font-face {
     font-family: 'fauna';
-    src: url('assets/fonts/faunaone-regular-webfont.woff2') format('woff2'),
-         url('assets/fonts/faunaone-regular-webfont.woff') format('woff');
+    src: url('theme/fonts/faunaone-regular-webfont.woff2') format('woff2'),
+         url('theme/fonts/faunaone-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'playfair';
-    src: url('assets/fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
-         url('assets/fonts/PlayfairDisplay-Bold.woff') format('woff');
+    src: url('theme/fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+         url('theme/fonts/PlayfairDisplay-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -74,7 +74,7 @@ svg.icon{
 }
 
 #main-nav {
-    background-image: url(assets/img/header-bg.jpg);
+    background-image: url(theme/img/header-bg.jpg);
     background-position: 20% -34px;
     background-repeat: no-repeat;
 
