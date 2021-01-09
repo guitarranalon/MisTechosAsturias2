@@ -16,6 +16,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ObservacionesComponent } from './components/observaciones/observaciones.component';
 import { AvisoLegalComponent } from './components/aviso-legal/aviso-legal.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -31,12 +33,15 @@ registerLocaleData(localeEsES, 'es');
     NotFoundComponent,
     ObservacionesComponent,
     AvisoLegalComponent,
-    FooterComponent
+    FooterComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
     DecimalPipe,
