@@ -1,4 +1,5 @@
 <div class="form-group d-flex justify-content-end">
     <label for="search" class="mr-2 col-form-label">Buscar</label>
-    <input class="form-control col-4 col-md-3" id="search" placeholder="Pico o concejo" type="text" [formControl]="search">
+    <input class="form-control col-4 col-md-3" id="search" placeholder="Pico o concejo" type="text" [formControl]="search" />
+    <button type="button" class="btn bg-transparent clear" (click)="clearSearch()" [hidden]="!search.value">x</button>
 </div>
