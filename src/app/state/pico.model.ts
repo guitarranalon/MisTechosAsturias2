@@ -10,6 +10,7 @@ export interface Pico {
   longitud: number;
   alternativas?: object;
   ascendido?: boolean;
+  imagen?: string;
 }
 
 /**

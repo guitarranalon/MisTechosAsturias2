@@ -37,7 +37,7 @@ const listado: Array<Pico> = [
   ,
   { id: 15, concejo:"Carreño", nombre:"Monte Areo", altura:264, dificultad:1, latitud:43.5278555, longitud:-5.7792638, ascendido: false }
   ,
-  { id: 16, concejo:"Caso", nombre:"Pico Torres", altura:2104, dificultad:3, latitud:43.0783222, longitud:-5.4085444, ascendido: false }
+  { id: 16, concejo:"Caso", nombre:"Pico Torres", altura:2104, dificultad:3, latitud:43.0783222, longitud:-5.4085444, ascendido: false, imagen: 'torres.jpg' }
   ,
   { id: 17, concejo:"Castrillón", nombre:"Prado del Marqués", altura:431, dificultad:1, latitud:43.5127888, longitud:-6.0201138, ascendido: false }
   ,
@@ -105,7 +105,7 @@ const listado: Array<Pico> = [
   ,
   { id: 49, concejo:"Pesoz", nombre:"Pico Mosqueiro", altura:888, dificultad:1, latitud:43.3181555, longitud:-6.8900361, ascendido: false }
   ,
-  { id: 50, concejo:"Piloña", nombre:"Pico Vízcares", altura:1419, dificultad:2, latitud:43.2659555, longitud:-5.2993027, ascendido: false }
+  { id: 50, concejo:"Piloña", nombre:"Pico Vízcares", altura:1419, dificultad:2, latitud:43.2659555, longitud:-5.2993027, ascendido: false, imagen: 'vizcares.jpg' }
   ,
   { id: 51, concejo:"Ponga", nombre:"Peña Ten", altura:2140, dificultad:3, latitud:43.103475, longitud:-5.1418611, ascendido: false }
   ,
@@ -145,7 +145,7 @@ const listado: Array<Pico> = [
   ,
   { id: 69, concejo:"Sobrescobio", nombre:"Retriñón", altura:1862, dificultad:3, latitud:43.1342083, longitud:-5.4637527, ascendido: false }
   ,
-  { id: 70, concejo:"Somiedo", nombre:"Peña Orniz", altura:2194, dificultad:3, latitud:43.0238194, longitud:-6.1222972, ascendido: false }
+  { id: 70, concejo:"Somiedo", nombre:"Peña Orniz", altura:2194, dificultad:3, latitud:43.0238194, longitud:-6.1222972, ascendido: false, imagen: 'orniz.jpg' }
   ,
   { id: 71, concejo:"Soto del Barco", nombre:"Pico Alto la Corona", altura:467, dificultad:1, latitud:43.4820333, longitud:-6.0553222, ascendido: false }
   ,
