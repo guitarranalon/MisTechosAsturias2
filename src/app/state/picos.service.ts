@@ -19,7 +19,7 @@ const listado: Array<Pico> = [
   ,
   { id: 6, concejo:"Belmonte de Miranda", nombre:"Picu Horru", altura:1527, dificultad:2, latitud:43.2358305, longitud:-6.3054305, ascendido: false }
   ,
-  { id: 7, concejo:"Bimenes", nombre:"Peña Mayor", altura:1144, dificultad:1, latitud:43.3102583 , longitud:-5.5138555, ascendido: false }
+  { id: 7, concejo:"Bimenes", nombre:"Peña Mayor", altura:1144, dificultad:1, latitud:43.3102583 , longitud:-5.5138555, ascendido: false, imagen: 'mayor.jpg' }
   ,
   { id: 8, concejo:"Boal", nombre:"Prado Roque", altura:1104, dificultad:1, latitud:43.3503166, longitud:-6.7763166, ascendido: false }
   ,
@@ -69,9 +69,9 @@ const listado: Array<Pico> = [
   ,
   { id: 31, concejo:"Illas", nombre:"Pico Friera o Bufarán", altura:619, dificultad:1, latitud:43.4913666, longitud:-5.9426555, ascendido: false }
   ,
-  { id: 32, concejo:"Langreo", nombre:"Pico San Justo o Cogollu", altura:1021, dificultad:1, latitud:43.2312694, longitud:-5.6899833, ascendido: false }
+  { id: 32, concejo:"Langreo", nombre:"Pico San Justo o Cogollu", altura:1021, dificultad:1, latitud:43.2312694, longitud:-5.6899833, ascendido: false, imagen: 'cogollu.jpg' }
   ,
-  { id: 33, concejo:"Laviana", nombre:"Peña Mea", altura:1560, dificultad:2, latitud:43.1750861, longitud:-5.5610777, ascendido: false }
+  { id: 33, concejo:"Laviana", nombre:"Peña Mea", altura:1560, dificultad:2, latitud:43.1750861, longitud:-5.5610777, ascendido: false, imagen: 'mea.jpg' }
   ,
   { id: 34, concejo:"Lena", nombre:"Peña Ubiña", altura:2417, dificultad:3, latitud:43.0183638, longitud:-5.9567055, ascendido: false }
   ,
@@ -95,7 +95,7 @@ const listado: Array<Pico> = [
   ,
   { id: 44, concejo:"Onís", nombre:"Pico la Verdilluenga", altura:2129, dificultad:3, latitud:43.2247777, longitud:-4.9427305, ascendido: false }
   ,
-  { id: 45, concejo:"Oviedo", nombre:"Picajo", altura:709, dificultad:1, latitud:43.2961083, longitud:-5.7736222, ascendido: false }
+  { id: 45, concejo:"Oviedo", nombre:"Picajo", altura:709, dificultad:1, latitud:43.2961083, longitud:-5.7736222, ascendido: false, imagen: 'escobin.jpg' }
   ,
   { id: 46, concejo:"Parres", nombre:"Pico la Mota de Cetín", altura:1134, dificultad:2, latitud:43.2804222, longitud:-5.2029305, ascendido: false }
   ,
@@ -143,7 +143,7 @@ const listado: Array<Pico> = [
   ,
   { id: 68, concejo:"Siero", nombre:"Pico Cerro Gabio", altura:709, dificultad:1, latitud:43.4294055, longitud:-5.5976638, ascendido: false }
   ,
-  { id: 69, concejo:"Sobrescobio", nombre:"Retriñón", altura:1862, dificultad:3, latitud:43.1342083, longitud:-5.4637527, ascendido: false }
+  { id: 69, concejo:"Sobrescobio", nombre:"Retriñón", altura:1862, dificultad:3, latitud:43.1342083, longitud:-5.4637527, ascendido: false, imagen: 'retri.jpg' }
   ,
   { id: 70, concejo:"Somiedo", nombre:"Peña Orniz", altura:2194, dificultad:3, latitud:43.0238194, longitud:-6.1222972, ascendido: false, imagen: 'orniz.jpg' }
   ,
@@ -153,7 +153,7 @@ const listado: Array<Pico> = [
   ,
   { id: 73, concejo:"Taramundi", nombre:"Pico Abrego de Ouroso", altura:1032, dificultad:1, latitud:43.3403388, longitud:-7.0296194, ascendido: false }
   ,
-  { id: 74, concejo:"Teverga", nombre:"Ferreirúa", altura:1980, dificultad:2, latitud:43.0626138, longitud:-6.03715, ascendido: false }
+  { id: 74, concejo:"Teverga", nombre:"Ferreirúa", altura:1980, dificultad:2, latitud:43.0626138, longitud:-6.03715, ascendido: false, imagen: 'ferreirua.jpg' }
   ,
   { id: 75, concejo:"Tineo", nombre:"La Patana", altura:1526, dificultad:1, latitud:43.1624583, longitud:-6.3538138, ascendido: false }
   ,
