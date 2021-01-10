@@ -47,7 +47,7 @@ const listado: Array<Pico> = [
   ,
   { id: 20, concejo:"Colunga", nombre:"Pico Pienzu", altura:1159, dificultad:1, latitud:43.4318611, longitud:-5.2422305, ascendido: false }
   ,
-  { id: 21, concejo:"Corvera", nombre:"Pico Prieto", altura:366, dificultad:1, latitud:43.5016111, longitud:-5.8957583, ascendido: false }
+  { id: 21, concejo:"Corvera", nombre:"Pico Prieto", altura:366, dificultad:1, latitud:43.5016111, longitud:-5.8957583, ascendido: false, imagen: 'prieto.jpg' }
   ,
   { id: 22, concejo:"Cudillero", nombre:"Pico Cueto", altura:778, dificultad:1, latitud:43.5069972, longitud:-6.2652583, ascendido: false }
   ,
