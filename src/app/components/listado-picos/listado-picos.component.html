@@ -1,6 +1,7 @@
 <form class="my-3" [formGroup]="listadoPicos">
     <div class="row">
         <div class="col-12">
+            <app-menu-ordenacion (cambioOrdenacion)="cambiarOrdenacion($event)"></app-menu-ordenacion>
             <app-search-bar (searchText)="nuevaBusqueda($event)"></app-search-bar>
         </div>
     </div>

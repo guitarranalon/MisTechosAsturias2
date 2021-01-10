@@ -18,6 +18,7 @@ import { AvisoLegalComponent } from './components/aviso-legal/aviso-legal.compon
 import { FooterComponent } from './components/footer/footer.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MenuOrdenacionComponent } from './components/menu-ordenacion/menu-ordenacion.component';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -34,7 +35,8 @@ registerLocaleData(localeEsES, 'es');
     ObservacionesComponent,
     AvisoLegalComponent,
     FooterComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    MenuOrdenacionComponent
   ],
   imports: [
     BrowserModule,
