@@ -1,13 +1,14 @@
-<div class="row">
-    <div class="col">
-      <div ngbDropdown class="d-inline-block">
-        <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Orden</button>
+<div class="my-3 my-md-0 menu-ordenacion">
+    <div ngbDropdown class="">
+        <button class="btn btn-outline-primary dropdown-toggle" id="dropdownBasic1" ngbDropdownToggle>Orden</button>
         <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-          <button [ngClass]="{'active': isActive('concejoalfabetico')}" ngbDropdownItem (click)="cambiarOrden('concejoalfabetico')">Concejo alfabético</button>
-          <button [ngClass]="{'active': isActive('altituddesc')}" ngbDropdownItem (click)="cambiarOrden('altituddesc')">Altitud descendente</button>
-          <button [ngClass]="{'active': isActive('altitudasc')}" ngbDropdownItem (click)="cambiarOrden('altitudasc')">Altitud ascendente</button>
-          <button [ngClass]="{'active': isActive('nombrepicoalfabetico')}" ngbDropdownItem (click)="cambiarOrden('nombrepicoalfabetico')">Pico alfabético</button>
+            <button [ngClass]="{'active': isActive('concejoalfabetico')}" ngbDropdownItem
+                (click)="cambiarOrden('concejoalfabetico')">Concejo alfabético</button>
+            <button [ngClass]="{'active': isActive('altituddesc')}" ngbDropdownItem
+                (click)="cambiarOrden('altituddesc')">Altitud descendente</button>
+            <button [ngClass]="{'active': isActive('altitudasc')}" ngbDropdownItem
+                (click)="cambiarOrden('altitudasc')">Altitud ascendente</button>
+            <button [ngClass]="{'active': isActive('nombrepicoalfabetico')}" ngbDropdownItem
+                (click)="cambiarOrden('nombrepicoalfabetico')">Pico alfabético</button>
         </div>
-      </div>
     </div>
-  
