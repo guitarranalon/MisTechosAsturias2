@@ -57,7 +57,7 @@ export class PicosQuery extends QueryEntity<PicosState, Pico> {
 
   parameterizedSelectAll(filterAndOrder: FilterAndOrder): any {
     this.lastSort = filterAndOrder.sortBy !== undefined ? filterAndOrder.sortBy : this.lastSort;
-    this.lastSearch = filterAndOrder.searchText !== undefined ? filterAndOrder.searchText : this.lastSearch;
+    this.lastSearch = filterAndOrder.searchText !== undefined ? filterAndOrder.searchText.toLowerCase() : this.lastSearch;
     this.lastSortOrder = filterAndOrder.sortByOrder !== undefined ? filterAndOrder.sortByOrder : this.lastSortOrder;
 
     return this.selectAll({
