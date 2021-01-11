@@ -39,7 +39,7 @@ const listado: Array<Pico> = [
   ,
   { id: 16, concejo:"Caso", nombre:"Pico Torres", altura:2104, dificultad:3, latitud:43.0783222, longitud:-5.4085444, ascendido: false, imagen: 'torres.jpg' }
   ,
-  { id: 17, concejo:"Castrillón", nombre:"Prado del Marqués", altura:431, dificultad:1, latitud:43.5127888, longitud:-6.0201138, ascendido: false }
+  { id: 17, concejo:"Castrillón", nombre:"Prado del Marqués", altura:431, dificultad:1, latitud:43.5127888, longitud:-6.0201138, ascendido: false, imagen: 'pradomarques.jpg' }
   ,
   { id: 18, concejo:"Castropol", nombre:"Peña el Filso", altura:1201, dificultad:1, latitud:43.3781333, longitud:-6.9464277, ascendido: false }
   ,
@@ -73,7 +73,7 @@ const listado: Array<Pico> = [
   ,
   { id: 33, concejo:"Laviana", nombre:"Peña Mea", altura:1560, dificultad:2, latitud:43.1750861, longitud:-5.5610777, ascendido: false, imagen: 'mea.jpg' }
   ,
-  { id: 34, concejo:"Lena", nombre:"Peña Ubiña", altura:2417, dificultad:3, latitud:43.0183638, longitud:-5.9567055, ascendido: false }
+  { id: 34, concejo:"Lena", nombre:"Peña Ubiña", altura:2417, dificultad:3, latitud:43.0183638, longitud:-5.9567055, ascendido: false, imagen: 'ubina.jpg' }
   ,
   { id: 35, concejo:"Llanera", nombre:"Pico Gorfolí", altura:585, dificultad:1, latitud:43.4809805, longitud:-5.9313194, ascendido: false, imagen: 'gorfoli.jpg' }
   ,
@@ -87,9 +87,9 @@ const listado: Array<Pico> = [
   ,
   { id: 40, concejo:"Muros del Nalón", nombre:"Muros", altura:132, dificultad:1, latitud:43.5422416, longitud:-6.1054277, ascendido: false }
   ,
-  { id: 41, concejo:"Nava", nombre:"Triguero", altura:1291, dificultad:1, latitud:43.2769722, longitud:-5.4999638, ascendido: false }
+  { id: 41, concejo:"Nava", nombre:"Triguero", altura:1291, dificultad:1, latitud:43.2769722, longitud:-5.4999638, ascendido: false, imagen: 'triguero.jpg' }
   ,
-  { id: 42, concejo:"Navia", nombre:"El Can", altura:842, dificultad:1, latitud:43.4851472, longitud:-6.6435999, ascendido: false }
+  { id: 42, concejo:"Navia", nombre:"El Can", altura:842, dificultad:1, latitud:43.4851472, longitud:-6.6435999, ascendido: false, imagen: 'panondres.jpg' }
   ,
   { id: 43, concejo:"Noreña", nombre:"Pico Santo Medero", altura:522, dificultad:1, latitud:43.3384222, longitud:-5.7310027, ascendido: false, imagen: 'santomedero.jpg' }
   ,
@@ -113,7 +113,7 @@ const listado: Array<Pico> = [
   ,
   { id: 53, concejo:"Proaza", nombre:"Peña Barzanalgas", altura:1489, dificultad:2, latitud:43.1691555, longitud:-6.0589138, ascendido: false }
   ,
-  { id: 54, concejo:"Quirós", nombre:"Fontán Norte", altura:2417, dificultad:3, latitud:43.034875, longitud:-5.9589611, alternativas:[
+  { id: 54, concejo:"Quirós", nombre:"Fontán Norte", altura:2417, dificultad:3, latitud:43.034875, longitud:-5.9589611, imagen: 'fontan.jpg', alternativas:[
     {id: 55, nombre:"Fontán Sur", altura:2414, dificultad:3, latitud:43.0336722, longitud:-5.9604972, ascendido: false }
   ], ascendido: false }
   ,
@@ -121,7 +121,7 @@ const listado: Array<Pico> = [
   ,
   { id: 57, concejo:"Ribadedeva", nombre:"Pico Cuetu el Plaganu", altura:605, dificultad:1, latitud:43.3499277, longitud:-4.6256416, ascendido: false }
   ,
-  { id: 58, concejo:"Ribadesella", nombre:"Pico Mofrechu", altura:891, dificultad:1, latitud:43.4075333, longitud:-5.0412361, ascendido: false }
+  { id: 58, concejo:"Ribadesella", nombre:"Pico Mofrechu", altura:891, dificultad:1, latitud:43.4075333, longitud:-5.0412361, imagen: 'mofrechu.jpg', ascendido: false }
   ,
   { id: 59, concejo:"Ribera de Arriba", nombre:"Pico Magarrón", altura:655, dificultad:2, latitud:43.2845472, longitud:-5.8443083, ascendido: false, imagen: 'magarron.jpg' }
   ,
@@ -151,7 +151,7 @@ const listado: Array<Pico> = [
   ,
   { id: 72, concejo:"Tapia de Casariego", nombre:"Pico Pousadoiro", altura:643, dificultad:1, latitud:43.4755416, longitud:-6.9576222, ascendido: false }
   ,
-  { id: 73, concejo:"Taramundi", nombre:"Pico Abrego de Ouroso", altura:1032, dificultad:1, latitud:43.3403388, longitud:-7.0296194, ascendido: false }
+  { id: 73, concejo:"Taramundi", nombre:"Pico Abrego de Ouroso", altura:1032, dificultad:1, latitud:43.3403388, longitud:-7.0296194, ascendido: false, imagen: 'ouroso.jpg' }
   ,
   { id: 74, concejo:"Teverga", nombre:"Ferreirúa", altura:1980, dificultad:2, latitud:43.0626138, longitud:-6.03715, ascendido: false, imagen: 'ferreirua.jpg' }
   ,
