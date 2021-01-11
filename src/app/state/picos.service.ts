@@ -9,9 +9,9 @@ import { PicosQuery } from './picos.query';
 const listado: Array<Pico> = [
   { id: 1, concejo:"Allande", nombre:"Pico Panchón", altura:1411, dificultad: 1, latitud:43.269427, longitud:-6.660072, ascendido: false }
   ,
-  { id: 2, concejo:"Aller", nombre:"Estorbín de Valverde", altura:2115, dificultad: 2, latitud:43.0443583, longitud:-5.6504222, ascendido: false }
+  { id: 2, concejo:"Aller", nombre:"Estorbín de Valverde", altura:2115, dificultad: 2, latitud:43.0443583, longitud:-5.6504222, ascendido: false, imagen: 'estorbin.jpg' }
   ,
-  { id: 3, concejo:"Amieva", nombre:"Torre de Enmedio", altura:2465, dificultad:3, latitud:43.2085805, longitud:-4.97495, ascendido: false }
+  { id: 3, concejo:"Amieva", nombre:"Torre de Enmedio", altura:2465, dificultad:3, latitud:43.2085805, longitud:-4.97495, ascendido: false, imagen:'torredeenmedio.jpg' }
   ,
   { id: 4, concejo:"Avilés", nombre:"El Vallín", altura:131, dificultad:1, latitud:43.5362083, longitud:-5.9335194, alternativas:[
     {id: 5, nombre:"Miranda", altura:143, dificultad:1, latitud:43.5375194, longitud:-5.944175, ascendido: false }
@@ -23,7 +23,7 @@ const listado: Array<Pico> = [
   ,
   { id: 8, concejo:"Boal", nombre:"Prado Roque", altura:1104, dificultad:1, latitud:43.3503166, longitud:-6.7763166, ascendido: false }
   ,
-  { id: 9, concejo:"Cabrales", nombre:"Torrecerredo", altura:2648, dificultad:3, latitud:43.197775, longitud:-4.8528388, ascendido: false }
+  { id: 9, concejo:"Cabrales", nombre:"Torrecerredo", altura:2648, dificultad:3, latitud:43.197775, longitud:-4.8528388, ascendido: false, imagen: 'torrecerredo.jpg' }
   ,
   { id: 10, concejo:"Cabranes", nombre:"Monte Incós", altura:581, dificultad:1, latitud:43.3913777, longitud:-5.3847638, ascendido: false }
   ,
@@ -55,7 +55,7 @@ const listado: Array<Pico> = [
   ,
   { id: 24, concejo:"El Franco", nombre:"Pico la Penouta", altura:899, dificultad:1, latitud:43.4555472, longitud:-6.8226333, ascendido: false }
   ,
-  { id: 25, concejo:"Gijón", nombre:"Peña de los Cuatro Jueces", altura:662, dificultad:1, latitud:43.4426444, longitud:-5.5843166, ascendido: false }
+  { id: 25, concejo:"Gijón", nombre:"Peña de los Cuatro Jueces", altura:662, dificultad:1, latitud:43.4426444, longitud:-5.5843166, ascendido: false, imagen: 'cuatrojueces.jpg' }
   ,
   { id: 26, concejo:"Gozón", nombre:"Tabladas", altura:138, dificultad:1, latitud:43.5762777, longitud:-5.8833777, ascendido: false }
   ,
@@ -67,7 +67,7 @@ const listado: Array<Pico> = [
   ,
   { id: 30, concejo:"Illano", nombre:"Pico Gargalois", altura:1167, dificultad:2, latitud:43.3405527, longitud:-6.7816805, ascendido: false }
   ,
-  { id: 31, concejo:"Illas", nombre:"Pico Friera o Bufarán", altura:619, dificultad:1, latitud:43.4913666, longitud:-5.9426555, ascendido: false }
+  { id: 31, concejo:"Illas", nombre:"Pico Friera o Bufarán", altura:619, dificultad:1, latitud:43.4913666, longitud:-5.9426555, ascendido: false, imagen: 'friera.jpg' }
   ,
   { id: 32, concejo:"Langreo", nombre:"Pico San Justo o Cogollu", altura:1021, dificultad:1, latitud:43.2312694, longitud:-5.6899833, ascendido: false, imagen: 'cogollu.jpg' }
   ,
@@ -75,7 +75,7 @@ const listado: Array<Pico> = [
   ,
   { id: 34, concejo:"Lena", nombre:"Peña Ubiña", altura:2417, dificultad:3, latitud:43.0183638, longitud:-5.9567055, ascendido: false }
   ,
-  { id: 35, concejo:"Llanera", nombre:"Pico Gorfolí", altura:585, dificultad:1, latitud:43.4809805, longitud:-5.9313194, ascendido: false }
+  { id: 35, concejo:"Llanera", nombre:"Pico Gorfolí", altura:585, dificultad:1, latitud:43.4809805, longitud:-5.9313194, ascendido: false, imagen: 'gorfoli.jpg' }
   ,
   { id: 36, concejo:"Llanes", nombre:"Pico Cabeza Bubena", altura:1199, dificultad:2, latitud:43.3594194, longitud:-4.8573527, ascendido: false }
   ,
@@ -91,7 +91,7 @@ const listado: Array<Pico> = [
   ,
   { id: 42, concejo:"Navia", nombre:"El Can", altura:842, dificultad:1, latitud:43.4851472, longitud:-6.6435999, ascendido: false }
   ,
-  { id: 43, concejo:"Noreña", nombre:"Pico Santo Medero", altura:522, dificultad:1, latitud:43.3384222, longitud:-5.7310027, ascendido: false }
+  { id: 43, concejo:"Noreña", nombre:"Pico Santo Medero", altura:522, dificultad:1, latitud:43.3384222, longitud:-5.7310027, ascendido: false, imagen: 'santomedero.jpg' }
   ,
   { id: 44, concejo:"Onís", nombre:"Pico la Verdilluenga", altura:2129, dificultad:3, latitud:43.2247777, longitud:-4.9427305, ascendido: false }
   ,
@@ -107,7 +107,7 @@ const listado: Array<Pico> = [
   ,
   { id: 50, concejo:"Piloña", nombre:"Pico Vízcares", altura:1419, dificultad:2, latitud:43.2659555, longitud:-5.2993027, ascendido: false, imagen: 'vizcares.jpg' }
   ,
-  { id: 51, concejo:"Ponga", nombre:"Peña Ten", altura:2140, dificultad:3, latitud:43.103475, longitud:-5.1418611, ascendido: false }
+  { id: 51, concejo:"Ponga", nombre:"Peña Ten", altura:2140, dificultad:3, latitud:43.103475, longitud:-5.1418611, ascendido: false, imagen: 'ten.jpg' }
   ,
   { id: 52, concejo:"Pravia", nombre:"Pico Llan de Cubel", altura:678, dificultad:1, latitud:43.5145555, longitud:-6.2180777, ascendido: false }
   ,
@@ -123,9 +123,9 @@ const listado: Array<Pico> = [
   ,
   { id: 58, concejo:"Ribadesella", nombre:"Pico Mofrechu", altura:891, dificultad:1, latitud:43.4075333, longitud:-5.0412361, ascendido: false }
   ,
-  { id: 59, concejo:"Ribera de Arriba", nombre:"Pico Magarrón", altura:655, dificultad:2, latitud:43.2845472, longitud:-5.8443083, ascendido: false }
+  { id: 59, concejo:"Ribera de Arriba", nombre:"Pico Magarrón", altura:655, dificultad:2, latitud:43.2845472, longitud:-5.8443083, ascendido: false, imagen: 'magarron.jpg' }
   ,
-  { id: 60, concejo:"Riosa", nombre:"Pico Xistras", altura:1775, dificultad:2, latitud:43.1897527, longitud:-5.9165333, ascendido: false }
+  { id: 60, concejo:"Riosa", nombre:"Pico Xistras", altura:1775, dificultad:2, latitud:43.1897527, longitud:-5.9165333, ascendido: false, imagen: 'xistras.jpg' }
   ,
   { id: 61, concejo:"Salas", nombre:"Pico Aguión", altura:927, dificultad:1, latitud:43.46235, longitud:-6.3020833, ascendido: false }
   ,
@@ -139,9 +139,9 @@ const listado: Array<Pico> = [
   ,
   { id: 66, concejo:"Santo Adriano", nombre:"Pico Grandamiana", altura:806, dificultad:1, latitud:43.2871833, longitud:-6.0211611, ascendido: false }
   ,
-  { id: 67, concejo:"Sariego", nombre:"Pico Cima", altura:733, dificultad:1, latitud:43.4345416, longitud:-5.5922388, ascendido: false }
+  { id: 67, concejo:"Sariego", nombre:"Pico Cima", altura:733, dificultad:1, latitud:43.4345416, longitud:-5.5922388, ascendido: false, imagen: 'cima.jpg' }
   ,
-  { id: 68, concejo:"Siero", nombre:"Pico Cerro Gabio", altura:709, dificultad:1, latitud:43.4294055, longitud:-5.5976638, ascendido: false }
+  { id: 68, concejo:"Siero", nombre:"Pico Cerro Gabio", altura:709, dificultad:1, latitud:43.4294055, longitud:-5.5976638, ascendido: false, imagen: 'cerrogabio.jpg' }
   ,
   { id: 69, concejo:"Sobrescobio", nombre:"Retriñón", altura:1862, dificultad:3, latitud:43.1342083, longitud:-5.4637527, ascendido: false, imagen: 'retri.jpg' }
   ,
@@ -157,13 +157,13 @@ const listado: Array<Pico> = [
   ,
   { id: 75, concejo:"Tineo", nombre:"La Patana", altura:1526, dificultad:1, latitud:43.1624583, longitud:-6.3538138, ascendido: false }
   ,
-  { id: 76, concejo:"Valdés", nombre:"Capiella Martín", altura:986, dificultad:1, latitud:43.4547611, longitud:-6.5988777, ascendido: false }
+  { id: 76, concejo:"Valdés", nombre:"Capiella Martín", altura:986, dificultad:1, latitud:43.4547611, longitud:-6.5988777, ascendido: false, imagen: 'capiellamartin.jpg' }
   ,
   { id: 77, concejo:"Vegadeo", nombre:"Pozo de la Nieve", altura:1130, dificultad:1, latitud:43.3748194, longitud:-6.9624388, ascendido: false }
   ,
   { id: 78, concejo:"Villanueva de Oscos", nombre:"Fuente Sagrada", altura:1162, dificultad:1, latitud:43.3725388, longitud:-6.9407916, ascendido: false }
   ,
-  { id: 79, concejo:"Villaviciosa", nombre:"Viesca Redonda", altura:643, dificultad:1, latitud:43.4282194, longitud:-5.5592527, ascendido: false }
+  { id: 79, concejo:"Villaviciosa", nombre:"Viesca Redonda", altura:643, dificultad:1, latitud:43.4282194, longitud:-5.5592527, ascendido: false, imagen: 'viescaredonda.jpg' }
   ,
   { id: 80, concejo:"Villayón", nombre:"Carondio", altura:1221, dificultad:2, latitud:43.3202444, longitud:-6.7506277, ascendido: false }
   ,
