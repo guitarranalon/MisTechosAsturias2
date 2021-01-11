@@ -35,7 +35,7 @@ const listado: Array<Pico> = [
   ,
   { id: 14, concejo:"Caravia", nombre:"Piedra Redonda", altura:631, dificultad:1, latitud:43.4391583, longitud:-5.1947555, ascendido: false }
   ,
-  { id: 15, concejo:"Carreño", nombre:"Monte Areo", altura:264, dificultad:1, latitud:43.5278555, longitud:-5.7792638, ascendido: false }
+  { id: 15, concejo:"Carreño", nombre:"Monte Areo", altura:264, dificultad:1, latitud:43.5278555, longitud:-5.7792638, ascendido: false, imagen: 'areo.jpg' }
   ,
   { id: 16, concejo:"Caso", nombre:"Pico Torres", altura:2104, dificultad:3, latitud:43.0783222, longitud:-5.4085444, ascendido: false, imagen: 'torres.jpg' }
   ,
