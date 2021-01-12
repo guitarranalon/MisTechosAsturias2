@@ -29,7 +29,7 @@ const listado: Array<Pico> = [
   ,
   { id: 11, concejo:"Candamo", nombre:"Pico Pedroso", altura:614, dificultad:1, latitud:43.4356249, longitud:-6.0203916, ascendido: false }
   ,
-  { id: 12, concejo:"Cangas de Onís", nombre:"Torre Santa de Enol", altura:2478, dificultad:3, latitud:43.2124333, longitud:-4.9745138, ascendido: false }
+  { id: 12, concejo:"Cangas de Onís", nombre:"Torre Santa de Enol", altura:2478, dificultad:3, latitud:43.2124333, longitud:-4.9745138, ascendido: false, imagen: 'torresantamaria.jpg' }
   ,
   { id: 13, concejo:"Cangas del Narcea", nombre:"Cueto Arbás", altura:2007, dificultad:2, latitud:42.9930194, longitud:-6.4369805, ascendido: false }
   ,
