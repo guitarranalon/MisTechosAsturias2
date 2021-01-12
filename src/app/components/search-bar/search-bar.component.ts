@@ -17,7 +17,7 @@ export class SearchBarComponent implements OnInit {
     this.search.valueChanges.pipe(
       debounceTime(400),
       distinctUntilChanged()
-    ).subscribe(value =>  this.searchText.emit(this.search.value)
+    ).subscribe(value =>  this.searchText.emit(this.search.value.trim())
     );
   }
 
