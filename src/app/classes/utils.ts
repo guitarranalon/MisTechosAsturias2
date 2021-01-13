@@ -3,4 +3,6 @@ export class Utils {
 
     static readonly si = 'Sí';
     static readonly no = 'No';
+
+    static readonly storeName = 'techos';
 }

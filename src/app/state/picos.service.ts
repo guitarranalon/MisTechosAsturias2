@@ -5,6 +5,9 @@ import { PicosStore } from './picos.store';
 import { Pico } from './pico.model';
 import { Observable, of } from 'rxjs';
 import { PicosQuery } from './picos.query';
+import { NgxIndexedDBService } from 'ngx-indexed-db';
+import { Utils } from '../classes/utils';
+import { first } from 'rxjs/operators';
 
 const listado: Array<Pico> = [
   { id: 1, concejo:"Allande", nombre:"Pico Panchón", altura:1411, dificultad: 1, latitud:43.269427, longitud:-6.660072, ascendido: false }
@@ -173,14 +176,41 @@ const listado: Array<Pico> = [
 @Injectable({ providedIn: 'root' })
 export class PicosService {
 
-  constructor(private picosStore: PicosStore) { }
+  constructor(
+    private picosStore: PicosStore,
+    private dbService: NgxIndexedDBService) { }
 
   get() {
     this.picosStore.set(listado);
+
+    this.updateAscendidosListado();
   }
 
   toggleAscendido({ id, ascendido }: Pico) {
     const nuevoValor = !ascendido;
     this.picosStore.update(id, { ascendido: nuevoValor });
+
+    this.upsertDatabase(id, nuevoValor);
+  }
+
+  private upsertDatabase(id: ID, ascendido: boolean) {
+    this.dbService.getByKey(Utils.storeName, id).pipe(first()).subscribe( (techo) => { 
+      if ( techo ) {
+        this.dbService.update(Utils.storeName, { id, ascendido }).pipe(first()).subscribe(() => { });
+      } else {
+        this.dbService.add(Utils.storeName, { id, ascendido }).pipe(first()).subscribe(() => { });
+      }
+    });
+  }
+
+  private updateAscendidosListado() {
+    for(let pico of listado) {
+      this.dbService.getByKey(Utils.storeName, pico.id).pipe(first()).subscribe( ( techo ) => {
+        // si está en indexeddb recogemos el valor
+        if ( techo ) {
+          this.picosStore.update(pico.id, { ascendido: techo.ascendido });
+        }
+      });
+    }
   }
 }

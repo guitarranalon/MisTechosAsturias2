@@ -21,8 +21,23 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MenuOrdenacionComponent } from './components/menu-ordenacion/menu-ordenacion.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { DBConfig, NgxIndexedDBModule } from 'ngx-indexed-db';
+import { Utils } from './classes/utils';
 
 registerLocaleData(localeEsES, 'es');
+
+const dbConfig: DBConfig  = {
+  name: 'techosDB',
+  version: 1,
+  objectStoresMeta: [{
+    store: Utils.storeName,
+    storeConfig: { keyPath: 'id', autoIncrement: false },
+    storeSchema: [
+      { name: 'id', keypath: 'id', options: { unique: true } },
+      { name: 'ascendido', keypath: 'ascendido', options: { unique: false } }
+    ]
+  }]
+};
 
 @NgModule({
   declarations: [
@@ -46,7 +61,8 @@ registerLocaleData(localeEsES, 'es');
     NgbModule,
     FormsModule,
     ReactiveFormsModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    NgxIndexedDBModule.forRoot(dbConfig)
   ],
   providers: [
     DecimalPipe,
