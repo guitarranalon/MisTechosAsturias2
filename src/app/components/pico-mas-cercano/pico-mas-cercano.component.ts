@@ -39,14 +39,14 @@ export class PicoMasCercanoComponent implements OnInit {
       this.coords = position.coords;
 
       this.searchClosestPeak();
-    }),
+    },
     (err: any) => { 
       console.log(err);
       this.alertsService.newAlert({type: AlertType.danger, message: 'Se ha producido un error al intentar obtener tu posición'});
     }, 
     {
       timeout: Utils.getCurrentPositionTimeout
-    }
+    });
   }
 
   private searchClosestPeak() {
