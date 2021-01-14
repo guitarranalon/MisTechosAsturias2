@@ -72,4 +72,10 @@ export class PicosQuery extends QueryEntity<PicosState, Pico> {
       filterBy: pico => (pico.ascendido === true)
     });    
   }
+
+  getNoAscendidos(): Observable<Pico[]> {
+    return this.selectAll({
+      filterBy: pico => (!pico.ascendido)
+    });
+  }
 }

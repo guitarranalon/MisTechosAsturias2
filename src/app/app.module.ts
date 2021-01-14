@@ -23,6 +23,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { DBConfig, NgxIndexedDBModule } from 'ngx-indexed-db';
 import { Utils } from './classes/utils';
+import { PicoMasCercanoComponent } from './components/pico-mas-cercano/pico-mas-cercano.component';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -53,7 +54,8 @@ const dbConfig: DBConfig  = {
     AvisoLegalComponent,
     FooterComponent,
     SearchBarComponent,
-    MenuOrdenacionComponent
+    MenuOrdenacionComponent,
+    PicoMasCercanoComponent
   ],
   imports: [
     BrowserModule,

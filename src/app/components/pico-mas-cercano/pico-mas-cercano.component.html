@@ -1,0 +1,8 @@
+<div *ngIf="geolocation && noAscendidos && (noAscendidos.length > 0)">
+    <h2>Planificar</h2>
+    <button class="btn btn-primary mb-3" (click)="buscarTechoMasCercano()">Buscar techo más cercano</button>
+    <ng-container *ngIf="closestPeak">
+        <p>El pico <b>sin ascender</b> más próximo a tu localización actual es <b>{{ closestPeak.nombre }} ({{ closestPeak.altura | number:'3.0-1':'es' }}m)</b> en el concejo de <b>{{ closestPeak.concejo }}</b>.</p>
+        <p>Está a una distancia (en línea recta) de {{ distanceToClosestPeak }} km.</p>
+    </ng-container>
+</div>
