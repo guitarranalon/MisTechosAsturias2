@@ -70,7 +70,7 @@
         normalizeUrl(url) {
             // Check the URL's origin against the ServiceWorker's.
             const parsed = this.parseUrl(url, this.scopeUrl);
-            return (parsed.origin === this.origin ? parsed.path : url);
+            return url;
         }
         /**
          * Parse a URL into its different parts, such as `origin`, `path` and `search`.
@@ -2531,7 +2531,7 @@ ${msgIdle}`, { headers: this.adapter.newHeaders({ 'Content-Type': 'text/plain' }
                     // The latest manifest is broken. This means that new clients are at the mercy of the
                     // network, but caches continue to be valid for previous versions. This is
                     // unfortunate but unavoidable.
-                    //this.state = DriverReadyState.EXISTING_CLIENTS_ONLY;
+                    /*this.state = DriverReadyState.EXISTING_CLIENTS_ONLY;*/
                     this.stateMessage = `Degraded due to: ${errorToString(err)}`;
                     // Cancel the binding for the affected clients.
                     affectedClients.forEach(clientId => this.clientVersionMap.delete(clientId));
@@ -2599,7 +2599,7 @@ ${msgIdle}`, { headers: this.adapter.newHeaders({ 'Content-Type': 'text/plain' }
                 }
                 catch (err) {
                     this.debugger.log(err, `Error occurred while updating to manifest ${hash}`);
-                    this.state = DriverReadyState.EXISTING_CLIENTS_ONLY;
+                   /* this.state = DriverReadyState.EXISTING_CLIENTS_ONLY;*/
                     this.stateMessage = `Degraded due to failed initialization: ${errorToString(err)}`;
                     return false;
                 }
