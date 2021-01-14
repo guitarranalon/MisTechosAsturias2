@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { SubscriptionManager } from 'src/app/classes/subscription-manager';
 import { Utils } from 'src/app/classes/utils';
+import { AlertsService } from 'src/app/services/alerts.service';
 import { Pico } from 'src/app/state/pico.model';
 import { PicosQuery } from 'src/app/state/picos.query';
+import { AlertBoardComponent, AlertType } from '../alert-board/alert-board.component';
 
 @Component({
   selector: 'app-pico-mas-cercano',
@@ -18,12 +20,13 @@ export class PicoMasCercanoComponent implements OnInit {
   distanceToClosestPeak: number;
 
   constructor(
-    private picosQuery: PicosQuery
+    private picosQuery: PicosQuery,
+    private alertsService: AlertsService
   ) { }
 
   ngOnInit(): void {
     this.geolocation = 'geolocation' in navigator;
-    this.subs.addSubscription(this.picosQuery.getNoAscendidos().subscribe(resp => this.noAscendidos = resp))
+    this.subs.addSubscription(this.picosQuery.getNoAscendidos().subscribe(resp => this.noAscendidos = resp));
   }
 
   ngOnDestroy() {
@@ -37,9 +40,12 @@ export class PicoMasCercanoComponent implements OnInit {
 
       this.searchClosestPeak();
     }),
-    (err: any) => { console.log(err); }, // ToDo: implementar con un toast 
+    (err: any) => { 
+      console.log(err);
+      this.alertsService.newAlert({type: AlertType.danger, message: 'Se ha producido un error al intentar obtener tu posición'});
+    }, 
     {
-      timeout: 20000
+      timeout: Utils.getCurrentPositionTimeout
     }
   }
 

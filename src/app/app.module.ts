@@ -24,6 +24,7 @@ import { environment } from '../environments/environment';
 import { DBConfig, NgxIndexedDBModule } from 'ngx-indexed-db';
 import { Utils } from './classes/utils';
 import { PicoMasCercanoComponent } from './components/pico-mas-cercano/pico-mas-cercano.component';
+import { AlertBoardComponent } from './components/alert-board/alert-board.component';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -55,7 +56,8 @@ const dbConfig: DBConfig  = {
     FooterComponent,
     SearchBarComponent,
     MenuOrdenacionComponent,
-    PicoMasCercanoComponent
+    PicoMasCercanoComponent,
+    AlertBoardComponent
   ],
   imports: [
     BrowserModule,

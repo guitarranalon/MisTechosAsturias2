@@ -6,6 +6,10 @@ export class Utils {
 
     static readonly storeName = 'techos';
 
+    static readonly alertStandardTimeout = 5000;
+
+    static readonly getCurrentPositionTimeout = 20000;
+
     // https://stackoverflow.com/questions/18883601/function-to-calculate-distance-between-two-coordinates
     // This function takes in latitude and longitude of two location and returns the distance between them as the crow flies (in km)
     static calcDistance = (lat1: number, lon1: number, lat2: number, lon2: number): number =>
