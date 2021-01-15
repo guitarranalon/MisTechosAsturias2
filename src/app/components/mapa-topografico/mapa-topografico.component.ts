@@ -1,4 +1,4 @@
-import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, NgZone, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, NgZone, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import {View, Map, Feature } from 'ol';
 import { ScaleLine, defaults as DefaultControls} from 'ol/control';
 import OSM from 'ol/source/OSM';
@@ -19,18 +19,21 @@ import { Utils } from 'src/app/classes/utils';
 import { environment } from 'src/environments/environment';
 import { DificultadPipe } from 'src/app/pipes/dificultad.pipe';
 import { analyzeAndValidateNgModules } from '@angular/compiler';
+import { SubscriptionManager } from 'src/app/classes/subscription-manager';
 
 @Component({
   selector: 'app-mapa-topografico',
   templateUrl: './mapa-topografico.component.html',
   styleUrls: ['./mapa-topografico.component.scss']
 })
-export class MapaTopograficoComponent implements OnInit, AfterViewInit {
+export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestroy {
 
   Map: Map;
   view: View;
   picos: Pico[] = [];
   @ViewChild("popup") popup: ElementRef;
+
+  sm = new SubscriptionManager();
 
   vectorLayer: any;
 
@@ -47,7 +50,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit():void {
 
-    this.picosQuery.selectAll().subscribe( (picos) => {
+    this.sm.addSubscription(this.picosQuery.selectAll().subscribe( (picos) => {
       this.picos = picos;
 
       if (! this.Map) {
@@ -56,7 +59,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
         this.Map.removeLayer(this.vectorLayer);
         this.createMarkers();
       }
-    } );    
+    } ));    
   }
 
   private initMap(): void{
@@ -201,5 +204,9 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
     content += `<p>Ascendido: ${feature.get('ascendido')}</p>`;
 
     return content;
+  }
+
+  ngOnDestroy() {
+    this.sm.removeAllSubscriptions();
   }
 }
