@@ -25,6 +25,7 @@ import { DBConfig, NgxIndexedDBModule } from 'ngx-indexed-db';
 import { Utils } from './classes/utils';
 import { PicoMasCercanoComponent } from './components/pico-mas-cercano/pico-mas-cercano.component';
 import { AlertBoardComponent } from './components/alert-board/alert-board.component';
+import { DificultadPipe } from './pipes/dificultad.pipe';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -57,7 +58,8 @@ const dbConfig: DBConfig  = {
     SearchBarComponent,
     MenuOrdenacionComponent,
     PicoMasCercanoComponent,
-    AlertBoardComponent
+    AlertBoardComponent,
+    DificultadPipe
   ],
   imports: [
     BrowserModule,
@@ -70,6 +72,7 @@ const dbConfig: DBConfig  = {
   ],
   providers: [
     DecimalPipe,
+    DificultadPipe,
     { provide: LOCALE_ID, useValue: 'es' }
   ],
   bootstrap: [AppComponent]

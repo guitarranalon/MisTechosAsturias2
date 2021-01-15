@@ -17,6 +17,7 @@ import { Coordinate } from 'ol/coordinate';
 import { DecimalPipe } from '@angular/common';
 import { Utils } from 'src/app/classes/utils';
 import { environment } from 'src/environments/environment';
+import { DificultadPipe } from 'src/app/pipes/dificultad.pipe';
 
 @Component({
   selector: 'app-mapa-topografico',
@@ -34,7 +35,8 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
     private zone: NgZone, 
     private cd: ChangeDetectorRef,
     private picosQuery: PicosQuery,
-    private decimalPipe: DecimalPipe ) { }
+    private decimalPipe: DecimalPipe,
+    private dificultadPipe: DificultadPipe ) { }
 
   ngOnInit() {
     this.picos = this.picosQuery.getAll();
@@ -113,7 +115,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
       name: pico.nombre,
       altitud: this.decimalPipe.transform(pico.altura, '3.0-1', 'es'),
       concejo: pico.concejo,
-      dificultad: pico.dificultad,
+      dificultad: this.dificultadPipe.transform( pico.dificultad ),
       coordenadas: `${pico.latitud}, ${pico.longitud}`,
       ascendido: pico.ascendido ? Utils.si : Utils.no
     });
