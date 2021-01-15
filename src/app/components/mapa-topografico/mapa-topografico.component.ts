@@ -35,7 +35,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
 
   sm = new SubscriptionManager();
 
-  vectorLayer: any;
+  vectorLayer: VectorLayer;
 
   constructor(
     private zone: NgZone, 
