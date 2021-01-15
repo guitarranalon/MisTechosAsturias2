@@ -18,6 +18,7 @@ import { DecimalPipe } from '@angular/common';
 import { Utils } from 'src/app/classes/utils';
 import { environment } from 'src/environments/environment';
 import { DificultadPipe } from 'src/app/pipes/dificultad.pipe';
+import { analyzeAndValidateNgModules } from '@angular/compiler';
 
 @Component({
   selector: 'app-mapa-topografico',
@@ -143,9 +144,9 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
         let point: Point = <Point>feature.getGeometry();
         let coordinates: Coordinate = point.getCoordinates();
 
-        this.popup.nativeElement.innerHTML = this.getPopupMarkup(feature);    
+        this.popup.nativeElement.getElementsByClassName('popup-content')[0].innerHTML = this.getPopupMarkup(feature);    
         popup.setPosition(coordinates);
-      } else {
+      } else if (this.clickToClose(evt.originalEvent)) {
         popup.setPosition(undefined);
       }
     }); 
@@ -163,6 +164,22 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
         mapElement.style.cursor = hit ? 'pointer' : '';
       }
     });
+  }
+
+  private clickToClose(event: any): boolean {
+    // Si path contiene popup
+    //event.path
+
+    for (const el of event.path) {
+      // Si se hace click en cerrar
+      if (el && el.classList && el.classList.contains('ol-popup-closer')) {
+        return true;
+      } else if (el.id === 'popup') {
+        return false;
+      }
+    }
+
+    return true;
   }
 
   private getPopupMarkup(feature: any): string {

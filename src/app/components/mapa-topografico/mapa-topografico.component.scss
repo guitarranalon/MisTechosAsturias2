@@ -8,7 +8,7 @@
   background: white;
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-  padding: 20px;
+  padding: 30px;
 }
 
 #popup:after, #popup:before {
@@ -33,4 +33,15 @@
   border-width: 11px;
   left: 50%;
   margin-left: -11px;
+}
+
+.ol-popup-closer {
+  position: absolute;
+  right: 0.15rem;
+  text-decoration: none;
+  top: 0.15rem;
+
+  &:focus {
+    box-shadow: none;
+  }
 }
