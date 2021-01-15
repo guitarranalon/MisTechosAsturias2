@@ -32,6 +32,8 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
   picos: Pico[] = [];
   @ViewChild("popup") popup: ElementRef;
 
+  vectorLayer: any;
+
   constructor(
     private zone: NgZone, 
     private cd: ChangeDetectorRef,
@@ -40,13 +42,21 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
     private dificultadPipe: DificultadPipe ) { }
 
   ngOnInit() {
-    this.picos = this.picosQuery.getAll();
+
   }
 
   ngAfterViewInit():void {
-    if (! this.Map) {
-      this.zone.runOutsideAngular(() => this.initMap())
-    } 
+
+    this.picosQuery.selectAll().subscribe( (picos) => {
+      this.picos = picos;
+
+      if (! this.Map) {
+        this.zone.runOutsideAngular(() => this.initMap())
+      } else {
+        this.Map.removeLayer(this.vectorLayer);
+        this.createMarkers();
+      }
+    } );    
   }
 
   private initMap(): void{
@@ -103,11 +113,11 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit {
       features: features,
     });
     
-    var vectorLayer = new VectorLayer({
+    this.vectorLayer = new VectorLayer({
       source: vectorSource,
     });
 
-    this.Map.addLayer(vectorLayer);
+    this.Map.addLayer(this.vectorLayer);
   }
   
   private createFeature(pico: Pico): Feature {
