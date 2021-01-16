@@ -1,0 +1,11 @@
+Solución bug offline pwa:
+1. In manifest.JSON file, set "scope": "." and "start_url": "./". This indicate that you are using sub-directory.
+
+2. Then build the project using CLI command ng build --prod --baseHref=/Your_sub_directory_name/
+
+3. And finally paste the dist folder content to your pointed Your_sub_directory_name IIS location.
+
+4. Then just refresh page and wait to register the service worker, you can check this in application tab of chrome's developer tool. Once service worker is reigstered, just switch to offline mode and you'll the page will work fine in offline.
+
+
+https://stackoverflow.com/questions/57993086/angular-pwa-in-iis-subfolder-not-work-offline/59393706#59393706
