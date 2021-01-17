@@ -53,6 +53,10 @@ svg.icon{
     &.fill-secondary {
         fill: $secondary;
     }
+
+    .btn-primary > & {
+        fill: white;
+    }
 }
 
 .container-fluid.main-content {
