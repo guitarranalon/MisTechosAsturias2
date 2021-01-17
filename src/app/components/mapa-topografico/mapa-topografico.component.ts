@@ -7,7 +7,7 @@ import * as olProj from 'ol/proj';
 import VectorLayer from 'ol/layer/Vector';
 import Point from 'ol/geom/Point';
 import VectorSource from 'ol/source/Vector';
-import {Icon, Style} from 'ol/style';
+import {Fill, Icon, Stroke, Style, Text} from 'ol/style';
 import IconAnchorUnits from 'ol/style/IconAnchorUnits';
 import Overlay from 'ol/Overlay';
 import { PicosQuery } from 'src/app/state/picos.query';
@@ -108,7 +108,18 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
 
     for(const pico of this.picos) {
       let iconFeature = this.createFeature(pico);
-      iconFeature.setStyle(pico.ascendido ? iconStyleAscendido : iconStyle);
+      let text = new Text({
+        font: 10 + 'px fauna,sans-serif',
+        fill: new Fill({ color: '#000' }),
+        stroke: new Stroke({
+          color: '#fff', width: 2
+        }),        
+        offsetY: 25,
+        text: pico.nombre
+      });
+      let style = pico.ascendido ? iconStyleAscendido.clone() : iconStyle.clone();
+      style.setText(text);
+      iconFeature.setStyle(style);
       features.push(iconFeature);
     }
     
