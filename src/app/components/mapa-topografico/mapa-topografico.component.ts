@@ -220,4 +220,32 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
   ngOnDestroy() {
     this.sm.removeAllSubscriptions();
   }
+
+  userLocationReceived(coords: any) {
+    let features: Feature[] = [new Feature({
+      geometry: new Point(olProj.fromLonLat([ coords.longitude, coords.latitude])),
+      name: 'Tu localización',
+    })];
+
+    var iconStyle = new Style({
+      image: new Icon({
+        anchor: [0.5, 40],
+        anchorXUnits: IconAnchorUnits.FRACTION,
+        anchorYUnits: IconAnchorUnits.PIXELS,
+        src: `${environment.baseHref}/assets/img/userlocation.svg`,
+      }),
+    });
+
+    features[0].setStyle(iconStyle);
+  
+    let vectorSource = new VectorSource({
+      features: features,
+    });
+  
+    this.vectorLayer = new VectorLayer({
+      source: vectorSource,
+    });
+
+    this.Map.addLayer(this.vectorLayer);
+  }
 }

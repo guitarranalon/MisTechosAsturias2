@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { SubscriptionManager } from 'src/app/classes/subscription-manager';
 import { Utils } from 'src/app/classes/utils';
 import { AlertsService } from 'src/app/services/alerts.service';
@@ -12,6 +12,8 @@ import { AlertBoardComponent, AlertType } from '../alert-board/alert-board.compo
   styleUrls: ['./pico-mas-cercano.component.scss']
 })
 export class PicoMasCercanoComponent implements OnInit {
+  @Output() userlocation = new EventEmitter<any>();
+
   noAscendidos: Pico[];
   subs: SubscriptionManager = new SubscriptionManager();
   geolocation: boolean;
@@ -37,6 +39,8 @@ export class PicoMasCercanoComponent implements OnInit {
     navigator.geolocation.getCurrentPosition(
       (position: any) => {
       this.coords = position.coords;
+
+      this.userlocation.emit(this.coords);
 
       this.searchClosestPeak();
     },
