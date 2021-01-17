@@ -207,12 +207,17 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
   }
 
   private getPopupMarkup(feature: any): string {
-    let content = `<h2>${feature.get('name')} (${feature.get('altitud')}m)</h2>`;
+    let content = `<h2>${feature.get('name')}`;
 
-    content += `<p>Techo de: ${feature.get('concejo')}</p>`;
-    content += `<p>Dificultad: ${feature.get('dificultad')}</p>`;
-    content += `<p>Coordenadas: ${feature.get('coordenadas')}</p>`;
-    content += `<p>Ascendido: ${feature.get('ascendido')}</p>`;
+    content += !feature.get('mylocation') ? `(${feature.get('altitud')}m)` : '';
+    content += '</h2>';
+
+    if (!feature.get('mylocation')) {
+      content += `<p>Techo de: ${feature.get('concejo')}</p>`;
+      content += `<p>Dificultad: ${feature.get('dificultad')}</p>`;
+      content += `<p>Coordenadas: ${feature.get('coordenadas')}</p>`;
+      content += `<p>Ascendido: ${feature.get('ascendido')}</p>`;
+    }
 
     return content;
   }
@@ -225,6 +230,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
     let features: Feature[] = [new Feature({
       geometry: new Point(olProj.fromLonLat([ coords.longitude, coords.latitude])),
       name: 'Tu localización',
+      mylocation: true
     })];
 
     var iconStyle = new Style({
