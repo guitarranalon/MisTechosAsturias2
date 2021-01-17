@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1610825475863,
+  "timestamp": 1610896488010,
   "index": "/MisTechosAsturias2/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/MisTechosAsturias2/favicon.ico",
         "/MisTechosAsturias2/index.html",
-        "/MisTechosAsturias2/main.b115a8402fbdaed7a11b.js",
+        "/MisTechosAsturias2/main.fcfa0af1389167d28219.js",
         "/MisTechosAsturias2/manifest.webmanifest",
         "/MisTechosAsturias2/polyfills.b3b05dce4f05c03b56a3.js",
         "/MisTechosAsturias2/runtime.0e49e2b53282f40c8925.js",
-        "/MisTechosAsturias2/styles.fcc3c4efaa42890a920d.css"
+        "/MisTechosAsturias2/styles.db7a54194a49d6b6be1d.css"
       ],
       "patterns": []
     },
@@ -156,12 +156,12 @@
     "/MisTechosAsturias2/faunaone-regular-webfont.e8428ef8b8299671ef34.woff": "1ff4cea8b5d46e2254ab361c978b9b7faada24d1",
     "/MisTechosAsturias2/favicon.ico": "1166968f861ece3267dc91a7a46c5721c09f1d0d",
     "/MisTechosAsturias2/header-bg.5ae1d3a9385ce64ae15c.jpg": "d5687c8cbc81c9b769280208c71e39268f336b3a",
-    "/MisTechosAsturias2/index.html": "bdfbab46015aa4a01a4c38e0db8b7503c8ab1a81",
-    "/MisTechosAsturias2/main.b115a8402fbdaed7a11b.js": "bc2b917b4588bf46cf531aac43287dc8217afd45",
+    "/MisTechosAsturias2/index.html": "8aa91b21fe1bd67cba74baee008ba3a99fd1cf8d",
+    "/MisTechosAsturias2/main.fcfa0af1389167d28219.js": "cbe952dbf485688e56cc4f4706a42b4b0f1fe6af",
     "/MisTechosAsturias2/manifest.webmanifest": "b5d6c76a755d53e6f6364d11a8add77f4aa22d67",
     "/MisTechosAsturias2/polyfills.b3b05dce4f05c03b56a3.js": "0d003992512d28c544b0a972ce2ae6b28ebbf5f6",
     "/MisTechosAsturias2/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/MisTechosAsturias2/styles.fcc3c4efaa42890a920d.css": "8271f21858c8119f128377423c7bc5d0290bc354"
+    "/MisTechosAsturias2/styles.db7a54194a49d6b6be1d.css": "a2674103816b58073bbf093ff5bfecd0fd10c40f"
   },
   "navigationUrls": [
     {
