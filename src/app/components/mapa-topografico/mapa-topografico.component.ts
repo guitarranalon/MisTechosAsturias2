@@ -20,6 +20,7 @@ import { environment } from 'src/environments/environment';
 import { DificultadPipe } from 'src/app/pipes/dificultad.pipe';
 import { analyzeAndValidateNgModules } from '@angular/compiler';
 import { SubscriptionManager } from 'src/app/classes/subscription-manager';
+import { MapHelper } from 'src/app/classes/map-helper';
 
 @Component({
   selector: 'app-mapa-topografico',
@@ -33,6 +34,8 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
   picos: Pico[] = [];
   @ViewChild("popup") popup: ElementRef;
 
+  mapHelper: MapHelper;
+
   sm = new SubscriptionManager();
 
   vectorLayer: VectorLayer;
@@ -42,7 +45,9 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
     private cd: ChangeDetectorRef,
     private picosQuery: PicosQuery,
     private decimalPipe: DecimalPipe,
-    private dificultadPipe: DificultadPipe ) { }
+    private dificultadPipe: DificultadPipe ) { 
+      this.mapHelper = new MapHelper(decimalPipe, dificultadPipe);
+    }
 
   ngOnInit() {
 
@@ -107,7 +112,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
     });
 
     for(const pico of this.picos) {
-      let iconFeature = this.createFeature(pico);
+      let iconFeature = this.mapHelper.createFeature(pico);
       let text = new Text({
         font: 10 + 'px fauna,sans-serif',
         fill: new Fill({ color: '#000' }),
@@ -134,18 +139,6 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
     this.Map.addLayer(this.vectorLayer);
   }
   
-  private createFeature(pico: Pico): Feature {
-    return new Feature({
-      geometry: new Point(olProj.fromLonLat([ pico.longitud, pico.latitud])),
-      name: pico.nombre,
-      altitud: this.decimalPipe.transform(pico.altura, '3.0-1', 'es'),
-      concejo: pico.concejo,
-      dificultad: this.dificultadPipe.transform( pico.dificultad ),
-      coordenadas: `${pico.latitud}, ${pico.longitud}`,
-      ascendido: pico.ascendido ? Utils.si : Utils.no
-    });
-  }
-
   private createPopup() {
     let popup = new Overlay({
       element: this.popup.nativeElement,
@@ -209,7 +202,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
   private getPopupMarkup(feature: any): string {
     let content = `<h2>${feature.get('name')}`;
 
-    content += !feature.get('mylocation') ? `(${feature.get('altitud')}m)` : '';
+    content += !feature.get('mylocation') ? ` (${feature.get('altitud')}m)` : '';
     content += '</h2>';
 
     if (!feature.get('mylocation')) {
@@ -229,7 +222,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
   userLocationReceived(coords: any) {
     let features: Feature[] = [new Feature({
       geometry: new Point(olProj.fromLonLat([ coords.longitude, coords.latitude])),
-      name: 'Tu localización',
+      name: 'Tú',
       mylocation: true
     })];
 

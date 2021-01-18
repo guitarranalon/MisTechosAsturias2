@@ -26,6 +26,7 @@ import { Utils } from './classes/utils';
 import { PicoMasCercanoComponent } from './components/pico-mas-cercano/pico-mas-cercano.component';
 import { AlertBoardComponent } from './components/alert-board/alert-board.component';
 import { DificultadPipe } from './pipes/dificultad.pipe';
+import { DetallePicoComponent } from './components/detalle-pico/detalle-pico.component';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -59,7 +60,8 @@ const dbConfig: DBConfig  = {
     MenuOrdenacionComponent,
     PicoMasCercanoComponent,
     AlertBoardComponent,
-    DificultadPipe
+    DificultadPipe,
+    DetallePicoComponent
   ],
   imports: [
     BrowserModule,

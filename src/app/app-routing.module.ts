@@ -6,6 +6,7 @@ import { ListadoPicosComponent } from './components/listado-picos/listado-picos.
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ObservacionesComponent } from './components/observaciones/observaciones.component';
 import { AvisoLegalComponent } from './components/aviso-legal/aviso-legal.component';
+import { DetallePicoComponent } from './components/detalle-pico/detalle-pico.component';
 
 const routes: Routes = [
   { 
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path: 'avisolegal',
     component: AvisoLegalComponent
+  },
+  {
+    path: 'detalle/:id',
+    component: DetallePicoComponent
   },
   {
     path: '**',
