@@ -1,4 +1,5 @@
 import { ID } from '@datorama/akita';
+import { DetallePico } from './detalle-pico.model';
 
 export interface Pico {
   id: ID;
@@ -11,6 +12,7 @@ export interface Pico {
   alternativas?: object;
   ascendido?: boolean;
   imagen?: string;
+  detalle?: DetallePico;
 }
 
 /**

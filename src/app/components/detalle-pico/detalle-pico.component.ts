@@ -16,6 +16,7 @@ import VectorLayer from 'ol/layer/Vector';
 import { MapHelper } from 'src/app/classes/map-helper';
 import { DecimalPipe } from '@angular/common';
 import { DificultadPipe } from 'src/app/pipes/dificultad.pipe';
+import { PicosService } from 'src/app/state/picos.service';
 
 const PARAMETRO_GET = 'id';
 
@@ -41,7 +42,8 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
     private picosQuery: PicosQuery,
     private zone: NgZone,
     private decimalPipe: DecimalPipe,
-    private dificultadPipe: DificultadPipe
+    private dificultadPipe: DificultadPipe,
+    private picosService: PicosService
   ) {
     this.mapHelper = new MapHelper(decimalPipe, dificultadPipe);
    }
@@ -53,7 +55,15 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
       if (param) {
         this.id = +(param);
 
-        this.pico = this.picosQuery.getEntity(this.id);
+        this.sm.addSubscription(this.picosQuery.selectEntity(this.id).subscribe(
+          (pico: Pico) => {
+            this.pico = pico;
+          }
+        ));
+
+        if (this.pico) {
+          this.picosService.getDetalle(this.id);
+        }
       }
     }));
   }

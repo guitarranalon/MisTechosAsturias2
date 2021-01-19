@@ -7,8 +7,19 @@
 
         <ul class="list-unstyled mt-4">
             <li>
-                <b>Dificultad: </b> {{ pico.dificultad | dificultad }}
+                <p><b>Dificultad: </b> {{ pico.dificultad | dificultad }}</p>
             </li>
+            <ng-container *ngIf="pico.detalle">
+                <li *ngIf="pico.detalle.ubicacion">
+                    <p><b>Ubicación: </b> {{ pico.detalle.ubicacion }}</p>
+                </li>
+                <li *ngIf="pico.detalle.ascendidoCon">
+                    <p><b>Picos cercanos: </b> {{ pico.detalle.ascendidoCon }}</p>
+                </li>
+                <li *ngIf="pico.detalle.inicioRuta">
+                    <p><b>Inicio ruta habitual: </b> {{ pico.detalle.inicioRuta.nombre }} ({{ pico.detalle.inicioRuta.altura | number:'3.0-1':'es' }}m)</p>
+                </li>
+            </ng-container>
         </ul>
     </ng-container>
     <ng-template #picoinexistente>

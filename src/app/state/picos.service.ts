@@ -8,6 +8,7 @@ import { PicosQuery } from './picos.query';
 import { NgxIndexedDBService } from 'ngx-indexed-db';
 import { Utils } from '../classes/utils';
 import { first } from 'rxjs/operators';
+import { DetallePico } from './detalle-pico.model';
 
 const listado: Array<Pico> = [
   { id: 1, concejo:"Allande", nombre:"Pico Panchón", altura:1411, dificultad: 1, latitud:43.269427, longitud:-6.660072, ascendido: false }
@@ -178,12 +179,21 @@ export class PicosService {
 
   constructor(
     private picosStore: PicosStore,
-    private dbService: NgxIndexedDBService) { }
+    private dbService: NgxIndexedDBService,
+    private http: HttpClient) { }
 
   get() {
     this.picosStore.set(listado);
 
     this.updateAscendidosListado();
+  }
+
+  getDetalle(id: ID) {
+    this.http.get<DetallePico>(`./assets/data/${id}.json`).subscribe(
+      (detallePico: DetallePico) => {
+        return this.picosStore.update(id, { detalle: detallePico });
+      }
+    );
   }
 
   toggleAscendido({ id, ascendido }: Pico) {

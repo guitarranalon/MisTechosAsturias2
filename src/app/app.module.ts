@@ -27,6 +27,7 @@ import { PicoMasCercanoComponent } from './components/pico-mas-cercano/pico-mas-
 import { AlertBoardComponent } from './components/alert-board/alert-board.component';
 import { DificultadPipe } from './pipes/dificultad.pipe';
 import { DetallePicoComponent } from './components/detalle-pico/detalle-pico.component';
+import { HttpClientModule } from '@angular/common/http';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -64,6 +65,7 @@ const dbConfig: DBConfig  = {
     DetallePicoComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     NgbModule,
