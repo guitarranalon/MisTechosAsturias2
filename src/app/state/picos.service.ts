@@ -180,7 +180,8 @@ export class PicosService {
   constructor(
     private picosStore: PicosStore,
     private dbService: NgxIndexedDBService,
-    private http: HttpClient) { }
+    private http: HttpClient,
+    private picosQuery: PicosQuery) { }
 
   get() {
     this.picosStore.set(listado);
@@ -189,11 +190,13 @@ export class PicosService {
   }
 
   getDetalle(id: ID) {
-    this.http.get<DetallePico>(`./assets/data/${id}.json`).subscribe(
-      (detallePico: DetallePico) => {
-        return this.picosStore.update(id, { detalle: detallePico });
-      }
-    );
+    if (!this.picosQuery.getEntity(id).detalle) {
+      this.http.get<DetallePico>(`./assets/data/${id}.json`).pipe(first()).subscribe(
+        (detallePico: DetallePico) => {
+          return this.picosStore.update(id, { detalle: detallePico });
+        }
+      );
+    }
   }
 
   toggleAscendido({ id, ascendido }: Pico) {
