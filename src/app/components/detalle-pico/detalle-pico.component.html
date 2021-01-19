@@ -1,6 +1,17 @@
 <div class="detalle mt-4">
-    <h2>{{ pico.nombre }} ({{ pico.altura | number:'3.0-1':'es' }}m)</h2>
-    <h3>{{ pico.concejo }}</h3>
+    <ng-container *ngIf="pico else picoinexistente">
+        <h2>{{ pico.nombre }} ({{ pico.altura | number:'3.0-1':'es' }}m)</h2>
+        <h3>{{ pico.concejo }}</h3>
 
-    <div class="map-container" id="map"></div>
+        <div class="map-container" id="map"></div>
+
+        <ul class="list-unstyled mt-4">
+            <li>
+                <b>Dificultad: </b> {{ pico.dificultad | dificultad }}
+            </li>
+        </ul>
+    </ng-container>
+    <ng-template #picoinexistente>
+        <p>No existe el pico solicitado. Prueba a <a [routerLink]="['/']">volver al listado</a>.</p>
+    </ng-template>
 </div>
