@@ -14,7 +14,11 @@
                     <p><b>Ubicación: </b> {{ pico.detalle.ubicacion }}</p>
                 </li>
                 <li *ngIf="pico.detalle.ascendidoCon">
-                    <p><b>Picos cercanos: </b> {{ pico.detalle.ascendidoCon }}</p>
+                    <p><b>Picos cercanos: </b> 
+                        <ng-container *ngFor="let pcercano of pico.detalle.ascendidoCon">
+                            <a [routerLink]="['/detalle', pcercano]">{{ pcercano }}</a>
+                        </ng-container>
+                    </p>
                 </li>
                 <li *ngIf="pico.detalle.inicioRuta">
                     <p><b>Inicio ruta habitual: </b> {{ pico.detalle.inicioRuta.nombre }} ({{ pico.detalle.inicioRuta.altura | number:'3.0-1':'es' }}m)</p>
