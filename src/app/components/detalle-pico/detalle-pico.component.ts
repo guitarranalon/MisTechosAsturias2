@@ -148,4 +148,11 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
       }
     }
   }
+
+  ponerComaSiCorresponde(pico: number): string {
+    if (!this.pico.detalle) return '';
+
+    // Si el index actual +1 < tamaño del array
+    return ((this.pico.detalle.ascendidoCon.findIndex((i) => i === pico) + 1) < this.pico.detalle.ascendidoCon.length) ? ',' : '';
+  }
 }
