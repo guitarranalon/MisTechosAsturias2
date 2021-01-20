@@ -3,7 +3,8 @@ import { ActivatedRoute } from '@angular/router';
 import { SubscriptionManager } from 'src/app/classes/subscription-manager';
 import { Pico } from 'src/app/state/pico.model';
 import { PicosQuery } from 'src/app/state/picos.query';
-import { Map, View, Feature } from 'ol';
+import OlMap from 'ol/Map';
+import { View, Feature } from 'ol';
 import {Fill, Icon, Stroke, Style, Text} from 'ol/style';
 import * as olProj from 'ol/proj';
 import TileLayer from 'ol/layer/Tile';
@@ -29,9 +30,10 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
 
   id: number;
   pico: Pico;
+  picosCercanos = new Map<number, Pico>();
 
   // Propiedades necesarias para el mapa
-  Map: Map;
+  Map: OlMap;
   view: View;
   mapHelper: MapHelper;
 
@@ -58,12 +60,15 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
         this.sm.addSubscription(this.picosQuery.selectEntity(this.id).subscribe(
           (pico: Pico) => {
             this.pico = pico;
+
+            if (this.pico) {
+              this.picosService.getDetalle(this.id);
+
+              // Se obtiene la información de los picos cercanos
+              this.getClosestPeaksNames();
+            }
           }
         ));
-
-        if (this.pico) {
-          this.picosService.getDetalle(this.id);
-        }
       }
     }));
   }
@@ -81,7 +86,7 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
       center: olProj.fromLonLat([this.pico.longitud, this.pico.latitud]),
       zoom: 13,
     });
-    this.Map = new Map({
+    this.Map = new OlMap({
       layers: [new TileLayer({
         source: new OSM({})
       })],
@@ -136,4 +141,11 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
     this.sm.removeAllSubscriptions();
   }
 
+  private getClosestPeaksNames() {
+    if (this.pico.detalle) {
+      for(const idPico of this.pico.detalle.ascendidoCon){
+        this.picosCercanos.set(idPico, this.picosQuery.getEntity(idPico));
+      }
+    }
+  }
 }
