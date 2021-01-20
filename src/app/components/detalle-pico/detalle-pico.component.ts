@@ -126,7 +126,7 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
 
     let salidaStyle = new Style({
       image: new Icon({
-        anchor: [0.5, 0.5],
+        anchor: [0.5, 1],
         anchorXUnits: IconAnchorUnits.FRACTION,
         anchorYUnits: IconAnchorUnits.FRACTION,
         src: `${environment.baseHref}/assets/img/salida.svg`,
@@ -157,7 +157,7 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
         stroke: new Stroke({
           color: '#fff', width: 2
         }),
-        offsetY: 25,
+        offsetY: 10,
         text: this.pico.detalle.inicioRuta.nombre
       });
       salidaStyle.setText(salidaText);
