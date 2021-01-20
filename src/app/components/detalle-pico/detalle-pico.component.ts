@@ -18,6 +18,7 @@ import { MapHelper } from 'src/app/classes/map-helper';
 import { DecimalPipe } from '@angular/common';
 import { DificultadPipe } from 'src/app/pipes/dificultad.pipe';
 import { PicosService } from 'src/app/state/picos.service';
+import { BehaviorSubject } from 'rxjs';
 
 const PARAMETRO_GET = 'id';
 
@@ -31,11 +32,13 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
   id: number;
   pico: Pico;
   picosCercanos = new Map<number, Pico>();
+  picoActual = new BehaviorSubject<Pico | null>(null);
 
   // Propiedades necesarias para el mapa
   Map: OlMap;
   view: View;
   mapHelper: MapHelper;
+  vectorLayer: VectorLayer;
 
   sm = new SubscriptionManager();
 
@@ -60,6 +63,7 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
         this.sm.addSubscription(this.picosQuery.selectEntity(this.id).subscribe(
           (pico: Pico) => {
             this.pico = pico;
+            this.picoActual.next(pico);
 
             if (this.pico) {
               this.picosService.getDetalle(this.id);
@@ -74,11 +78,14 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   ngAfterViewInit():void {
-    this.sm.addSubscription(this.picosQuery.selectAll().subscribe( (picos) => {
+    this.picoActual.subscribe( (pico) => {
       if (! this.Map) {
         this.zone.runOutsideAngular(() => this.initMap())
+      } else {
+        this.Map.removeLayer(this.vectorLayer);
+        this.createMarkers();
       }
-    } ));    
+    });
   }
 
   private initMap(): void{
@@ -132,9 +139,11 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
       features: features,
     });
 
-    this.Map.addLayer(new VectorLayer({
+    this.vectorLayer = new VectorLayer({
       source: vectorSource,
-    }));
+    });
+
+    this.Map.addLayer(this.vectorLayer);
   }
 
   ngOnDestroy() {
