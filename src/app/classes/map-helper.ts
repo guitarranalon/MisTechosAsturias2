@@ -25,4 +25,14 @@ export class MapHelper {
             ascendido: pico.ascendido ? Utils.si : Utils.no
         });
     }
+
+    public createFeatureSalida(pico: Pico): Feature {
+        if (!pico.detalle) return new Feature();
+
+        return new Feature({
+            geometry: new Point(olProj.fromLonLat([pico.detalle.inicioRuta.longitud, pico.detalle.inicioRuta.latitud])),
+            name: pico.detalle.inicioRuta.nombre,
+            altitud: pico.detalle.inicioRuta.altura
+        });
+    }
 }

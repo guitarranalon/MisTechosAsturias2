@@ -84,6 +84,10 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
       } else {
         this.Map.removeLayer(this.vectorLayer);
         this.createMarkers();
+        this.Map.setView(new View({
+          center: olProj.fromLonLat([this.pico.longitud, this.pico.latitud]),
+          zoom: 13,
+        }));
       }
     });
   }
@@ -120,6 +124,15 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
       }),
     });
 
+    let salidaStyle = new Style({
+      image: new Icon({
+        anchor: [0.5, 0.5],
+        anchorXUnits: IconAnchorUnits.FRACTION,
+        anchorYUnits: IconAnchorUnits.FRACTION,
+        src: `${environment.baseHref}/assets/img/salida.svg`,
+      }),
+    });
+
     let iconFeature = this.mapHelper.createFeature(this.pico);
     let text = new Text({
       font: 10 + 'px fauna,sans-serif',
@@ -135,6 +148,23 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
     iconFeature.setStyle(style);
     features.push(iconFeature);
     
+    // Salida
+    if (this.pico.detalle) {
+      let salidaFeature = this.mapHelper.createFeatureSalida(this.pico);
+      let salidaText = new Text({
+        font: 10 + 'px fauna, sans-serif',
+        fill: new Fill({ color: '#000' }),
+        stroke: new Stroke({
+          color: '#fff', width: 2
+        }),
+        offsetY: 25,
+        text: this.pico.detalle.inicioRuta.nombre
+      });
+      salidaStyle.setText(salidaText);
+      salidaFeature.setStyle(salidaStyle);
+      features.push(salidaFeature);
+    }
+
     var vectorSource = new VectorSource({
       features: features,
     });
