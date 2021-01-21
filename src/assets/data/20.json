@@ -1,0 +1,10 @@
+{
+	"inicioRuta": {
+		"nombre": "Mirador del Fitu",
+		"latitud": 43.4393635,
+		"longitud": -5.1945299,
+		"altura": 601
+	},
+	"ascendidoCon": [14],
+	"ubicacion": "Sierra del Sueve"
+}
