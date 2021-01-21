@@ -1,0 +1,10 @@
+{
+	"inicioRuta": {
+		"nombre": "Alto del Segredal",
+		"latitud": 43.4658921,
+		"longitud": -6.6480016,
+		"altura": 700
+	},
+	"ascendidoCon": [76],
+	"ubicacion": "Sierra de Panondres"
+}
