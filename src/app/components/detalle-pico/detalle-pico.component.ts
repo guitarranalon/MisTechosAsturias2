@@ -20,6 +20,7 @@ import { DificultadPipe } from 'src/app/pipes/dificultad.pipe';
 import { PicosService } from 'src/app/state/picos.service';
 import { BehaviorSubject } from 'rxjs';
 import { Utils } from 'src/app/classes/utils';
+import { InicioRuta } from '../../state/detalle-pico.model';
 
 const PARAMETRO_GET = 'id';
 
@@ -198,5 +199,9 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
 
   isMobile(): boolean {
     return Utils.isMobile();
+  }
+
+  abrirMaps(inicioRuta: InicioRuta) {
+    window.location.href = `geo:${inicioRuta.longitud},${inicioRuta.latitud}`;
   }
 }
