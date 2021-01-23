@@ -32,4 +32,26 @@ export class Utils {
     {
         return degrees * Math.PI / 180;
     }
+
+    // ¿ES un móvil de iOS?
+    static isIos = (): boolean => {
+      // If it's an iPhone..
+      if( (navigator.platform.indexOf("iPhone") != -1) 
+          || (navigator.platform.indexOf("iPod") != -1)
+          || (navigator.platform.indexOf("iPad") != -1))
+           return true
+
+      return false;
+  }
+
+  // ¿Es un móvil Android?
+  static isAndroid = (): boolean => {
+    if (navigator.userAgent.toLowerCase().indexOf('android') > -1) return true;
+
+    return false;
+  }
+
+  static isMobile = (): boolean => {
+    return Utils.isIos() || Utils.isAndroid();
+  }
 }

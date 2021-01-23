@@ -19,6 +19,7 @@ import { DecimalPipe } from '@angular/common';
 import { DificultadPipe } from 'src/app/pipes/dificultad.pipe';
 import { PicosService } from 'src/app/state/picos.service';
 import { BehaviorSubject } from 'rxjs';
+import { Utils } from 'src/app/classes/utils';
 
 const PARAMETRO_GET = 'id';
 
@@ -193,5 +194,9 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
 
     // Si el index actual +1 < tamaño del array
     return ((this.pico.detalle.ascendidoCon.findIndex((i) => i === pico) + 1) < this.pico.detalle.ascendidoCon.length) ? ',' : '';
+  }
+
+  isMobile(): boolean {
+    return Utils.isMobile();
   }
 }
