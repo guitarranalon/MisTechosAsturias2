@@ -1,0 +1,10 @@
+{
+	"inicioRuta": {
+		"nombre": "Alto de la Fumarea",
+		"latitud": 43.4270635,
+		"longitud": -5.5762201,
+		"altura": 582
+	},
+	"ascendidoCon": [25, 67, 68],
+	"ubicacion": "La Fumarea"
+}
