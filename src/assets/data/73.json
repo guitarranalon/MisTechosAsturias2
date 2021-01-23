@@ -1,0 +1,10 @@
+{
+	"inicioRuta": {
+		"nombre": "Alto de La Garganta",
+		"latitud": 43.3379797,
+		"longitud": -7.0286946,
+		"altura": 1000
+	},
+	"ascendidoCon": [64],
+	"ubicacion": "Sierra de Ouroso"
+}

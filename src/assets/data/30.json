@@ -1,0 +1,10 @@
+{
+	"inicioRuta": {
+		"nombre": "Alto de Bustantigo",
+		"latitud": 43.3183081,
+		"longitud": -6.7466752,
+		"altura": 1010
+	},
+	"ascendidoCon": [80,8],
+	"ubicacion": "Sierra de Carondio"
+}

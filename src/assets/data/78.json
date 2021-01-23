@@ -1,0 +1,10 @@
+{
+	"inicioRuta": {
+		"nombre": "La Bobia",
+		"latitud": 43.3699094,
+		"longitud": -6.944653,
+		"altura": 1085
+	},
+	"ascendidoCon": [18,77,63],
+	"ubicacion": "Sierra de La Bobia"
+}
