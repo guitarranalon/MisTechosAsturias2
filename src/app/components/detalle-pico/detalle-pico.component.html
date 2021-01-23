@@ -13,7 +13,7 @@
                 <li *ngIf="pico.detalle.ubicacion">
                     <p><b>Ubicación: </b> {{ pico.detalle.ubicacion }}</p>
                 </li>
-                <li *ngIf="pico.detalle.ascendidoCon">
+                <li *ngIf="pico.detalle.ascendidoCon && pico.detalle.ascendidoCon.length">
                     <p><b>Picos cercanos: </b> 
                         <ng-container *ngFor="let pcercano of pico.detalle.ascendidoCon">
                             <a [routerLink]="['/detalle', pcercano]">{{ picosCercanos.get(pcercano)?.nombre }} ({{ picosCercanos.get(pcercano)?.concejo }})</a>{{ponerComaSiCorresponde(pcercano)}}
