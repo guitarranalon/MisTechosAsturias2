@@ -21,7 +21,7 @@
                     </p>
                 </li>
                 <li *ngIf="pico.detalle.inicioRuta">
-                    <p><b>Inicio ruta habitual: </b> {{ pico.detalle.inicioRuta.nombre }} ({{ pico.detalle.inicioRuta.altura | number:'3.0-1':'es' }}m)</p><button *ngIf="isMobile() || true" class="btn btn-outline-primary" title="Abrir la localización para navegar" (click)="abrirMaps(pico.detalle.inicioRuta)">Abrir en Maps</button>
+                    <p><b>Inicio ruta habitual: </b> {{ pico.detalle.inicioRuta.nombre }} ({{ pico.detalle.inicioRuta.altura | number:'3.0-1':'es' }}m)</p><button *ngIf="isMobile() || true" class="btn btn-outline-primary" title="Abrir la localización para navegar" (click)="abrirMaps(pico.detalle.inicioRuta)">Ver en Maps</button>
                 </li>
             </ng-container>
         </ul>

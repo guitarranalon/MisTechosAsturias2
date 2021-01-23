@@ -202,6 +202,6 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   abrirMaps(inicioRuta: InicioRuta) {
-    window.location.href = `geo:${inicioRuta.longitud},${inicioRuta.latitud}`;
+    window.open(`http://maps.google.com/maps?daddr=lat,long&amp;ll=${inicioRuta.latitud},${inicioRuta.longitud}`);
   }
 }
