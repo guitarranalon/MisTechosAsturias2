@@ -154,6 +154,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
 
     // display popup on click
     this.Map.on('click', (evt) => {
+      evt.preventDefault();
       var feature = this.Map.forEachFeatureAtPixel(evt.pixel, function (feature) {
         return feature;
       });
@@ -210,6 +211,7 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
       content += `<p>Dificultad: ${feature.get('dificultad')}</p>`;
       content += `<p>Coordenadas: ${feature.get('coordenadas')}</p>`;
       content += `<p>Ascendido: ${feature.get('ascendido')}</p>`;
+      content += `<a href="#/detalle/${feature.get('id')}">+ Más info</a>`;
     }
 
     return content;

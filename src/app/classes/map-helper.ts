@@ -22,7 +22,8 @@ export class MapHelper {
             concejo: pico.concejo,
             dificultad: this.dificultadPipe.transform(pico.dificultad),
             coordenadas: `${pico.latitud}, ${pico.longitud}`,
-            ascendido: pico.ascendido ? Utils.si : Utils.no
+            ascendido: pico.ascendido ? Utils.si : Utils.no,
+            id: pico.id
         });
     }
 

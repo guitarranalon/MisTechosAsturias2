@@ -41,7 +41,11 @@
   text-decoration: none;
   top: 0.15rem;
 
+  &:hover {
+      text-decoration: none;
+  }
+
   &:focus {
-    box-shadow: none;
+      box-shadow: none;
   }
 }

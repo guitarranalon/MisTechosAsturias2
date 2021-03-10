@@ -3,6 +3,29 @@ svg {
     width: 100%;
 }
 
+path {
+    transition: opacity 0.2s ease;
+}
+
 path.ascendido {
     fill: #f28705;
+}
+
+path.selected {
+    opacity: 0.5;
+}
+
+#info-pico {
+    background: lighten(#50636a, 50%);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    padding: 20px;
+
+    &.ascendido {
+        background: lighten(#f28705, 40%);
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
 }
