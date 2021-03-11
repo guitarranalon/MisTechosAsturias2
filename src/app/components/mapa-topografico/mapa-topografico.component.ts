@@ -22,6 +22,8 @@ import { analyzeAndValidateNgModules } from '@angular/compiler';
 import { SubscriptionManager } from 'src/app/classes/subscription-manager';
 import { MapHelper } from 'src/app/classes/map-helper';
 
+const CANVAS_TAG = 'CANVAS';
+
 @Component({
   selector: 'app-mapa-topografico',
   templateUrl: './mapa-topografico.component.html',
@@ -154,9 +156,8 @@ export class MapaTopograficoComponent implements OnInit, AfterViewInit, OnDestro
 
     // display popup on click
     this.Map.on('click', (evt) => {
-      evt.preventDefault();
       var feature = this.Map.forEachFeatureAtPixel(evt.pixel, function (feature) {
-        return feature;
+        return (evt.originalEvent as any).srcElement.tagName === CANVAS_TAG ? feature : null; // Evitando que se clique los elementos por debajo del popup
       });
       if (feature) {
         let point: Point = <Point>feature.getGeometry();
