@@ -1,7 +1,8 @@
 <app-mapa-asturias-svg></app-mapa-asturias-svg>
 
 <p>Picos ascendidos: <span>{{ totalAscendidos }}</span> / {{totalTechos}}</p>
-<ngb-progressbar [showValue]="true" type="primary" [value]="totalAscendidos/totalTechos*100" [height]="'1.5rem'"></ngb-progressbar>
+<ngb-progressbar class="mb-3" [showValue]="true" type="primary" [value]="totalAscendidos/totalTechos*100" [height]="'1.5rem'"></ngb-progressbar>
+<p>Te faltan: <span>{{ totalTechos - totalAscendidos }}</span></p>
 
 <h2 class="mt-4">Estadística</h2>
 <div class="estadistica">
