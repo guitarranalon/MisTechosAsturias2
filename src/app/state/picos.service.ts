@@ -37,7 +37,7 @@ const listado: Array<Pico> = [
   ,
   { id: 13, concejo:"Cangas del Narcea", nombre:"Cueto Arbás", altura:2007, dificultad:2, latitud:42.9930194, longitud:-6.4369805, ascendido: false }
   ,
-  { id: 14, concejo:"Caravia", nombre:"Piedra Redonda", altura:631, dificultad:1, latitud:43.4391583, longitud:-5.1947555, ascendido: false }
+  { id: 14, concejo:"Caravia", nombre:"Piedra Redonda", altura:631, dificultad:1, latitud:43.4391583, longitud:-5.1947555, ascendido: false, imagen: 'piedraredonda.jpg' }
   ,
   { id: 15, concejo:"Carreño", nombre:"Monte Areo", altura:264, dificultad:1, latitud:43.5278555, longitud:-5.7792638, ascendido: false, imagen: 'areo.jpg' }
   ,
@@ -61,7 +61,7 @@ const listado: Array<Pico> = [
   ,
   { id: 25, concejo:"Gijón", nombre:"Peña de los Cuatro Jueces", altura:662, dificultad:1, latitud:43.4426444, longitud:-5.5843166, ascendido: false, imagen: 'cuatrojueces.jpg' }
   ,
-  { id: 26, concejo:"Gozón", nombre:"Tabladas", altura:138, dificultad:1, latitud:43.5762777, longitud:-5.8833777, ascendido: false }
+  { id: 26, concejo:"Gozón", nombre:"Tabladas", altura:138, dificultad:1, latitud:43.5762777, longitud:-5.8833777, ascendido: false, imagen: 'tabladas.jpg' }
   ,
   { id: 27, concejo:"Grado", nombre:"Pico la Berza", altura:1454, dificultad:1, latitud:43.1833305, longitud:-6.2005111, ascendido: false }
   ,
@@ -141,7 +141,7 @@ const listado: Array<Pico> = [
   ,
   { id: 65, concejo:"San Tirso de Abres", nombre:"Pico Xunqueira", altura:661, dificultad:1, latitud:43.390075, longitud:-7.1136694, ascendido: false }
   ,
-  { id: 66, concejo:"Santo Adriano", nombre:"Pico Grandamiana", altura:806, dificultad:1, latitud:43.2871833, longitud:-6.0211611, ascendido: false }
+  { id: 66, concejo:"Santo Adriano", nombre:"Pico Grandamiana", altura:806, dificultad:1, latitud:43.2871833, longitud:-6.0211611, ascendido: false, imagen: 'grandamiana.jpg' }
   ,
   { id: 67, concejo:"Sariego", nombre:"Pico Cima", altura:733, dificultad:1, latitud:43.4345416, longitud:-5.5922388, ascendido: false, imagen: 'cima.jpg' }
   ,
