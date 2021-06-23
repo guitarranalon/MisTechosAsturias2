@@ -5,6 +5,16 @@
 
         <div class="map-container" id="map"></div>
 
+        <div class="navigation my-3" *ngIf="geolocation">
+            <ng-container *ngIf="!navigating else detenernavegacion">
+                <button class="btn btn-primary" (click)="empezarNavegacion()">Navegar</button>
+            </ng-container>
+            
+            <ng-template #detenernavegacion>
+                <button class="btn btn-primary" (click)="detenerNavegacion()">Detener navegación</button>
+            </ng-template>
+        </div>
+
         <ul class="list-unstyled mt-4">
             <li>
                 <p><b>Dificultad: </b> {{ pico.dificultad | dificultad }}</p>
