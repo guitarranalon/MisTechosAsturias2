@@ -31,7 +31,7 @@ const listado: Array<Pico> = [
   ,
   { id: 10, concejo:"Cabranes", nombre:"Monte Incós", altura:581, dificultad:1, latitud:43.3913777, longitud:-5.3847638, ascendido: false }
   ,
-  { id: 11, concejo:"Candamo", nombre:"Pico Pedroso", altura:614, dificultad:1, latitud:43.4356249, longitud:-6.0203916, ascendido: false }
+  { id: 11, concejo:"Candamo", nombre:"Pico Pedroso", altura:614, dificultad:1, latitud:43.4356249, longitud:-6.0203916, imagen: 'pedroso.jpg', ascendido: false }
   ,
   { id: 12, concejo:"Cangas de Onís", nombre:"Torre Santa de Enol", altura:2478, dificultad:3, latitud:43.2124333, longitud:-4.9745138, ascendido: false, imagen: 'torresantamaria.jpg' }
   ,
@@ -121,7 +121,7 @@ const listado: Array<Pico> = [
     {id: 55, nombre:"Fontán Sur", altura:2414, dificultad:3, latitud:43.0336722, longitud:-5.9604972, ascendido: false }
   ], ascendido: false }
   ,
-  { id: 56, concejo:"Las Regueras", nombre:"Pico Alto la Degollada", altura:613, dificultad:1, latitud:43.4520138, longitud:-6.0058944, ascendido: false }
+  { id: 56, concejo:"Las Regueras", nombre:"Pico Alto la Degollada", altura:613, dificultad:1, latitud:43.4520138, longitud:-6.0058944, imagen: 'degollada.jpg', ascendido: false }
   ,
   { id: 57, concejo:"Ribadedeva", nombre:"Pico Cuetu el Plaganu", altura:605, dificultad:1, latitud:43.3499277, longitud:-4.6256416, ascendido: false }
   ,
