@@ -15,3 +15,4 @@ jobs:
       with:
         base_href: /MisTechosAsturias2/
         angular_dist_build_folder: dist/MisTechosAsturias2
+        github_access_token: ${{ secrets.ACCESS_TOKEN }}
