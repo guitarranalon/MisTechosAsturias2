@@ -101,7 +101,7 @@ const listado: Array<Pico> = [
   ,
   { id: 45, concejo:"Oviedo", nombre:"Picajo", altura:709, dificultad:1, latitud:43.2961083, longitud:-5.7736222, ascendido: false, imagen: 'escobin.jpg' }
   ,
-  { id: 46, concejo:"Parres", nombre:"Pico la Mota de Cetín", altura:1134, dificultad:2, latitud:43.2804222, longitud:-5.2029305, ascendido: false }
+  { id: 46, concejo:"Parres", nombre:"Pico la Mota de Cetín", altura:1134, dificultad:2, latitud:43.2804222, longitud:-5.2029305, ascendido: false, imagen: 'motacetin.jpg' }
   ,
   { id: 47, concejo:"Peñamellera Alta", nombre:"Pico Jajao", altura:1425, dificultad:2, latitud:43.2649527, longitud:-4.7042833, ascendido: false }
   ,
