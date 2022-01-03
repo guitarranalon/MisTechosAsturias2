@@ -21,7 +21,7 @@ const listado: Array<Pico> = [
     {id: 5, nombre:"Miranda", altura:143, dificultad:1, latitud:43.5375194, longitud:-5.944175, ascendido: false }
   ], ascendido: false }
   ,
-  { id: 6, concejo:"Belmonte de Miranda", nombre:"Picu Horru", altura:1527, dificultad:2, latitud:43.2358305, longitud:-6.3054305, ascendido: false }
+  { id: 6, concejo:"Belmonte de Miranda", nombre:"Picu Horru", altura:1527, dificultad:2, latitud:43.21707773982595, longitud:-6.277409739416583, ascendido: false, imagen: 'horru.jpg' }
   ,
   { id: 7, concejo:"Bimenes", nombre:"Peña Mayor", altura:1144, dificultad:1, latitud:43.3102583 , longitud:-5.5138555, ascendido: false, imagen: 'mayor.jpg' }
   ,
@@ -171,7 +171,7 @@ const listado: Array<Pico> = [
   ,
   { id: 80, concejo:"Villayón", nombre:"Carondio", altura:1221, dificultad:2, latitud:43.3202444, longitud:-6.7506277, ascendido: false }
   ,
-  { id: 81, concejo:"Yernes y Tameza", nombre:"Peña Cruzada", altura:1374, dificultad:1, latitud:43.2167583, longitud:-6.1447138, ascendido: false }
+  { id: 81, concejo:"Yernes y Tameza", nombre:"Peña Cruzada", altura:1374, dificultad:1, latitud:43.21841611766171, longitud:-6.144587370745059, ascendido: false, imagen: 'cruzada.jpg' }
   ];
 
 @Injectable({ providedIn: 'root' })
