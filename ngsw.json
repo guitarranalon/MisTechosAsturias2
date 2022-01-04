@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1641230215662,
+  "timestamp": 1641315399249,
   "index": "/MisTechosAsturias2/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/MisTechosAsturias2/favicon.ico",
         "/MisTechosAsturias2/index.html",
-        "/MisTechosAsturias2/main.cf3b89503b3d4025c97a.js",
+        "/MisTechosAsturias2/main.7e597929f8407b795d8c.js",
         "/MisTechosAsturias2/manifest.webmanifest",
         "/MisTechosAsturias2/polyfills.b3b05dce4f05c03b56a3.js",
         "/MisTechosAsturias2/runtime.0e49e2b53282f40c8925.js",
@@ -149,6 +149,7 @@
         "/MisTechosAsturias2/assets/img/magarron.jpg",
         "/MisTechosAsturias2/assets/img/mayor.jpg",
         "/MisTechosAsturias2/assets/img/mea.jpg",
+        "/MisTechosAsturias2/assets/img/mieres.jpg",
         "/MisTechosAsturias2/assets/img/mofrechu.jpg",
         "/MisTechosAsturias2/assets/img/motacetin.jpg",
         "/MisTechosAsturias2/assets/img/orniz.jpg",
@@ -304,6 +305,7 @@
     "/MisTechosAsturias2/assets/img/magarron.jpg": "c95b7b704fa28f079320ffac1c3e2bc7b0152b89",
     "/MisTechosAsturias2/assets/img/mayor.jpg": "be87b73b147fd2a3cea1b953aa8ae506f61af9a5",
     "/MisTechosAsturias2/assets/img/mea.jpg": "d56f2510efb419be5340f2232700afadf859cee5",
+    "/MisTechosAsturias2/assets/img/mieres.jpg": "8dc3e64ec681b037d04fcff1faedb0a755d8540b",
     "/MisTechosAsturias2/assets/img/mofrechu.jpg": "c256f7b0a483c2148daf9a00ddb71aa8965af326",
     "/MisTechosAsturias2/assets/img/motacetin.jpg": "c76af7c58c3c1ea2299709676ac3f5a0b2ca727b",
     "/MisTechosAsturias2/assets/img/orniz.jpg": "420f80f876af33523694adeea66be25feee93623",
@@ -334,8 +336,8 @@
     "/MisTechosAsturias2/faunaone-regular-webfont.e8428ef8b8299671ef34.woff": "1ff4cea8b5d46e2254ab361c978b9b7faada24d1",
     "/MisTechosAsturias2/favicon.ico": "1166968f861ece3267dc91a7a46c5721c09f1d0d",
     "/MisTechosAsturias2/header-bg.5ae1d3a9385ce64ae15c.jpg": "d5687c8cbc81c9b769280208c71e39268f336b3a",
-    "/MisTechosAsturias2/index.html": "4276a249ea385025c51741586e0edd90a018845e",
-    "/MisTechosAsturias2/main.cf3b89503b3d4025c97a.js": "83f871dfeb15202351377a8632254192b529d7c4",
+    "/MisTechosAsturias2/index.html": "87a8701573d94141934e316a422f1325c5f91458",
+    "/MisTechosAsturias2/main.7e597929f8407b795d8c.js": "a342b1c289bf7343798d5657cd31ccabc5162379",
     "/MisTechosAsturias2/manifest.webmanifest": "b5d6c76a755d53e6f6364d11a8add77f4aa22d67",
     "/MisTechosAsturias2/polyfills.b3b05dce4f05c03b56a3.js": "0d003992512d28c544b0a972ce2ae6b28ebbf5f6",
     "/MisTechosAsturias2/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
