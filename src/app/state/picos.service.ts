@@ -83,7 +83,7 @@ const listado: Array<Pico> = [
   ,
   { id: 36, concejo:"Llanes", nombre:"Pico Cabeza Bubena", altura:1199, dificultad:2, latitud:43.3594194, longitud:-4.8573527, ascendido: false }
   ,
-  { id: 37, concejo:"Mieres", nombre:"Pico Cuetu Ventosu", altura:1149, dificultad:1, latitud:43.1954749, longitud:-5.6458027,alternativas:[
+  { id: 37, concejo:"Mieres", nombre:"Pico Cuetu Ventosu", altura:1149, dificultad:1, latitud:43.1954749, longitud:-5.6458027, imagen: 'mieres.jpg', alternativas:[
     {id: 38, nombre:"Burra Blanca", altura:1153, dificultad:1, latitud:43.1930833, longitud:-5.6315944, ascendido: false }
   ], ascendido: false }
   ,
