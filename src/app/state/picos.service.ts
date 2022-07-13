@@ -133,7 +133,7 @@ const listado: Array<Pico> = [
   ,
   { id: 61, concejo:"Salas", nombre:"Pico Aguión", altura:927, dificultad:1, latitud:43.46235, longitud:-6.3020833, ascendido: false }
   ,
-  { id: 62, concejo:"San Martín del Rey Aurelio", nombre:"Pico Tres Concejos", altura:1096, dificultad:1, latitud:43.2206611, longitud:-5.6288666, ascendido: false }
+  { id: 62, concejo:"San Martín del Rey Aurelio", nombre:"Pico Tres Concejos", altura:1096, dificultad:1, latitud:43.2206611, longitud:-5.6288666, ascendido: false, imagen: 'tresconcejos.jpg' }
   ,
   { id: 63, concejo:"San Martín de Oscos", nombre:"Pico La Vaga", altura:1081, dificultad:1, latitud:43.356675, longitud:-6.9298777, ascendido: false }
   ,
