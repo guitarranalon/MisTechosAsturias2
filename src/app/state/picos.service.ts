@@ -115,7 +115,7 @@ const listado: Array<Pico> = [
   ,
   { id: 52, concejo:"Pravia", nombre:"Pico Llan de Cubel", altura:678, dificultad:1, latitud:43.5145555, longitud:-6.2180777, ascendido: false }
   ,
-  { id: 53, concejo:"Proaza", nombre:"Peña Barzanalgas", altura:1489, dificultad:2, latitud:43.1691555, longitud:-6.0589138, ascendido: false }
+  { id: 53, concejo:"Proaza", nombre:"Peña Barzanalgas", altura:1489, dificultad:2, latitud:43.1691555, longitud:-6.0589138, ascendido: false, imagen: 'barzanalgas.jpg' }
   ,
   { id: 54, concejo:"Quirós", nombre:"Fontán Norte", altura:2417, dificultad:3, latitud:43.034875, longitud:-5.9589611, imagen: 'fontan.jpg', alternativas:[
     {id: 55, nombre:"Fontán Sur", altura:2414, dificultad:3, latitud:43.0336722, longitud:-5.9604972, ascendido: false }
