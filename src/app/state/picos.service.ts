@@ -53,7 +53,7 @@ const listado: Array<Pico> = [
   ,
   { id: 21, concejo:"Corvera", nombre:"Pico Prieto", altura:366, dificultad:1, latitud:43.5016111, longitud:-5.8957583, ascendido: false, imagen: 'prieto.jpg' }
   ,
-  { id: 22, concejo:"Cudillero", nombre:"Pico Cueto", altura:778, dificultad:1, latitud:43.5069972, longitud:-6.2652583, ascendido: false }
+  { id: 22, concejo:"Cudillero", nombre:"Pico Cueto", altura:778, dificultad:1, latitud:43.5069972, longitud:-6.2652583, ascendido: false, imagen: 'cueto.jpg' }
   ,
   { id: 23, concejo:"Degaña", nombre:"Alcornón de Busmori", altura:1934, dificultad:2, latitud:42.9129944, longitud:-6.5428138, ascendido: false }
   ,
@@ -113,7 +113,7 @@ const listado: Array<Pico> = [
   ,
   { id: 51, concejo:"Ponga", nombre:"Peña Ten", altura:2140, dificultad:3, latitud:43.103475, longitud:-5.1418611, ascendido: false, imagen: 'ten.jpg' }
   ,
-  { id: 52, concejo:"Pravia", nombre:"Pico Llan de Cubel", altura:678, dificultad:1, latitud:43.5145555, longitud:-6.2180777, ascendido: false }
+  { id: 52, concejo:"Pravia", nombre:"Pico Llan de Cubel", altura:678, dificultad:1, latitud:43.5145555, longitud:-6.2180777, ascendido: false, imagen: 'llandecubel.jpg' }
   ,
   { id: 53, concejo:"Proaza", nombre:"Peña Barzanalgas", altura:1489, dificultad:2, latitud:43.1691555, longitud:-6.0589138, ascendido: false, imagen: 'barzanalgas.jpg' }
   ,
@@ -131,7 +131,7 @@ const listado: Array<Pico> = [
   ,
   { id: 60, concejo:"Riosa", nombre:"Pico Xistras", altura:1775, dificultad:2, latitud:43.1897527, longitud:-5.9165333, ascendido: false, imagen: 'xistras.jpg' }
   ,
-  { id: 61, concejo:"Salas", nombre:"Pico Aguión", altura:927, dificultad:1, latitud:43.46235, longitud:-6.3020833, ascendido: false }
+  { id: 61, concejo:"Salas", nombre:"Pico Aguión", altura:927, dificultad:1, latitud:43.46235, longitud:-6.3020833, ascendido: false, imagen: 'aguion.jpg' }
   ,
   { id: 62, concejo:"San Martín del Rey Aurelio", nombre:"Pico Tres Concejos", altura:1096, dificultad:1, latitud:43.2206611, longitud:-5.6288666, ascendido: false, imagen: 'tresconcejos.jpg' }
   ,
