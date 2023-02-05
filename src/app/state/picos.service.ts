@@ -17,7 +17,7 @@ const listado: Array<Pico> = [
   ,
   { id: 3, concejo:"Amieva", nombre:"Torre de Enmedio", altura:2465, dificultad:3, latitud:43.2085805, longitud:-4.97495, ascendido: false, imagen:'torredeenmedio.jpg' }
   ,
-  { id: 4, concejo:"Avilés", nombre:"El Vallín", altura:131, dificultad:1, latitud:43.5362083, longitud:-5.9335194, alternativas:[
+  { id: 4, concejo:"Avilés", nombre:"El Vallín", altura:131, dificultad:1, latitud:43.5362083, longitud:-5.9335194, imagen:'vallin.jpg', alternativas:[
     {id: 5, nombre:"Miranda", altura:143, dificultad:1, latitud:43.5375194, longitud:-5.944175, ascendido: false }
   ], ascendido: false }
   ,
@@ -151,7 +151,7 @@ const listado: Array<Pico> = [
   ,
   { id: 70, concejo:"Somiedo", nombre:"Peña Orniz", altura:2194, dificultad:3, latitud:43.0238194, longitud:-6.1222972, ascendido: false, imagen: 'orniz.jpg' }
   ,
-  { id: 71, concejo:"Soto del Barco", nombre:"Pico Alto la Corona", altura:467, dificultad:1, latitud:43.4820333, longitud:-6.0553222, ascendido: false }
+  { id: 71, concejo:"Soto del Barco", nombre:"Pico Alto la Corona", altura:467, dificultad:1, latitud:43.4820333, longitud:-6.0553222, ascendido: false, imagen: 'corona.jpg' }
   ,
   { id: 72, concejo:"Tapia de Casariego", nombre:"Pico Pousadoiro", altura:643, dificultad:1, latitud:43.4755416, longitud:-6.9576222, ascendido: false }
   ,
