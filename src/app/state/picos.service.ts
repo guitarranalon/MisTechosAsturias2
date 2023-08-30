@@ -29,7 +29,7 @@ const listado: Array<Pico> = [
   ,
   { id: 9, concejo:"Cabrales", nombre:"Torrecerredo", altura:2648, dificultad:3, latitud:43.197775, longitud:-4.8528388, ascendido: false, imagen: 'torrecerredo.jpg' }
   ,
-  { id: 10, concejo:"Cabranes", nombre:"Monte Incós", altura:581, dificultad:1, latitud:43.3913777, longitud:-5.3847638, ascendido: false }
+  { id: 10, concejo:"Cabranes", nombre:"Monte Incós", altura:581, dificultad:1, latitud:43.3913777, longitud:-5.3847638, ascendido: false, imagen: 'incos.jpg' }
   ,
   { id: 11, concejo:"Candamo", nombre:"Pico Pedroso", altura:614, dificultad:1, latitud:43.4356249, longitud:-6.0203916, imagen: 'pedroso.jpg', ascendido: false }
   ,
