@@ -16,7 +16,7 @@ jobs:
         base_href: /MisTechosAsturias2/
         angular_dist_build_folder: dist/MisTechosAsturias2
         github_access_token: ${{ secrets.ACCESS_TOKEN }}
-        build_configuration: staging # The build environment for the app. please look configurations in your angular.json
+        build_configuration: production # The build environment for the app. please look configurations in your angular.json
         deploy_branch: gh-pages # The branch the action should deploy to.
 
 permissions:
