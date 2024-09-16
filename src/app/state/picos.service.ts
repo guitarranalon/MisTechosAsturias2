@@ -89,7 +89,7 @@ const listado: Array<Pico> = [
   ,
   { id: 39, concejo:"Morcín", nombre:"Pico La Gamonal", altura:1712, dificultad:2, latitud:43.2288111, longitud:-5.9481027, ascendido: false, imagen: 'gamonal.jpg' }
   ,
-  { id: 40, concejo:"Muros del Nalón", nombre:"Muros", altura:132, dificultad:1, latitud:43.5422416, longitud:-6.1054277, ascendido: false }
+  { id: 40, concejo:"Muros del Nalón", nombre:"Muros", altura:132, dificultad:1, latitud:43.5422416, longitud:-6.1054277, ascendido: false, imagen: 'muros.jpg' }
   ,
   { id: 41, concejo:"Nava", nombre:"Triguero", altura:1291, dificultad:1, latitud:43.2769722, longitud:-5.4999638, ascendido: false, imagen: 'triguero.jpg' }
   ,
