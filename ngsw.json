@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1675614944013,
+  "timestamp": 1730036784060,
   "index": "/MisTechosAsturias2/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/MisTechosAsturias2/favicon.ico",
         "/MisTechosAsturias2/index.html",
-        "/MisTechosAsturias2/main.edfec2d315983bb17443.js",
+        "/MisTechosAsturias2/main.120c68d855bc3357b34f.js",
         "/MisTechosAsturias2/manifest.webmanifest",
-        "/MisTechosAsturias2/polyfills.b3b05dce4f05c03b56a3.js",
-        "/MisTechosAsturias2/runtime.0e49e2b53282f40c8925.js",
-        "/MisTechosAsturias2/styles.db7a54194a49d6b6be1d.css"
+        "/MisTechosAsturias2/polyfills.05f2f33e7e637fbd4cf3.js",
+        "/MisTechosAsturias2/runtime.3e6135c66ad471ca6c07.js",
+        "/MisTechosAsturias2/styles.4fc234511305d49d1a49.css"
       ],
       "patterns": []
     },
@@ -130,6 +130,7 @@
         "/MisTechosAsturias2/assets/img/aguion.jpg",
         "/MisTechosAsturias2/assets/img/areo.jpg",
         "/MisTechosAsturias2/assets/img/barzanalgas.jpg",
+        "/MisTechosAsturias2/assets/img/berza.jpg",
         "/MisTechosAsturias2/assets/img/capiellamartin.jpg",
         "/MisTechosAsturias2/assets/img/cerrogabio.jpg",
         "/MisTechosAsturias2/assets/img/cima.jpg",
@@ -149,6 +150,7 @@
         "/MisTechosAsturias2/assets/img/gorfoli.jpg",
         "/MisTechosAsturias2/assets/img/grandamiana.jpg",
         "/MisTechosAsturias2/assets/img/horru.jpg",
+        "/MisTechosAsturias2/assets/img/incos.jpg",
         "/MisTechosAsturias2/assets/img/llandecubel.jpg",
         "/MisTechosAsturias2/assets/img/magarron.jpg",
         "/MisTechosAsturias2/assets/img/mayor.jpg",
@@ -156,6 +158,7 @@
         "/MisTechosAsturias2/assets/img/mieres.jpg",
         "/MisTechosAsturias2/assets/img/mofrechu.jpg",
         "/MisTechosAsturias2/assets/img/motacetin.jpg",
+        "/MisTechosAsturias2/assets/img/muros.jpg",
         "/MisTechosAsturias2/assets/img/orniz.jpg",
         "/MisTechosAsturias2/assets/img/ouroso.jpg",
         "/MisTechosAsturias2/assets/img/panondres.jpg",
@@ -292,6 +295,7 @@
     "/MisTechosAsturias2/assets/img/aguion.jpg": "b906fbc37d08060a47210095d9d3fca1d892c389",
     "/MisTechosAsturias2/assets/img/areo.jpg": "346e71a27673a36d6a14dba85c00068442a2b77e",
     "/MisTechosAsturias2/assets/img/barzanalgas.jpg": "743350f214a6239885249b8329bc30d450202741",
+    "/MisTechosAsturias2/assets/img/berza.jpg": "272ff3c18daef278565d420e94632f329afa92ee",
     "/MisTechosAsturias2/assets/img/capiellamartin.jpg": "782b1178146f3f0f11c89cd3cda8dbce364806e7",
     "/MisTechosAsturias2/assets/img/cerrogabio.jpg": "03abb79e17ec66bdde234b5d6af6303bf289a85c",
     "/MisTechosAsturias2/assets/img/cima.jpg": "a2c091d1e65a5761f82c147b382535fdee581ba1",
@@ -311,6 +315,7 @@
     "/MisTechosAsturias2/assets/img/gorfoli.jpg": "0484988d685b49b4f5807728c4d0e1f3bae4db59",
     "/MisTechosAsturias2/assets/img/grandamiana.jpg": "c6cd4391eac9233c077084b763e0130568a9a670",
     "/MisTechosAsturias2/assets/img/horru.jpg": "319ffd60f54325c7dde090e28973642856cc3cb9",
+    "/MisTechosAsturias2/assets/img/incos.jpg": "62681fceeeb95cd20be8658dbffa0bac711df524",
     "/MisTechosAsturias2/assets/img/llandecubel.jpg": "2f678f1fc42534245db4c5602f72d40dc3838792",
     "/MisTechosAsturias2/assets/img/magarron.jpg": "c95b7b704fa28f079320ffac1c3e2bc7b0152b89",
     "/MisTechosAsturias2/assets/img/mayor.jpg": "be87b73b147fd2a3cea1b953aa8ae506f61af9a5",
@@ -318,6 +323,7 @@
     "/MisTechosAsturias2/assets/img/mieres.jpg": "8dc3e64ec681b037d04fcff1faedb0a755d8540b",
     "/MisTechosAsturias2/assets/img/mofrechu.jpg": "c256f7b0a483c2148daf9a00ddb71aa8965af326",
     "/MisTechosAsturias2/assets/img/motacetin.jpg": "c76af7c58c3c1ea2299709676ac3f5a0b2ca727b",
+    "/MisTechosAsturias2/assets/img/muros.jpg": "245e6ba4f61fa09cec064be297fc627018c364d7",
     "/MisTechosAsturias2/assets/img/orniz.jpg": "420f80f876af33523694adeea66be25feee93623",
     "/MisTechosAsturias2/assets/img/ouroso.jpg": "d6c9a7e61de5e45f37dd93477a6b32bd871190ed",
     "/MisTechosAsturias2/assets/img/panondres.jpg": "665cdd81b33be306efe64fc4b820acb2e1aecc56",
@@ -348,12 +354,12 @@
     "/MisTechosAsturias2/faunaone-regular-webfont.e8428ef8b8299671ef34.woff": "1ff4cea8b5d46e2254ab361c978b9b7faada24d1",
     "/MisTechosAsturias2/favicon.ico": "1166968f861ece3267dc91a7a46c5721c09f1d0d",
     "/MisTechosAsturias2/header-bg.5ae1d3a9385ce64ae15c.jpg": "d5687c8cbc81c9b769280208c71e39268f336b3a",
-    "/MisTechosAsturias2/index.html": "65a9502f7a6bde42c87a836fbe53d59853e78659",
-    "/MisTechosAsturias2/main.edfec2d315983bb17443.js": "aca8a41babda24776196556517a7c9ccd78cabca",
+    "/MisTechosAsturias2/index.html": "d9016d24b60a19b606fe32415347abba0d70dd11",
+    "/MisTechosAsturias2/main.120c68d855bc3357b34f.js": "62e1a0ee344f2e4562f0e542b31035b897391c61",
     "/MisTechosAsturias2/manifest.webmanifest": "b5d6c76a755d53e6f6364d11a8add77f4aa22d67",
-    "/MisTechosAsturias2/polyfills.b3b05dce4f05c03b56a3.js": "0d003992512d28c544b0a972ce2ae6b28ebbf5f6",
-    "/MisTechosAsturias2/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/MisTechosAsturias2/styles.db7a54194a49d6b6be1d.css": "a2674103816b58073bbf093ff5bfecd0fd10c40f"
+    "/MisTechosAsturias2/polyfills.05f2f33e7e637fbd4cf3.js": "1bd125be6ab1107ee3da615ca46be6a7567ab441",
+    "/MisTechosAsturias2/runtime.3e6135c66ad471ca6c07.js": "18e8c0f1f81507aa32a418acd7147febb3a2818a",
+    "/MisTechosAsturias2/styles.4fc234511305d49d1a49.css": "9a4d255ce59c1ecf8a1842fb5775f5329fa47b33"
   },
   "navigationUrls": [
     {
