@@ -18,7 +18,6 @@ import { DecimalPipe } from '@angular/common';
 import { Utils } from 'src/app/classes/utils';
 import { environment } from 'src/environments/environment';
 import { DificultadPipe } from 'src/app/pipes/dificultad.pipe';
-import { analyzeAndValidateNgModules } from '@angular/compiler';
 import { SubscriptionManager } from 'src/app/classes/subscription-manager';
 import { MapHelper } from 'src/app/classes/map-helper';
 
