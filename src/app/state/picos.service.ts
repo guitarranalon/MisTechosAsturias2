@@ -221,7 +221,7 @@ export class PicosService {
       this.dbService.getByKey(Utils.storeName, pico.id).pipe(first()).subscribe( ( techo ) => {
         // si está en indexeddb recogemos el valor
         if ( techo ) {
-          this.picosStore.update(pico.id, { ascendido: techo.ascendido });
+          this.picosStore.update(pico.id, { ascendido: (techo as Pico).ascendido });
         }
       });
     }
