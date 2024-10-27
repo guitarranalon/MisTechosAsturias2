@@ -33,7 +33,7 @@ $font-family-basic-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI
 $headings-font-family:  $font-family-serif;
 
 /* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/bootstrap';
 
 .font-family-base {
     font-family: $font-family-basic-sans-serif;
