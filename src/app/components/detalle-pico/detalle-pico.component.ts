@@ -35,7 +35,7 @@ const PARAMETRO_GET = 'id';
 export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
 
   id: number;
-  pico: Pico;
+  pico: Pico | undefined;
   picosCercanos = new Map<number, Pico>();
   picoActual = new BehaviorSubject<Pico | null>(null);
 
@@ -75,11 +75,11 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
         this.id = +(param);
 
         this.sm.addSubscription(this.picosQuery.selectEntity(this.id).subscribe(
-          (pico: Pico) => {
+          (pico: Pico | undefined) => {
             this.pico = pico;
-            this.picoActual.next(pico);
-
+            
             if (this.pico) {
+              this.picoActual.next(pico as Pico);
               this.picosService.getDetalle(this.id);
 
               // Se obtiene la información de los picos cercanos
@@ -93,6 +93,8 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
 
   ngAfterViewInit():void {
     this.picoActual.subscribe( (pico) => {
+      if (!this.pico) return;
+
       if (! this.Map) {
         this.zone.runOutsideAngular(() => this.initMap())
       } else {
@@ -107,6 +109,8 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   private initMap(): void{
+    if (!this.pico) return;
+  
     this.view = new View({
       center: olProj.fromLonLat([this.pico.longitud, this.pico.latitud]),
       zoom: 13,
@@ -147,23 +151,25 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
       }),
     });
 
-    let iconFeature = this.mapHelper.createFeature(this.pico);
-    let text = new Text({
-      font: 10 + 'px fauna,sans-serif',
-      fill: new Fill({ color: '#000' }),
-      stroke: new Stroke({
-        color: '#fff', width: 2
-      }),        
-      offsetY: 25,
-      text: this.pico.nombre
-    });
-    let style = iconStyle;
-    style.setText(text);
-    iconFeature.setStyle(style);
-    features.push(iconFeature);
+    if (this.pico) {
+      let iconFeature = this.mapHelper.createFeature(this.pico);
+      let text = new Text({
+        font: 10 + 'px fauna,sans-serif',
+        fill: new Fill({ color: '#000' }),
+        stroke: new Stroke({
+          color: '#fff', width: 2
+        }),        
+        offsetY: 25,
+        text: this.pico?.nombre
+      });
+      let style = iconStyle;
+      style.setText(text);
+      iconFeature.setStyle(style);
+      features.push(iconFeature);
+    }
     
     // Salida
-    if (this.pico.detalle) {
+    if (this.pico?.detalle) {
       let salidaFeature = this.mapHelper.createFeatureSalida(this.pico);
       let salidaText = new Text({
         font: 10 + 'px fauna, sans-serif',
@@ -196,15 +202,15 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   private getClosestPeaksNames() {
-    if (this.pico.detalle) {
+    if (this.pico?.detalle) {
       for(const idPico of this.pico.detalle.ascendidoCon){
-        this.picosCercanos.set(idPico, this.picosQuery.getEntity(idPico));
+        this.picosCercanos.set(idPico, this.picosQuery.getEntity(idPico) as Pico);
       }
     }
   }
 
   ponerComaSiCorresponde(pico: number): string {
-    if (!this.pico.detalle) return '';
+    if (!this.pico?.detalle) return '';
 
     // Si el index actual +1 < tamaño del array
     return ((this.pico.detalle.ascendidoCon.findIndex((i) => i === pico) + 1) < this.pico.detalle.ascendidoCon.length) ? ',' : '';
