@@ -22,7 +22,7 @@
                         <h3 class="card-subtitle mb-3">{{pico.concejo}}</h3>
                         <p><a [routerLink]="['/detalle', pico.id]">+ Más info</a></p>
                         <button type="button"
-                            [ngClass]="{'btn btn-block align-self-end': true, 'btn-outline-secondary': !pico.ascendido, 'btn-secondary': pico.ascendido }"
+                            [ngClass]="{'btn btn-block align-self-end w-100': true, 'btn-outline-secondary': !pico.ascendido, 'btn-secondary': pico.ascendido }"
                             (click)="clickAscendido(pico)">Ascendido:
                             <span *ngIf="pico.ascendido else picoNoAscendido">Sí</span>
                             <ng-template #picoNoAscendido>No</ng-template>
