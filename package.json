@@ -26,7 +26,7 @@
     "@ng-bootstrap/ng-bootstrap": "^12.1.2",
     "@popperjs/core": "^2.10.2",
     "@types/ol": "^6.4.2",
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^5.0.0",
     "ngx-indexed-db": "11.0.2",
     "ol": "6.5.0",
     "rxjs": "~6.6.0",
