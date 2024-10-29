@@ -49,7 +49,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "index": "src/production/index.html",
+              "index": "src/index.html",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
