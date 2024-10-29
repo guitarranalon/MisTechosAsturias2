@@ -23,7 +23,7 @@
     "@angular/router": "16.2.12",
     "@angular/service-worker": "16.2.12",
     "@datorama/akita": "^8.0.1",
-    "@ng-bootstrap/ng-bootstrap": "14.2.0",
+    "@ng-bootstrap/ng-bootstrap": "15.1.2",
     "@popperjs/core": "^2.10.2",
     "@types/ol": "^6.4.2",
     "bootstrap": "^5.2.0",
