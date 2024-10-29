@@ -27,7 +27,7 @@ import { PicoMasCercanoComponent } from './components/pico-mas-cercano/pico-mas-
 import { AlertBoardComponent } from './components/alert-board/alert-board.component';
 import { DificultadPipe } from './pipes/dificultad.pipe';
 import { DetallePicoComponent } from './components/detalle-pico/detalle-pico.component';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -44,41 +44,35 @@ const dbConfig: DBConfig  = {
   }]
 };
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    MapaTopograficoComponent,
-    MapaProgresoComponent,
-    ListadoPicosComponent,
-    MapaAsturiasSVGComponent,
-    MainNavComponent,
-    SvgSpriteComponent,
-    NotFoundComponent,
-    ObservacionesComponent,
-    AvisoLegalComponent,
-    FooterComponent,
-    SearchBarComponent,
-    MenuOrdenacionComponent,
-    PicoMasCercanoComponent,
-    AlertBoardComponent,
-    DificultadPipe,
-    DetallePicoComponent
-  ],
-  imports: [
-    HttpClientModule,
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule,
-    FormsModule,
-    ReactiveFormsModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-    NgxIndexedDBModule.forRoot(dbConfig)
-  ],
-  providers: [
-    DecimalPipe,
-    DificultadPipe,
-    { provide: LOCALE_ID, useValue: 'es' }
-  ],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        MapaTopograficoComponent,
+        MapaProgresoComponent,
+        ListadoPicosComponent,
+        MapaAsturiasSVGComponent,
+        MainNavComponent,
+        SvgSpriteComponent,
+        NotFoundComponent,
+        ObservacionesComponent,
+        AvisoLegalComponent,
+        FooterComponent,
+        SearchBarComponent,
+        MenuOrdenacionComponent,
+        PicoMasCercanoComponent,
+        AlertBoardComponent,
+        DificultadPipe,
+        DetallePicoComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        AppRoutingModule,
+        NgbModule,
+        FormsModule,
+        ReactiveFormsModule,
+        ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+        NgxIndexedDBModule.forRoot(dbConfig)], providers: [
+        DecimalPipe,
+        DificultadPipe,
+        { provide: LOCALE_ID, useValue: 'es' },
+        provideHttpClient(withInterceptorsFromDi())
+    ] })
 export class AppModule { }
