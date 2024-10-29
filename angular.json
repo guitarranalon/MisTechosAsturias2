@@ -20,9 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": {
-              "base": "dist/MisTechosAsturias2"
-            },
+            "outputPath": "dist/MisTechosAsturias2",
             "index": "src/index.html",
             "polyfills": [
               "src/polyfills.ts"
