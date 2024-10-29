@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../../node_modules/ol/OverlayPositioning.js"],
+  "sourcesContent": ["/**\n * @module ol/OverlayPositioning\n */\n/**\n * Overlay position: `'bottom-left'`, `'bottom-center'`,  `'bottom-right'`,\n * `'center-left'`, `'center-center'`, `'center-right'`, `'top-left'`,\n * `'top-center'`, `'top-right'`\n * @enum {string}\n */\nexport default {\n  BOTTOM_LEFT: 'bottom-left',\n  BOTTOM_CENTER: 'bottom-center',\n  BOTTOM_RIGHT: 'bottom-right',\n  CENTER_LEFT: 'center-left',\n  CENTER_CENTER: 'center-center',\n  CENTER_RIGHT: 'center-right',\n  TOP_LEFT: 'top-left',\n  TOP_CENTER: 'top-center',\n  TOP_RIGHT: 'top-right'\n};\n"],
+  "mappings": ";AASA,IAAO,6BAAQ;AAAA,EACb,aAAa;AAAA,EACb,eAAe;AAAA,EACf,cAAc;AAAA,EACd,aAAa;AAAA,EACb,eAAe;AAAA,EACf,cAAc;AAAA,EACd,UAAU;AAAA,EACV,YAAY;AAAA,EACZ,WAAW;AACb;",
+  "names": []
+}

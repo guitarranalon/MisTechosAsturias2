@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../../node_modules/ol/style/IconAnchorUnits.js"],
+  "sourcesContent": ["/**\n * @module ol/style/IconAnchorUnits\n */\n/**\n * Icon anchor units. One of 'fraction', 'pixels'.\n * @enum {string}\n */\nexport default {\n  /**\n   * Anchor is a fraction\n   * @api\n   */\n  FRACTION: 'fraction',\n  /**\n   * Anchor is in pixels\n   * @api\n   */\n  PIXELS: 'pixels'\n};\n"],
+  "mappings": ";AAOA,IAAO,0BAAQ;AAAA;AAAA;AAAA;AAAA;AAAA,EAKb,UAAU;AAAA;AAAA;AAAA;AAAA;AAAA,EAKV,QAAQ;AACV;",
+  "names": []
+}
