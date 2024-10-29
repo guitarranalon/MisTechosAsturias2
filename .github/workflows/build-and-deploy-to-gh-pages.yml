@@ -17,9 +17,10 @@ jobs:
         node-version: '20'
 
     - name: All things angular
-      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0 ## replace by latest version without it you will see Expected format {org}/{repo}[/path]@ref. Actual 'AhsanAyaz/angular-deploy-gh-pages-actions',Input string was not in a correct format.
+      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.2 ## replace by latest version without it you will see Expected format {org}/{repo}[/path]@ref. Actual 'AhsanAyaz/angular-deploy-gh-pages-actions',Input string was not in a correct format.
       with:
         base_href: /MisTechosAsturias2/
+        angular_dist_build_folder: dist/MisTechosAsturias2
         github_access_token: ${{ secrets.ACCESS_TOKEN }}
         build_configuration: production # The build environment for the app. please look configurations in your angular.json
         deploy_branch: gh-pages # The branch the action should deploy to.
