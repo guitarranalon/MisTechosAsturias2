@@ -13,7 +13,7 @@ const TAG_CONCEJO = 'path';
 })
 export class MapaAsturiasSVGComponent implements OnInit {
 
-  pico: Pico | null;
+  pico: Pico | null | undefined;
 
   constructor(
     private picosQuery: PicosQuery

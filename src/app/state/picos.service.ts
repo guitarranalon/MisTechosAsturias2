@@ -190,7 +190,7 @@ export class PicosService {
   }
 
   getDetalle(id: ID) {
-    if (!this.picosQuery.getEntity(id).detalle) {
+    if (!this.picosQuery.getEntity(id)?.detalle) {
       this.http.get<DetallePico>(`./assets/data/${id}.json`).pipe(first()).subscribe(
         (detallePico: DetallePico) => {
           return this.picosStore.update(id, { detalle: detallePico });
