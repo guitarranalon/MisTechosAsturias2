@@ -35,7 +35,7 @@ const listado: Array<Pico> = [
   ,
   { id: 12, concejo:"Cangas de Onís", nombre:"Torre Santa de Enol", altura:2478, dificultad:3, latitud:43.2124333, longitud:-4.9745138, ascendido: false, imagen: 'torresantamaria.jpg' }
   ,
-  { id: 13, concejo:"Cangas del Narcea", nombre:"Cueto Arbás", altura:2007, dificultad:2, latitud:42.9930194, longitud:-6.4369805, ascendido: false }
+  { id: 13, concejo:"Cangas del Narcea", nombre:"Cueto Arbás", altura:2007, dificultad:2, latitud:42.9930194, longitud:-6.4369805, ascendido: false, imagen: 'cuetoarbas.avif' }
   ,
   { id: 14, concejo:"Caravia", nombre:"Piedra Redonda", altura:631, dificultad:1, latitud:43.4391583, longitud:-5.1947555, ascendido: false, imagen: 'piedraredonda.jpg' }
   ,
