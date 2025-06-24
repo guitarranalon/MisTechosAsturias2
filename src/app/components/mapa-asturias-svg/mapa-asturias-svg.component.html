@@ -1,5 +1,5 @@
-<svg width="777.74173" height="413.26299" viewBox="0 0 777.74173 413.26299" enable-background="new 0 0 777.74173 413.26299"
-	version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg [attr.width]="svgMapWidth" [attr.height]="svgMapHeight" viewBox="0 0 777.74173 413.26299" enable-background="new 0 0 777.74173 413.26299"
+	version="1.1" xmlns="http://www.w3.org/2000/svg" id="progress-map">
 	<g id="ccaa00c03" (click)="concejoSeleccionado($event)">
 		<clipPath id="SVG_CP_1">
 			<path d="M0,0L0,413.26299L777.74173,413.26299L777.74173,0L0,0z"/>
@@ -2145,3 +2145,10 @@
 		<p>Coordenadas: {{ pico.latitud }}, {{ pico.longitud }} / <a [routerLink]="['/detalle', pico.id]">+ Más info</a></p>
 	</div>
 </div>
+
+<app-svg-share 
+	svgSelector="#progress-map" 
+	fileName="progreso-techos-asturias"
+	[imageWidth]="svgMapWidth"
+	[imageHeight]="svgMapHeight" />
+
