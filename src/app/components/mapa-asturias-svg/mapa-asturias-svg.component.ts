@@ -1,6 +1,6 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ID } from '@datorama/akita';
-import { Observable, of } from 'rxjs';
+import { Observable } from 'rxjs';
 import { Pico } from 'src/app/state/pico.model';
 import { PicosQuery } from 'src/app/state/picos.query';
 

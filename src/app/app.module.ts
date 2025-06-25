@@ -28,6 +28,7 @@ import { AlertBoardComponent } from './components/alert-board/alert-board.compon
 import { DificultadPipe } from './pipes/dificultad.pipe';
 import { DetallePicoComponent } from './components/detalle-pico/detalle-pico.component';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import { SvgShareComponent } from './components/svg-share/svg-share.component';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -50,6 +51,7 @@ const dbConfig: DBConfig  = {
         MapaProgresoComponent,
         ListadoPicosComponent,
         MapaAsturiasSVGComponent,
+        SvgShareComponent,
         MainNavComponent,
         SvgSpriteComponent,
         NotFoundComponent,
