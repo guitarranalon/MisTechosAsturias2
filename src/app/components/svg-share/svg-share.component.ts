@@ -18,14 +18,18 @@ interface ImageDimensions {
 export class SvgShareComponent {
   @Input() svgSelector!: string;
   @Input() fileName = 'imagen';
-  @Input() imageWidth!: number;
-  @Input() imageHeight!: number;
   @Input() shareTitle = 'Compartir progreso';
   @Input() shareText = 'Mi progreso en el reto de los techos de Asturias';  
 
   private readonly DEFAULT_IMAGE_TYPE = 'image/png';
   private readonly SVG_MIME_TYPE = 'image/svg+xml;charset=utf-8';
   private readonly backgroundColor = "#fff";
+  private readonly urlText = "https://guitarranalon.github.io/MisTechosAsturias2";
+  private readonly urlFontSize = 14;
+  private readonly urlColor = "#888";
+  private readonly imageTitleText = "Mis techos de Asturias";
+  private readonly imageTitleColor = "#333";
+  private readonly titleFontSize = 20;
   private createdUrls: string[] = [];
 
   ngOnDestroy(): void {
@@ -85,10 +89,19 @@ export class SvgShareComponent {
   }
   
   private getImageDimensions(svgElement: SVGSVGElement): ImageDimensions {
-    return {
-      width: this.imageWidth || svgElement.clientWidth || 800,
-      height: this.imageHeight || svgElement.clientHeight || 600
-    };
+    const width = this.getAttributeAsNumber(svgElement, 'width') || svgElement.clientWidth || 800;
+                  
+    const height = this.getAttributeAsNumber(svgElement, 'height') || svgElement.clientHeight || 600;
+
+    return { width, height };
+  }
+
+  private getAttributeAsNumber(element: SVGSVGElement, attribute: string): number | null {
+    const value = element.getAttribute(attribute);
+    if (!value) return null;
+
+    const numericValue = parseFloat(value.replace(/[^\d.-]/g, ''));
+    return isNaN(numericValue) ? null : numericValue;
   }
 
   private createCanvas(img: HTMLImageElement, dimensions: ImageDimensions): HTMLCanvasElement {
@@ -106,8 +119,34 @@ export class SvgShareComponent {
     
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
     
+    this.drawTitle(ctx, dimensions);
+    this.drawUrlText(ctx, dimensions);
+
     return canvas;
   }  
+
+  private drawTitle(ctx: CanvasRenderingContext2D, dimensions: ImageDimensions): void {
+    const yPosition = dimensions.height - 40;
+
+    ctx.fillStyle = this.imageTitleColor;
+    ctx.font = `${this.titleFontSize}px playfair, Arial, sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'bottom';
+    
+    ctx.fillText(this.imageTitleText, dimensions.width / 2, yPosition);    
+  }
+
+  private drawUrlText(ctx: CanvasRenderingContext2D, dimensions: ImageDimensions): void {
+    const url = this.urlText || window.location.href;
+    const yPosition = dimensions.height - 20;
+    
+    ctx.fillStyle = this.urlColor;
+    ctx.font = `${this.urlFontSize}px fauna, Arial, sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'bottom';
+    
+    ctx.fillText(url, dimensions.width / 2, yPosition);
+  }
 
  private canvasToBlob(canvas: HTMLCanvasElement): Promise<Blob> {
     return new Promise((resolve, reject) => {

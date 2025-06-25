@@ -15,9 +15,6 @@ export class MapaAsturiasSVGComponent implements OnInit {
 
   pico: Pico | null | undefined;
 
-  readonly svgMapWidth: number = 777.74173;
-  readonly svgMapHeight: number = 413.26299;
-
   constructor(
     private picosQuery: PicosQuery
   ) {  }
@@ -44,9 +41,5 @@ export class MapaAsturiasSVGComponent implements OnInit {
     if (!this.pico) return false;
 
     return this.pico.id === idPico;
-  }
-
-  getViewBox(): string {
-    return `0 0 ${this.svgMapWidth} ${this.svgMapHeight}`;
   }
 }
