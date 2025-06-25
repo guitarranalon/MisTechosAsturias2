@@ -175,6 +175,15 @@ svg.icon{
     max-width: 500px;
 }
 
+.boton-share{
+    margin-bottom: 0.5rem;
+
+    .icon {
+        position: relative;
+        top: -3px;
+    }
+}
+
 .boton-download .icon {
     fill: white;
     height: 18px;
