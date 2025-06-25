@@ -1,4 +1,14 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnDestroy } from '@angular/core';
+
+interface ShareData {
+  title: string;
+  text: string;
+}
+
+interface ImageDimensions {
+  width: number;
+  height: number;
+}
 
 @Component({
   selector: 'app-svg-share',
@@ -10,6 +20,21 @@ export class SvgShareComponent {
   @Input() fileName = 'imagen';
   @Input() imageWidth!: number;
   @Input() imageHeight!: number;
+  @Input() shareTitle = 'Compartir progreso';
+  @Input() shareText = 'Mi progreso en el reto de los techos de Asturias';  
+
+  private readonly DEFAULT_IMAGE_TYPE = 'image/png';
+  private readonly SVG_MIME_TYPE = 'image/svg+xml;charset=utf-8';
+  private createdUrls: string[] = [];
+
+  ngOnDestroy(): void {
+    this.cleanupUrls();
+  }
+
+  private cleanupUrls(): void {
+    this.createdUrls.forEach(url => URL.revokeObjectURL(url));
+    this.createdUrls = [];
+  }  
 
   share() {
     let svgElement = document.querySelector(this.svgSelector) as SVGSVGElement;

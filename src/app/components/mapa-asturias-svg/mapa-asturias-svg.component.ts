@@ -45,4 +45,8 @@ export class MapaAsturiasSVGComponent implements OnInit {
 
     return this.pico.id === idPico;
   }
+
+  getViewBox(): string {
+    return `0 0 ${this.svgMapWidth} ${this.svgMapHeight}`;
+  }
 }
