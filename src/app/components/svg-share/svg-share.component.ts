@@ -25,6 +25,7 @@ export class SvgShareComponent {
 
   private readonly DEFAULT_IMAGE_TYPE = 'image/png';
   private readonly SVG_MIME_TYPE = 'image/svg+xml;charset=utf-8';
+  private readonly backgroundColor = "#fff";
   private createdUrls: string[] = [];
 
   ngOnDestroy(): void {
@@ -36,72 +37,134 @@ export class SvgShareComponent {
     this.createdUrls = [];
   }  
 
-  share() {
-    let svgElement = document.querySelector(this.svgSelector) as SVGSVGElement;
+  async share(): Promise<void> {
+    try {
+      const svgElement = this.getSvgElement();
+      const canvas = await this.convertSvgToCanvas(svgElement);
+      const blob = await this.canvasToBlob(canvas);
+      
+      await this.handleShare(blob);
+    } catch (error) {
+      console.error('Error al compartir la imagen:', error);
+    }
+  }
+
+  private getSvgElement(): SVGSVGElement {
+    const svgElement = document.querySelector(this.svgSelector) as SVGSVGElement;
+    
     if (!svgElement) {
-      console.error(
-        'Elemento SVG no encontrado con el selector:',
-        this.svgSelector
-      );
-      return;
+      throw new Error(`Elemento SVG no encontrado con el selector: ${this.svgSelector}`);
+    }
+    
+    return svgElement;
+  }
+  
+  private async convertSvgToCanvas(svgElement: SVGSVGElement): Promise<HTMLCanvasElement> {
+    this.inlineStyles(svgElement);
+    
+    const svgData = new XMLSerializer().serializeToString(svgElement);
+    const svgBlob = new Blob([svgData], { type: this.SVG_MIME_TYPE });
+    const url = URL.createObjectURL(svgBlob);
+    this.createdUrls.push(url);
+
+    const img = await this.loadImage(url);
+    const dimensions = this.getImageDimensions(svgElement);
+    
+    return this.createCanvas(img, dimensions);
+  }
+  
+  private loadImage(src: string): Promise<HTMLImageElement> {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      
+      img.onload = () => resolve(img);
+      img.onerror = (error) => reject(new Error(`Error al cargar SVG como imagen: ${error}`));
+      
+      img.src = src;
+    });
+  }
+  
+  private getImageDimensions(svgElement: SVGSVGElement): ImageDimensions {
+    return {
+      width: this.imageWidth || svgElement.clientWidth || 800,
+      height: this.imageHeight || svgElement.clientHeight || 600
+    };
+  }
+
+  private createCanvas(img: HTMLImageElement, dimensions: ImageDimensions): HTMLCanvasElement {
+    const canvas = document.createElement('canvas');
+    canvas.width = dimensions.width;
+    canvas.height = dimensions.height;
+    
+    const ctx = canvas.getContext('2d');
+    if (!ctx) {
+      throw new Error('No se pudo obtener el contexto 2D del canvas');
     }
 
-    this.inlineStyles(svgElement);
-    const svgData = new XMLSerializer().serializeToString(svgElement);
-    const svgBlob = new Blob([svgData], {
-      type: 'image/svg+xml;charset=utf-8',
+    ctx.fillStyle = this.backgroundColor;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+    
+    return canvas;
+  }  
+
+ private canvasToBlob(canvas: HTMLCanvasElement): Promise<Blob> {
+    return new Promise((resolve, reject) => {
+      canvas.toBlob(
+        (blob) => {
+          if (blob) {
+            resolve(blob);
+          } else {
+            reject(new Error('Error al convertir canvas a blob'));
+          }
+        },
+        this.DEFAULT_IMAGE_TYPE
+      );
     });
-    const url = URL.createObjectURL(svgBlob);
+  }
 
-    const img = new Image();
-    img.onload = () => {
-      const canvas = document.createElement('canvas');
-      canvas.width = this.imageWidth || svgElement.clientWidth;
-      canvas.height = this.imageHeight || svgElement.clientHeight;
-      const ctx = canvas.getContext('2d');
-      if (!ctx) return;
+  private async handleShare(blob: Blob): Promise<void> {
+    const file = new File([blob], `${this.fileName}.png`, { 
+      type: this.DEFAULT_IMAGE_TYPE 
+    });
 
-      ctx.fillStyle = '#ffffff';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.drawImage(img, 0, 0);
+    if (this.canUseNativeShare(file)) {
+      await this.nativeShare(file);
+    } else {
+      this.downloadFile(blob);
+    }
+  }
 
-      canvas.toBlob((blob) => {
-        if (!blob) return;
+ private canUseNativeShare(file: File): boolean {
+    return (
+      'share' in navigator && 
+      'canShare' in navigator && 
+      typeof navigator.canShare === 'function' &&
+      navigator.canShare({ files: [file] })
+    );
+  }
 
-        if (
-          navigator.share &&
-          navigator.canShare?.({
-            files: [
-              new File([blob], `${this.fileName}.png`, { type: 'image/png' }),
-            ],
-          })
-        ) {
-          const file = new File([blob], `${this.fileName}.png`, {
-            type: 'image/png',
-          });
-          navigator
-            .share({
-              title: 'Compartir progreso',
-              text: 'Mi progreso en el reto de los techos de Asturias',
-              files: [file],
-            })
-            .catch(console.error);
-        } else {
-          const link = document.createElement('a');
-          link.download = `${this.fileName}.png`;
-          link.href = URL.createObjectURL(blob);
-          link.click();
-        }
-
-        URL.revokeObjectURL(url);
-      }, 'image/png');
+  private async nativeShare(file: File): Promise<void> {
+    const shareData: ShareData = {
+      title: this.shareTitle,
+      text: this.shareText
     };
 
-    img.onerror = (err) => {
-      console.error('Error al cargar SVG como imagen:', err);
-    };
+    await navigator.share({
+      ...shareData,
+      files: [file],
+    });
+  }
 
-    img.src = url;
+  private downloadFile(blob: Blob): void {
+    const url = URL.createObjectURL(blob);
+    this.createdUrls.push(url);
+    
+    const link = document.createElement('a');
+    link.download = `${this.fileName}.png`;
+    link.href = url;
+    link.click();
   }
 
   private inlineStyles(svg: SVGSVGElement) {
