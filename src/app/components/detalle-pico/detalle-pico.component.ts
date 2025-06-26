@@ -1,15 +1,21 @@
-import { AfterViewInit, Component, NgZone, OnDestroy, OnInit } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  NgZone,
+  OnDestroy,
+  OnInit,
+} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SubscriptionManager } from 'src/app/classes/subscription-manager';
 import { Pico } from 'src/app/state/pico.model';
 import { PicosQuery } from 'src/app/state/picos.query';
 import OlMap from 'ol/Map';
 import { View, Feature } from 'ol';
-import {Fill, Icon, Stroke, Style, Text} from 'ol/style';
+import { Fill, Icon, Stroke, Style, Text } from 'ol/style';
 import * as olProj from 'ol/proj';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
-import { ScaleLine, defaults as DefaultControls} from 'ol/control';
+import { ScaleLine, defaults as DefaultControls } from 'ol/control';
 import { environment } from 'src/environments/environment';
 import IconAnchorUnits from 'ol/style/IconAnchorUnits';
 import VectorSource from 'ol/source/Vector';
@@ -24,16 +30,16 @@ import { Utils } from 'src/app/classes/utils';
 import { InicioRuta } from '../../state/detalle-pico.model';
 import { AlertsService } from 'src/app/services/alerts.service';
 import { AlertType } from '../alert-board/alert-board.component';
+import GPX from 'ol/format/GPX';
 
 const PARAMETRO_GET = 'id';
 
 @Component({
   selector: 'app-detalle-pico',
   templateUrl: './detalle-pico.component.html',
-  styleUrls: ['./detalle-pico.component.scss']
+  styleUrls: ['./detalle-pico.component.scss'],
 })
 export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
-
   id: number;
   pico: Pico | undefined;
   picosCercanos = new Map<number, Pico>();
@@ -45,7 +51,7 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
   mapHelper: MapHelper;
   vectorLayer: VectorLayer;
   geolocation: boolean;
-  
+
   gpsFeature: Feature;
 
   coords: any;
@@ -64,51 +70,57 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
     private alertsService: AlertsService
   ) {
     this.mapHelper = new MapHelper(decimalPipe, dificultadPipe);
-   }
+  }
 
   ngOnInit(): void {
     this.geolocation = 'geolocation' in navigator;
-    this.sm.addSubscription(this.route.paramMap.subscribe(params => {
-      const param = params.get(PARAMETRO_GET);
+    this.sm.addSubscription(
+      this.route.paramMap.subscribe((params) => {
+        const param = params.get(PARAMETRO_GET);
 
-      if (param) {
-        this.id = +(param);
+        if (param) {
+          this.id = +param;
 
-        this.sm.addSubscription(this.picosQuery.selectEntity(this.id).subscribe(
-          (pico: Pico | undefined) => {
-            this.pico = pico;
-            
-            if (this.pico) {
-              this.picoActual.next(pico as Pico);
-              this.picosService.getDetalle(this.id);
+          this.sm.addSubscription(
+            this.picosQuery
+              .selectEntity(this.id)
+              .subscribe((pico: Pico | undefined) => {
+                this.pico = pico;
 
-              // Se obtiene la información de los picos cercanos
-              this.getClosestPeaksNames();
-            }
-          }
-        ));
-      }
-    }));
+                if (this.pico) {
+                  this.picoActual.next(pico as Pico);
+                  this.picosService.getDetalle(this.id);
+
+                  // Se obtiene la información de los picos cercanos
+                  this.getClosestPeaksNames();
+                }
+              })
+          );
+        }
+      })
+    );
   }
 
-  ngAfterViewInit():void {
-    this.picoActual.subscribe( (pico) => {
+  ngAfterViewInit(): void {
+    this.picoActual.subscribe((pico) => {
       if (!this.pico) return;
 
-      if (! this.Map) {
-        this.zone.runOutsideAngular(() => this.initMap())
+      if (!this.Map) {
+        this.zone.runOutsideAngular(() => this.initMap());
       } else {
         this.Map.removeLayer(this.vectorLayer);
         this.createMarkers();
-        this.Map.setView(new View({
-          center: olProj.fromLonLat([this.pico.longitud, this.pico.latitud]),
-          zoom: 13,
-        }));
+        this.Map.setView(
+          new View({
+            center: olProj.fromLonLat([this.pico.longitud, this.pico.latitud]),
+            zoom: 13,
+          })
+        );
       }
     });
   }
 
-  private initMap(): void{
+  private initMap(): void {
     if (!this.pico) return;
 
     this.view = new View({
@@ -116,18 +128,20 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
       zoom: 13,
     });
     this.Map = new OlMap({
-      layers: [new TileLayer({
-        source: new OSM({})
-      })],
+      layers: [
+        new TileLayer({
+          source: new OSM({}),
+        }),
+      ],
       target: 'map',
       view: this.view,
-      controls: DefaultControls().extend([
-        new ScaleLine({}),
-      ]),
+      controls: DefaultControls().extend([new ScaleLine({})]),
     });
 
     // markers
-    this.createMarkers();    
+    this.createMarkers();
+  
+    this.drawRoute();
   }
 
   private createMarkers() {
@@ -157,17 +171,18 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
         font: 10 + 'px fauna,sans-serif',
         fill: new Fill({ color: '#000' }),
         stroke: new Stroke({
-          color: '#fff', width: 2
-        }),        
+          color: '#fff',
+          width: 2,
+        }),
         offsetY: 25,
-        text: this.pico?.nombre
+        text: this.pico?.nombre,
       });
       let style = iconStyle;
       style.setText(text);
       iconFeature.setStyle(style);
       features.push(iconFeature);
     }
-    
+
     // Salida
     if (this.pico?.detalle) {
       let salidaFeature = this.mapHelper.createFeatureSalida(this.pico);
@@ -175,10 +190,11 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
         font: 10 + 'px fauna, sans-serif',
         fill: new Fill({ color: '#000' }),
         stroke: new Stroke({
-          color: '#fff', width: 2
+          color: '#fff',
+          width: 2,
         }),
         offsetY: 10,
-        text: this.pico?.detalle.inicioRuta.nombre
+        text: this.pico?.detalle.inicioRuta.nombre,
       });
       salidaStyle.setText(salidaText);
       salidaFeature.setStyle(salidaStyle);
@@ -203,8 +219,11 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
 
   private getClosestPeaksNames() {
     if (this.pico?.detalle) {
-      for(const idPico of this.pico.detalle.ascendidoCon){
-        this.picosCercanos.set(idPico, this.picosQuery.getEntity(idPico) as Pico);
+      for (const idPico of this.pico.detalle.ascendidoCon) {
+        this.picosCercanos.set(
+          idPico,
+          this.picosQuery.getEntity(idPico) as Pico
+        );
       }
     }
   }
@@ -213,7 +232,10 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
     if (!this.pico?.detalle) return '';
 
     // Si el index actual +1 < tamaño del array
-    return ((this.pico.detalle.ascendidoCon.findIndex((i) => i === pico) + 1) < this.pico.detalle.ascendidoCon.length) ? ',' : '';
+    return this.pico.detalle.ascendidoCon.findIndex((i) => i === pico) + 1 <
+      this.pico.detalle.ascendidoCon.length
+      ? ','
+      : '';
   }
 
   isMobile(): boolean {
@@ -221,31 +243,41 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   abrirMaps(inicioRuta: InicioRuta) {
-    window.open(`http://maps.google.com/maps?daddr=${inicioRuta.latitud},${inicioRuta.longitud}&amp;ll=`);
+    window.open(
+      `http://maps.google.com/maps?daddr=${inicioRuta.latitud},${inicioRuta.longitud}&amp;ll=`
+    );
   }
 
   empezarNavegacion() {
     this.navigating = true;
 
     this.watchID = navigator.geolocation.watchPosition(
-      (position: {coords: { latitude: number; longitude: number; }}) => {
-        if(position && position.coords && 
+      (position: { coords: { latitude: number; longitude: number } }) => {
+        if (
+          position &&
+          position.coords &&
           (!this.coords ||
-          (position.coords.latitude !== this.coords.latitude && position.coords.longitude !== this.coords.longitude))) {
+            (position.coords.latitude !== this.coords.latitude &&
+              position.coords.longitude !== this.coords.longitude))
+        ) {
           this.coords = position.coords;
 
           this.pintarPosicionGPSUsuario();
         }
-    },
-    (err: any) => { 
-      console.log(err);
-      this.alertsService.newAlert({type: AlertType.danger, message: 'Se ha producido un error al intentar obtener tu posición'});
-    }, 
-    {
-      enableHighAccuracy: true,
-      maximumAge: 30000,      
-      timeout: Utils.getCurrentPositionTimeout
-    }); 
+      },
+      (err: any) => {
+        console.log(err);
+        this.alertsService.newAlert({
+          type: AlertType.danger,
+          message: 'Se ha producido un error al intentar obtener tu posición',
+        });
+      },
+      {
+        enableHighAccuracy: true,
+        maximumAge: 30000,
+        timeout: Utils.getCurrentPositionTimeout,
+      }
+    );
   }
 
   detenerNavegacion() {
@@ -263,11 +295,15 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   private createGPSPosition() {
-    let features: Feature[] = [new Feature({
-      geometry: new Point(olProj.fromLonLat([ this.coords.longitude, this.coords.latitude])),
-      name: 'Tú',
-      mylocation: true
-    })];
+    let features: Feature[] = [
+      new Feature({
+        geometry: new Point(
+          olProj.fromLonLat([this.coords.longitude, this.coords.latitude])
+        ),
+        name: 'Tú',
+        mylocation: true,
+      }),
+    ];
 
     var iconStyle = new Style({
       image: new Icon({
@@ -281,19 +317,42 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
     features[0].setStyle(iconStyle);
 
     this.gpsFeature = features[0];
-  
+
     let vectorSource = new VectorSource({
       features: features,
     });
-  
+
     let gpsLayer = new VectorLayer({
       source: vectorSource,
     });
 
-    this.Map.addLayer(gpsLayer);      
+    this.Map.addLayer(gpsLayer);
   }
 
   private updateGPSPosition() {
-    this.gpsFeature.setGeometry(new Point(olProj.fromLonLat([ this.coords.longitude, this.coords.latitude])));
+    this.gpsFeature.setGeometry(
+      new Point(
+        olProj.fromLonLat([this.coords.longitude, this.coords.latitude])
+      )
+    );
+  }
+
+  private drawRoute() {
+    const gpxSource = new VectorSource({
+      url: `./assets/data/${this.id}.gpx`,
+      format: new GPX(),
+    });
+
+    const gpxLayer = new VectorLayer({
+      source: gpxSource,
+      style: new Style({
+        stroke: new Stroke({
+          color: '#f28705',
+          width: 5,
+        }),
+      }),
+    });
+
+    this.Map.addLayer(gpxLayer);
   }
 }

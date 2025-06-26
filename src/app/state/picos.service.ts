@@ -9,6 +9,9 @@ import { NgxIndexedDBService } from 'ngx-indexed-db';
 import { Utils } from '../classes/utils';
 import { first } from 'rxjs/operators';
 import { DetallePico } from './detalle-pico.model';
+import VectorSource from 'ol/source/Vector';
+import Geometry from 'ol/geom/Geometry';
+import GPX from 'ol/format/GPX';
 
 const listado: Array<Pico> = [
   { id: 1, concejo:"Allande", nombre:"Pico Panchón", altura:1411, dificultad: 1, latitud:43.269427, longitud:-6.660072, ascendido: false }
@@ -198,6 +201,16 @@ export class PicosService {
       );
     }
   }
+
+  getRutaGPX(id: number): Observable<VectorSource<Geometry>> {
+    const source = new VectorSource({
+      url: `./assets/data/${id}.gpx`,
+      format: new GPX()
+    });
+
+    return of(source);
+  }
+
 
   toggleAscendido({ id, ascendido }: Pico) {
     const nuevoValor = !ascendido;
