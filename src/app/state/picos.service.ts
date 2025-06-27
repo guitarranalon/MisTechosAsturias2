@@ -206,7 +206,7 @@ export class PicosService {
     const source = new VectorSource({
       url: `./assets/data/${id}.gpx`,
       format: new GPX()
-    });
+    });  
 
     return source;
   }
