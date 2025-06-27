@@ -12,14 +12,24 @@
             <div *ngFor="let pico of (picos$ | async)" class="col-12 col-sm-6 col-md-4 col-xl-3 my-3">
                 <div class="card h-100">
                     <ng-container *ngIf="pico.imagen else fotoPorDefecto">
-                        <img class="card-img-top" src="assets/img/{{pico.imagen}}" alt="Foto del pico">
+                        <a [routerLink]="['/detalle', pico.id]">
+                            <img class="card-img-top" src="assets/img/{{pico.imagen}}" alt="Foto del pico">
+                        </a>
                     </ng-container>
                     <ng-template #fotoPorDefecto>
                         <img class="card-img-top" src="assets/img/default.jpg" alt="Foto del pico">
                     </ng-template>
                     <div class="card-body">
-                        <h2 class="card-title">{{pico.nombre}} ({{pico.altura | number:'3.0-1':'es'}}m)</h2>
-                        <h3 class="card-subtitle mb-3">{{pico.concejo}}</h3>
+                        <h2 class="card-title">
+                            <a [routerLink]="['/detalle', pico.id]">
+                                {{pico.nombre}} ({{pico.altura | number:'3.0-1':'es'}}m)
+                            </a>
+                        </h2>
+                        <h3 class="card-subtitle mb-3">
+                            <a [routerLink]="['/detalle', pico.id]">
+                                {{pico.concejo}}
+                            </a>
+                        </h3>
                         <p><a [routerLink]="['/detalle', pico.id]">+ Más info</a></p>
                         <button type="button"
                             [ngClass]="{'btn btn-block align-self-end w-100': true, 'btn-outline-secondary': !pico.ascendido, 'btn-secondary': pico.ascendido }"
