@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Pico Pedroso - Techo de Candamo</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+    <link href="https://guitarranalon.github.io/MisTechosAsturias2">
+      <text>Pico Pedroso - Techo de Candamo</text>
+    </link>
+    <time>2014-03-05T11:40:44.000Z</time>
+  </metadata>
+  <trk>
+    <name>Pico Pedroso - Techo de Candamo</name>
+    <trkseg>
+      <trkpt lat="43.44197" lon="-6.01599">
+        <ele>486.248</ele>
+        <time>2014-03-05T08:18:24.000Z</time>
+      </trkpt>
+      <trkpt lat="43.44203" lon="-6.01599">
+        <ele>485.561</ele>
+        <time>2014-03-05T08:18:31.000Z</time>
+      </trkpt>
+      <trkpt lat="43.44194" lon="-6.01592">
+        <ele>486.217</ele>
+        <time>2014-03-05T08:18:38.000Z</time>
+      </trkpt>
+      <trkpt lat="43.44188" lon="-6.01602">
+        <ele>486.207</ele>
+        <time>2014-03-05T08:20:50.000Z</time>
+      </trkpt>
+      <trkpt lat="43.44196" lon="-6.01598">
+        <ele>486.57</ele>
+        <time>2014-03-05T08:21:13.000Z</time>
+      </trkpt>
+      <trkpt lat="43.4419" lon="-6.01591">
+        <ele>487.126</ele>
+        <time>2014-03-05T08:23:38.000Z</time>
+      </trkpt>
+      <trkpt lat="43.44188" lon="-6.01606">
+        <ele>487.141</ele>
+        <time>2014-03-05T08:24:04.000Z</time>
+      </trkpt>
+      <trkpt lat="43.44159" lon="-6.01628">
+        <ele>487.161</ele>
+        <time>2014-03-05T08:25:03.000Z</time>
+      </trkpt>
+      <trkpt lat="43.44138" lon="-6.01691">
+        <ele>488.657</ele>
+        <time>2014-03-05T08:26:12.000Z</time>
+      </trkpt>
+      <trkpt lat="43.4402" lon="-6.01724">
+        <ele>503.555</ele>
+        <time>2014-03-05T08:29:24.000Z</time>
+      </trkpt>
+      <trkpt lat="43.4393" lon="-6.01689">
+        <ele>509.613</ele>
+        <time>2014-03-05T08:31:06.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43835" lon="-6.01674">
+        <ele>516.082</ele>
+        <time>2014-03-05T08:32:31.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43772" lon="-6.01646">
+        <ele>522.143</ele>
+        <time>2014-03-05T08:33:55.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43651" lon="-6.01762">
+        <ele>558.717</ele>
+        <time>2014-03-05T08:38:32.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43646" lon="-6.01777">
+        <ele>560.207</ele>
+        <time>2014-03-05T08:39:08.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43658" lon="-6.01788">
+        <ele>561.474</ele>
+        <time>2014-03-05T08:39:26.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43635" lon="-6.01806">
+        <ele>566.37</ele>
+        <time>2014-03-05T08:40:03.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43629" lon="-6.01825">
+        <ele>568.835</ele>
+        <time>2014-03-05T08:40:25.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43573" lon="-6.01872">
+        <ele>575.565</ele>
+        <time>2014-03-05T08:41:46.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43563" lon="-6.0189">
+        <ele>578.591</ele>
+        <time>2014-03-05T08:42:09.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43534" lon="-6.01905">
+        <ele>580.689</ele>
+        <time>2014-03-05T08:42:50.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43518" lon="-6.01903">
+        <ele>581.387</ele>
+        <time>2014-03-05T08:43:10.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43517" lon="-6.01918">
+        <ele>582.259</ele>
+        <time>2014-03-05T08:43:19.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43491" lon="-6.01939">
+        <ele>587.303</ele>
+        <time>2014-03-05T08:44:06.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43489" lon="-6.01964">
+        <ele>593.123</ele>
+        <time>2014-03-05T08:44:51.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43507" lon="-6.01968">
+        <ele>595.707</ele>
+        <time>2014-03-05T08:45:19.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43521" lon="-6.02018">
+        <ele>611.461</ele>
+        <time>2014-03-05T08:46:51.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43547" lon="-6.0206">
+        <ele>616.387</ele>
+        <time>2014-03-05T08:48:00.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43544" lon="-6.0205">
+        <ele>616.912</ele>
+        <time>2014-03-05T08:48:19.000Z</time>
+      </trkpt>
+      <trkpt lat="43.43564" lon="-6.02032">
+        <ele>618.142</ele>
+        <time>2014-03-05T08:49:33.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
