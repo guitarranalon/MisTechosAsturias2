@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Piedra Redonda - Techo de Caravia</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+    <link href="https://guitarranalon.github.io/MisTechosAsturias2">
+      <text>Piedra Redonda - Techo de Caravia</text>
+    </link>
+    <time>2021-02-07T13:16:22.000Z</time>
+  </metadata>
+  <trk>
+    <name>Piedra Redonda - Techo de Caravia</name>
+    <trkseg>
+      <trkpt lat="43.439108891568" lon="-5.193715917147415">
+        <ele>583.1807844217665</ele>
+        <time>2021-02-07T10:03:23.584Z</time>
+      </trkpt>
+      <trkpt lat="43.43896781953572" lon="-5.19413249354659">
+        <ele>588.6981051545093</ele>
+        <time>2021-02-07T10:04:02.654Z</time>
+      </trkpt>
+      <trkpt lat="43.43896781953572" lon="-5.19413249354659">
+        <ele>588.6981051545093</ele>
+        <time>2021-02-07T10:04:02.753Z</time>
+      </trkpt>
+      <trkpt lat="43.43886995856286" lon="-5.194493059674755">
+        <ele>592.1534583327834</ele>
+        <time>2021-02-07T10:04:38.444Z</time>
+      </trkpt>
+      <trkpt lat="43.43886995856286" lon="-5.194493059674755">
+        <ele>592.1534583327834</ele>
+        <time>2021-02-07T10:04:38.444Z</time>
+      </trkpt>
+      <trkpt lat="43.4392517456267" lon="-5.19416589445711">
+        <ele>595.2164678047615</ele>
+        <time>2021-02-07T10:05:35.863Z</time>
+      </trkpt>
+      <trkpt lat="43.43938468008676" lon="-5.1940519787808626">
+        <ele>591.5519525294665</ele>
+        <time>2021-02-07T10:05:55.856Z</time>
+      </trkpt>
+      <trkpt lat="43.439379" lon="-5.194622">
+        <ele>606.7097788709032</ele>
+        <time>2021-02-07T10:06:48.713Z</time>
+      </trkpt>
+      <trkpt lat="43.439379" lon="-5.194622">
+        <ele>610.616</ele>
+        <time>2021-02-07T10:06:48.713Z</time>
+      </trkpt>
+      <trkpt lat="43.439296" lon="-5.194803">
+        <ele>614.508</ele>
+        <time>2021-02-07T10:07:28.000Z</time>
+      </trkpt>
+      <trkpt lat="43.439187" lon="-5.194865">
+        <ele>616.232</ele>
+        <time>2021-02-07T10:07:51.000Z</time>
+      </trkpt>
+      <trkpt lat="43.439174" lon="-5.194786">
+        <ele>616.621</ele>
+        <time>2021-02-07T10:08:06.000Z</time>
+      </trkpt>
+      <trkpt lat="43.439238" lon="-5.19477">
+        <ele>615.689</ele>
+        <time>2021-02-07T10:08:47.000Z</time>
+      </trkpt>
+      <trkpt lat="43.439187" lon="-5.194652">
+        <ele>613.942</ele>
+        <time>2021-02-07T10:09:25.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
