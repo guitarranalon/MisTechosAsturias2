@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Monte Incós - Techo de Cabranes</name>
+    <author>
+      <name>gpx.studio</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+    <link href="https://www.wikiloc.com/hiking-trails/techo-de-cabranes-monte-incos-47572100">
+      <text>Monte Incós - Techo de Cabranes</text>
+    </link>
+    <time>2020-03-07T10:12:53.000Z</time>
+  </metadata>
+  <trk>
+    <name>Monte Incós - Techo de Cabranes</name>
+    <trkseg>
+      <trkpt lat="43.396349" lon="-5.384083">
+        <ele>451.415</ele>
+        <time>2020-03-07T08:39:20.000Z</time>
+      </trkpt>
+      <trkpt lat="43.396178" lon="-5.384023">
+        <ele>454.308</ele>
+        <time>2020-03-07T08:39:34.000Z</time>
+      </trkpt>
+      <trkpt lat="43.395704" lon="-5.38411">
+        <ele>457.281</ele>
+        <time>2020-03-07T08:40:20.000Z</time>
+      </trkpt>
+      <trkpt lat="43.395269" lon="-5.384504">
+        <ele>467.824</ele>
+        <time>2020-03-07T08:42:36.000Z</time>
+      </trkpt>
+      <trkpt lat="43.394882" lon="-5.384631">
+        <ele>477.412</ele>
+        <time>2020-03-07T08:43:32.000Z</time>
+      </trkpt>
+      <trkpt lat="43.394834" lon="-5.38483">
+        <ele>482.234</ele>
+        <time>2020-03-07T08:44:00.000Z</time>
+      </trkpt>
+      <trkpt lat="43.394683" lon="-5.384783">
+        <ele>486.599</ele>
+        <time>2020-03-07T08:44:26.000Z</time>
+      </trkpt>
+      <trkpt lat="43.393734" lon="-5.385075">
+        <ele>519.248</ele>
+        <time>2020-03-07T08:47:20.000Z</time>
+      </trkpt>
+      <trkpt lat="43.393419" lon="-5.385036">
+        <ele>530.767</ele>
+        <time>2020-03-07T08:48:14.000Z</time>
+      </trkpt>
+      <trkpt lat="43.393098" lon="-5.384857">
+        <ele>540.477</ele>
+        <time>2020-03-07T08:49:02.000Z</time>
+      </trkpt>
+      <trkpt lat="43.392536" lon="-5.384719">
+        <ele>551.485</ele>
+        <time>2020-03-07T08:50:16.000Z</time>
+      </trkpt>
+      <trkpt lat="43.391904" lon="-5.384698">
+        <ele>564.489</ele>
+        <time>2020-03-07T08:51:30.000Z</time>
+      </trkpt>
+      <trkpt lat="43.3916" lon="-5.38464">
+        <ele>571.117</ele>
+        <time>2020-03-07T08:52:04.000Z</time>
+      </trkpt>
+      <trkpt lat="43.391401" lon="-5.384713">
+        <ele>575.908</ele>
+        <time>2020-03-07T08:53:04.936Z</time>
+      </trkpt>
+      <trkpt lat="43.391396" lon="-5.384678">
+        <ele>557.25</ele>
+        <time>2020-03-07T08:53:12.606Z</time>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <reversedirection>yes</reversedirection>
+              <highway>track</highway>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="43.391372" lon="-5.384683">
+        <ele>557.25</ele>
+        <time>2020-03-07T08:53:19.786Z</time>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <reversedirection>yes</reversedirection>
+              <highway>track</highway>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="43.391355" lon="-5.384686">
+        <ele>557.25</ele>
+        <time>2020-03-07T08:53:24.850Z</time>
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <reversedirection>yes</reversedirection>
+              <highway>track</highway>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="43.391332" lon="-5.384746">
+        <ele>558</ele>
+        <time>2020-03-07T08:53:39.436Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
