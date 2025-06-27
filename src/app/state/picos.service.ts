@@ -202,13 +202,13 @@ export class PicosService {
     }
   }
 
-  getRutaGPX(id: number): Observable<VectorSource<Geometry>> {
+  getRutaGPX(id: number): VectorSource<Geometry> {
     const source = new VectorSource({
       url: `./assets/data/${id}.gpx`,
       format: new GPX()
     });
 
-    return of(source);
+    return source;
   }
 
 

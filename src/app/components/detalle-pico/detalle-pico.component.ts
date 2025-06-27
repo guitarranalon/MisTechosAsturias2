@@ -338,13 +338,8 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   private drawRoute() {
-    const gpxSource = new VectorSource({
-      url: `./assets/data/${this.id}.gpx`,
-      format: new GPX(),
-    });
-
     const gpxLayer = new VectorLayer({
-      source: gpxSource,
+      source: this.picosService.getRutaGPX(this.id),
       style: new Style({
         stroke: new Stroke({
           color: '#f28705',
