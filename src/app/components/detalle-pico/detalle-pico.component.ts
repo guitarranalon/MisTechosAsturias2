@@ -50,6 +50,7 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
   view: View;
   mapHelper: MapHelper;
   vectorLayer: VectorLayer;
+  routeLayer: VectorLayer;
   geolocation: boolean;
 
   gpsFeature: Feature;
@@ -108,7 +109,9 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
       if (!this.Map) {
         this.zone.runOutsideAngular(() => this.initMap());
       } else {
+        this.Map.removeLayer(this.routeLayer);
         this.Map.removeLayer(this.vectorLayer);
+        this.drawRoute();
         this.createMarkers();
         this.Map.setView(
           new View({
@@ -137,11 +140,6 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
       view: this.view,
       controls: DefaultControls().extend([new ScaleLine({})]),
     });
-
-    // markers
-    this.createMarkers();
-  
-    this.drawRoute();
   }
 
   private createMarkers() {
@@ -347,6 +345,8 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
         }),
       }),
     });
+
+    this.routeLayer = gpxLayer;
 
     this.Map.addLayer(gpxLayer);
   }
