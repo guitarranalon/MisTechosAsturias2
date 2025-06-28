@@ -140,6 +140,9 @@ export class DetallePicoComponent implements OnInit, OnDestroy, AfterViewInit {
       view: this.view,
       controls: DefaultControls().extend([new ScaleLine({})]),
     });
+
+    this.drawRoute();
+    this.createMarkers(); 
   }
 
   private createMarkers() {
