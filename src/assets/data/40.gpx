@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Muros del Nalón - Techo de Muros del Nalón</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+  </metadata>
+  <trk>
+    <name>Muros del Nalón - Techo de Muros del Nalón</name>
+    <trkseg>
+      <trkpt lat="43.54203320979744" lon="-6.106688833886977">
+        <ele>136.44397237570985</ele>
+      </trkpt>
+      <trkpt lat="43.54231612200283" lon="-6.107089222793974">
+        <ele>135.12272105265984</ele>
+      </trkpt>
+      <trkpt lat="43.542381972067034" lon="-6.1067258446265384">
+        <ele>134.39695970772425</ele>
+      </trkpt>
+      <trkpt lat="43.54240392207245" lon="-6.106190871213357">
+        <ele>134.84187058594262</ele>
+      </trkpt>
+      <trkpt lat="43.542384410956714" lon="-6.105790482306389">
+        <ele>134.4426317303493</ele>
+      </trkpt>
+      <trkpt lat="43.54235270538075" lon="-6.1055616886451105">
+        <ele>133.70176132121202</ele>
+      </trkpt>
+      <trkpt lat="43.542235638493395" lon="-6.105460750265223">
+        <ele>133.63335288462784</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
