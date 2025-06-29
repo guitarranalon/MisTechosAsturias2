@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Fuente Sagrada - Techo de Villanueva de Oscos</name>
+    <author>
+      <name>gpx.studio</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+  </metadata>
+  <trk>
+    <name>Fuente Sagrada - Techo de Villanueva de Oscos</name>
+    <trkseg>
+      <trkpt lat="43.36990095220733" lon="-6.944614061161644">
+        <ele>1079.5255516200964</ele>
+      </trkpt>
+      <trkpt lat="43.37014388458081" lon="-6.9447963453255">
+        <ele>1082.9091081865604</ele>
+      </trkpt>
+      <trkpt lat="43.370442027527815" lon="-6.9449482487951">
+        <ele>1084.6269684600645</ele>
+      </trkpt>
+      <trkpt lat="43.3708865563314" lon="-6.945041432645814">
+        <ele>1084.8840992307069</ele>
+      </trkpt>
+      <trkpt lat="43.371021745729365" lon="-6.945069771571383">
+        <ele>1084.6691120958876</ele>
+      </trkpt>
+      <trkpt lat="43.371471405768354" lon="-6.945069771571383">
+        <ele>1084.7265018085104</ele>
+      </trkpt>
+      <trkpt lat="43.37166771091313" lon="-6.945069771571383">
+        <ele>1084.5614222925255</ele>
+      </trkpt>
+      <trkpt lat="43.37209213888366" lon="-6.944865471223145">
+        <ele>1087.285964742414</ele>
+      </trkpt>
+      <trkpt lat="43.37218960916573" lon="-6.944818553456287">
+        <ele>1087.5278208897457</ele>
+      </trkpt>
+      <trkpt lat="43.37256738676013" lon="-6.944483046643635">
+        <ele>1093.719106821623</ele>
+      </trkpt>
+      <trkpt lat="43.37262576604684" lon="-6.944431199607976">
+        <ele>1094.6074311719285</ele>
+      </trkpt>
+      <trkpt lat="43.3730261595022" lon="-6.944149667653468">
+        <ele>1099.2983360713592</ele>
+      </trkpt>
+      <trkpt lat="43.3731226498104" lon="-6.9440818216267814">
+        <ele>1100.6320255378735</ele>
+      </trkpt>
+      <trkpt lat="43.373513610179835" lon="-6.9437762246947266">
+        <ele>1105.5909993072823</ele>
+      </trkpt>
+      <trkpt lat="43.37360848777567" lon="-6.943702062952326">
+        <ele>1106.5246278092498</ele>
+      </trkpt>
+      <trkpt lat="43.37404454793256" lon="-6.943551072229108">
+        <ele>1110.4371226071187</ele>
+      </trkpt>
+      <trkpt lat="43.37429375829964" lon="-6.943464780342623">
+        <ele>1114.006903457598</ele>
+      </trkpt>
+      <trkpt lat="43.374739295560026" lon="-6.943381196882253">
+        <ele>1116.4320030832678</ele>
+      </trkpt>
+      <trkpt lat="43.37490104342092" lon="-6.9433508527401955">
+        <ele>1117.990682744864</ele>
+      </trkpt>
+      <trkpt lat="43.375094269230146" lon="-6.943297686525369">
+        <ele>1120.182578540571</ele>
+      </trkpt>
+      <trkpt lat="43.375105310686166" lon="-6.942933118197516">
+        <ele>1119.4959185655694</ele>
+      </trkpt>
+      <trkpt lat="43.37493968863217" lon="-6.9427356436869445">
+        <ele>1119.7204077597369</ele>
+      </trkpt>
+      <trkpt lat="43.374724379285766" lon="-6.942659691951633">
+        <ele>1120.191857135529</ele>
+      </trkpt>
+      <trkpt lat="43.374275496297486" lon="-6.942623365228249">
+        <ele>1121.7238440411381</ele>
+      </trkpt>
+      <trkpt lat="43.37425511280921" lon="-6.942621715655065">
+        <ele>1121.8478850031856</ele>
+      </trkpt>
+      <trkpt lat="43.373857293120274" lon="-6.942333357088112">
+        <ele>1127.9882785342168</ele>
+      </trkpt>
+      <trkpt lat="43.3737416757713" lon="-6.942249552153385">
+        <ele>1130.3453366523242</ele>
+      </trkpt>
+      <trkpt lat="43.373306576929195" lon="-6.942093402622754">
+        <ele>1138.0069567754877</ele>
+      </trkpt>
+      <trkpt lat="43.37310677449807" lon="-6.942021696948501">
+        <ele>1142.0022146604906</ele>
+      </trkpt>
+      <trkpt lat="43.37267104798992" lon="-6.941868900869737">
+        <ele>1149.785115438303</ele>
+      </trkpt>
+      <trkpt lat="43.37254363911103" lon="-6.941824222437901">
+        <ele>1149.7647179504593</ele>
+      </trkpt>
+      <trkpt lat="43.3722896743823" lon="-6.941565986538706">
+        <ele>1152.0944899910137</ele>
+      </trkpt>
+      <trkpt lat="43.37219029659033" lon="-6.941209013384707">
+        <ele>1155.3228869247043</ele>
+      </trkpt>
+      <trkpt lat="43.37219029659033" lon="-6.941209013384707">
+        <ele>1155.3228869247043</ele>
+      </trkpt>
+      <trkpt lat="43.37242534479075" lon="-6.940681661273657">
+        <ele>1159.81801763964</ele>
+      </trkpt>
+      <trkpt lat="43.372432375661134" lon="-6.9406658868736315">
+        <ele>1159.8525030989672</ele>
+      </trkpt>
+      <trkpt lat="43.372622636043275" lon="-6.9404453460854825">
+        <ele>1159.1135839745539</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
