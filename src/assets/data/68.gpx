@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Cerro Gabio - Techo de Siero</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+    <link href="https://guitarranalon.github.io/MisTechosAsturias2">
+      <text>Cerro Gabio - Techo de Siero</text>
+    </link>
+    <time>2020-10-15T15:41:05.000Z</time>
+  </metadata>
+  <trk>
+    <name>Cerro Gabio - Techo de Siero</name>
+    <trkseg>
+      <trkpt lat="43.43094" lon="-5.594138">
+        <ele>693.9996317019356</ele>
+        <time>2020-10-15T13:02:38.000Z</time>
+      </trkpt>
+      <trkpt lat="43.430475" lon="-5.594789">
+        <ele>691.5920636895737</ele>
+        <time>2020-10-15T13:03:31.000Z</time>
+      </trkpt>
+      <trkpt lat="43.430113" lon="-5.595565">
+        <ele>687.6930170577965</ele>
+        <time>2020-10-15T13:04:24.000Z</time>
+      </trkpt>
+      <trkpt lat="43.429975" lon="-5.596682">
+        <ele>682.3096931490675</ele>
+        <time>2020-10-15T13:05:23.000Z</time>
+      </trkpt>
+      <trkpt lat="43.429524" lon="-5.596869">
+        <ele>685.1703302126125</ele>
+        <time>2020-10-15T13:06:56.864Z</time>
+      </trkpt>
+      <trkpt lat="43.429524" lon="-5.596869">
+        <ele>685.1703302126125</ele>
+        <time>2020-10-15T13:06:56.864Z</time>
+      </trkpt>
+      <trkpt lat="43.429655311911574" lon="-5.59733798012175">
+        <ele>695.2401645522007</ele>
+        <time>2020-10-15T13:08:07.696Z</time>
+      </trkpt>
+      <trkpt lat="43.429655311911574" lon="-5.59733798012175">
+        <ele>695.2401645522007</ele>
+        <time>2020-10-15T13:08:07.696Z</time>
+      </trkpt>
+      <trkpt lat="43.42975939973826" lon="-5.5975662911014865">
+        <ele>696.4853032360326</ele>
+        <time>2020-10-15T13:08:45.684Z</time>
+      </trkpt>
+      <trkpt lat="43.42972623903427" lon="-5.597841532671737">
+        <ele>698.1474724324282</ele>
+        <time>2020-10-15T13:09:25.001Z</time>
+      </trkpt>
+      <trkpt lat="43.42972623903427" lon="-5.597841532671737">
+        <ele>698.1474724324282</ele>
+        <time>2020-10-15T13:09:25.001Z</time>
+      </trkpt>
+      <trkpt lat="43.42972623903427" lon="-5.597841532671737">
+        <ele>698.1474724324282</ele>
+        <time>2020-10-15T13:09:25.001Z</time>
+      </trkpt>
+      <trkpt lat="43.42948398111733" lon="-5.5978669005588415">
+        <ele>699.8841560190382</ele>
+        <time>2020-10-15T13:09:50.457Z</time>
+      </trkpt>
+      <trkpt lat="43.429282" lon="-5.597646">
+        <ele>698.5045807210505</ele>
+        <time>2020-10-15T13:10:17.483Z</time>
+      </trkpt>
+      <trkpt lat="43.429282" lon="-5.597646">
+        <ele>698.5045807210505</ele>
+        <time>2020-10-15T13:10:17.572Z</time>
+      </trkpt>
+      <trkpt lat="43.429321" lon="-5.597566">
+        <ele>698.6316398088359</ele>
+        <time>2020-10-15T13:10:26.429Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
