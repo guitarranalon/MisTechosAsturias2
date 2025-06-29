@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Pico Grandamiana - Techo de Santo Adriano</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+    <link href="https://guitarranalon.github.io/MisTechosAsturias2">
+      <text>Pico Grandamiana - Techo de Santo Adriano</text>
+    </link>
+    <time>2016-07-11T11:38:07.000Z</time>
+  </metadata>
+  <trk>
+    <name>Pico Grandamiana - Techo de Santo Adriano</name>
+    <trkseg>
+      <trkpt lat="43.282466" lon="-6.0247">
+        <ele>754.948</ele>
+        <time>2016-07-11T09:36:50.000Z</time>
+      </trkpt>
+      <trkpt lat="43.283094" lon="-6.024464">
+        <ele>749.076</ele>
+        <time>2016-07-11T09:37:40.000Z</time>
+      </trkpt>
+      <trkpt lat="43.283398" lon="-6.024533">
+        <ele>747.19</ele>
+        <time>2016-07-11T09:38:05.000Z</time>
+      </trkpt>
+      <trkpt lat="43.285124" lon="-6.023393">
+        <ele>760.119</ele>
+        <time>2016-07-11T09:41:33.000Z</time>
+      </trkpt>
+      <trkpt lat="43.286497" lon="-6.022032">
+        <ele>787.608</ele>
+        <time>2016-07-11T09:45:20.000Z</time>
+      </trkpt>
+      <trkpt lat="43.287241" lon="-6.021054">
+        <ele>797.358</ele>
+        <time>2016-07-11T09:51:07.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
