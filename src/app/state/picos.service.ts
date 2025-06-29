@@ -138,7 +138,7 @@ const listado: Array<Pico> = [
   ,
   { id: 62, concejo:"San Martín del Rey Aurelio", nombre:"Pico Tres Concejos", altura:1096, dificultad:1, latitud:43.2206611, longitud:-5.6288666, ascendido: false, imagen: 'tresconcejos.jpg' }
   ,
-  { id: 63, concejo:"San Martín de Oscos", nombre:"Pico La Vaga", altura:1081, dificultad:1, latitud:43.356675, longitud:-6.9298777, ascendido: false }
+  { id: 63, concejo:"San Martín de Oscos", nombre:"Pico La Vaga", altura:1081, dificultad:1, latitud:43.357004, longitud:-6.921887, ascendido: false }
   ,
   { id: 64, concejo:"Santa Eulalia de Oscos", nombre:"Pico Oteiro Grande", altura:948, dificultad:1, latitud:43.3002277, longitud:-7.05345, ascendido: false }
   ,
