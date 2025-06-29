@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Pousadoiro - Techo de Tapia de Casariego</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+    <link href="https://guitarranalon.github.io/MisTechosAsturias2">
+      <text>Pousadoiro - Techo de Tapia de Casariego</text>
+    </link>
+    <time>2024-06-09T11:17:46.506Z</time>
+  </metadata>
+  <trk>
+    <name>Pousadoiro - Techo de Tapia de Casariego</name>
+    <trkseg>
+      <trkpt lat="43.477174658478305" lon="-6.98968308058312">
+        <ele>451.6285033863513</ele>
+        <time>2024-06-09T09:34:42.276Z</time>
+      </trkpt>
+      <trkpt lat="43.47708214389635" lon="-6.98907667235186">
+        <ele>451.2247874975206</ele>
+        <time>2024-06-09T09:36:07.124Z</time>
+      </trkpt>
+      <trkpt lat="43.477023" lon="-6.988689">
+        <ele>454.0434121175208</ele>
+        <time>2024-06-09T09:37:01.367Z</time>
+      </trkpt>
+      <trkpt lat="43.477023" lon="-6.988689">
+        <ele>451.309</ele>
+        <time>2024-06-09T09:37:01.367Z</time>
+      </trkpt>
+      <trkpt lat="43.476492" lon="-6.987508">
+        <ele>461.346</ele>
+        <time>2024-06-09T09:38:25.349Z</time>
+      </trkpt>
+      <trkpt lat="43.474956" lon="-6.985605">
+        <ele>464.392</ele>
+        <time>2024-06-09T09:42:48.317Z</time>
+      </trkpt>
+      <trkpt lat="43.474528" lon="-6.984909">
+        <ele>461.358</ele>
+        <time>2024-06-09T09:43:39.305Z</time>
+      </trkpt>
+      <trkpt lat="43.474318" lon="-6.983652">
+        <ele>468.891</ele>
+        <time>2024-06-09T09:44:59.314Z</time>
+      </trkpt>
+      <trkpt lat="43.474003" lon="-6.982771">
+        <ele>478.895</ele>
+        <time>2024-06-09T09:46:16.314Z</time>
+      </trkpt>
+      <trkpt lat="43.474129" lon="-6.981814">
+        <ele>486.362</ele>
+        <time>2024-06-09T09:48:01.314Z</time>
+      </trkpt>
+      <trkpt lat="43.474066" lon="-6.98166">
+        <ele>485.357</ele>
+        <time>2024-06-09T09:48:42.314Z</time>
+      </trkpt>
+      <trkpt lat="43.474131" lon="-6.980991">
+        <ele>494.368</ele>
+        <time>2024-06-09T09:50:03.315Z</time>
+      </trkpt>
+      <trkpt lat="43.474209" lon="-6.981054">
+        <ele>496.383</ele>
+        <time>2024-06-09T09:50:19.315Z</time>
+      </trkpt>
+      <trkpt lat="43.47376" lon="-6.979841">
+        <ele>497.363</ele>
+        <time>2024-06-09T09:51:55.315Z</time>
+      </trkpt>
+      <trkpt lat="43.473739" lon="-6.979558">
+        <ele>497.344</ele>
+        <time>2024-06-09T09:52:11.319Z</time>
+      </trkpt>
+      <trkpt lat="43.473755" lon="-6.97883">
+        <ele>494.318</ele>
+        <time>2024-06-09T09:52:50.315Z</time>
+      </trkpt>
+      <trkpt lat="43.474032" lon="-6.977535">
+        <ele>494.309</ele>
+        <time>2024-06-09T09:54:01.318Z</time>
+      </trkpt>
+      <trkpt lat="43.474064" lon="-6.977026">
+        <ele>495.367</ele>
+        <time>2024-06-09T09:54:33.317Z</time>
+      </trkpt>
+      <trkpt lat="43.473787" lon="-6.976188">
+        <ele>501.323</ele>
+        <time>2024-06-09T09:55:26.385Z</time>
+      </trkpt>
+      <trkpt lat="43.473616" lon="-6.975917">
+        <ele>507.349</ele>
+        <time>2024-06-09T09:56:08.343Z</time>
+      </trkpt>
+      <trkpt lat="43.474017" lon="-6.973833">
+        <ele>520.372</ele>
+        <time>2024-06-09T09:58:26.356Z</time>
+      </trkpt>
+      <trkpt lat="43.474094" lon="-6.972942">
+        <ele>530.336</ele>
+        <time>2024-06-09T09:59:24.357Z</time>
+      </trkpt>
+      <trkpt lat="43.473318" lon="-6.970696">
+        <ele>521.343</ele>
+        <time>2024-06-09T10:01:47.348Z</time>
+      </trkpt>
+      <trkpt lat="43.473354" lon="-6.970415">
+        <ele>521.338</ele>
+        <time>2024-06-09T10:02:07.350Z</time>
+      </trkpt>
+      <trkpt lat="43.472982" lon="-6.969833">
+        <ele>518.339</ele>
+        <time>2024-06-09T10:02:54.358Z</time>
+      </trkpt>
+      <trkpt lat="43.472932" lon="-6.969069">
+        <ele>522.324</ele>
+        <time>2024-06-09T10:03:52.358Z</time>
+      </trkpt>
+      <trkpt lat="43.472783" lon="-6.968909">
+        <ele>530.396</ele>
+        <time>2024-06-09T10:05:34.354Z</time>
+      </trkpt>
+      <trkpt lat="43.47269" lon="-6.96818">
+        <ele>531.331</ele>
+        <time>2024-06-09T10:06:18.355Z</time>
+      </trkpt>
+      <trkpt lat="43.472566" lon="-6.96787">
+        <ele>528.324</ele>
+        <time>2024-06-09T10:06:41.350Z</time>
+      </trkpt>
+      <trkpt lat="43.472865" lon="-6.966648">
+        <ele>529.309</ele>
+        <time>2024-06-09T10:08:08.364Z</time>
+      </trkpt>
+      <trkpt lat="43.473315" lon="-6.965634">
+        <ele>524.36</ele>
+        <time>2024-06-09T10:09:27.365Z</time>
+      </trkpt>
+      <trkpt lat="43.473326" lon="-6.96521">
+        <ele>523.316</ele>
+        <time>2024-06-09T10:09:55.360Z</time>
+      </trkpt>
+      <trkpt lat="43.474195" lon="-6.962238">
+        <ele>575.372</ele>
+        <time>2024-06-09T10:14:22.375Z</time>
+      </trkpt>
+      <trkpt lat="43.475169" lon="-6.958185">
+        <ele>634.395</ele>
+        <time>2024-06-09T10:20:09.382Z</time>
+      </trkpt>
+      <trkpt lat="43.475585" lon="-6.957613">
+        <ele>638.319</ele>
+        <time>2024-06-09T10:22:34.389Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
