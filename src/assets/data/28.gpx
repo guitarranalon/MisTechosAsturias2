@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Piedras Apañadas - Techo de Grandas de Salime</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+  </metadata>
+  <trk>
+    <name>Piedras Apañadas - Techo de Grandas de Salime</name>
+    <trkseg>
+      <trkpt lat="43.13425971627987" lon="-6.957007382124175">
+        <ele>1139.4154235596973</ele>
+      </trkpt>
+      <trkpt lat="43.13444550865049" lon="-6.956985481357066">
+        <ele>1139.1630947976546</ele>
+      </trkpt>
+      <trkpt lat="43.13455139007178" lon="-6.956977268569204">
+        <ele>1139.0290049348241</ele>
+      </trkpt>
+      <trkpt lat="43.134805105184284" lon="-6.957122361154006">
+        <ele>1142.4669367484262</ele>
+      </trkpt>
+      <trkpt lat="43.1351747115485" lon="-6.957319126312797">
+        <ele>1147.3227796570407</ele>
+      </trkpt>
+      <trkpt lat="43.13561925868316" lon="-6.9574117857476265">
+        <ele>1149.4893937182621</ele>
+      </trkpt>
+      <trkpt lat="43.13579201026889" lon="-6.957447793322643">
+        <ele>1150.4265317941556</ele>
+      </trkpt>
+      <trkpt lat="43.1362327173729" lon="-6.957570150567393">
+        <ele>1152.3560042459</ele>
+      </trkpt>
+      <trkpt lat="43.136325888049356" lon="-6.957596018331174">
+        <ele>1152.4247254115535</ele>
+      </trkpt>
+      <trkpt lat="43.136770765382735" lon="-6.957685655013779">
+        <ele>1158.457402383397</ele>
+      </trkpt>
+      <trkpt lat="43.13691691987847" lon="-6.957715103140629">
+        <ele>1160.6267672183465</ele>
+      </trkpt>
+      <trkpt lat="43.13727377380056" lon="-6.957431981243786">
+        <ele>1163.9987956939237</ele>
+      </trkpt>
+      <trkpt lat="43.13769949154491" lon="-6.957414822340155">
+        <ele>1170.0164749235644</ele>
+      </trkpt>
+      <trkpt lat="43.13808764337577" lon="-6.957474878500477">
+        <ele>1173.6319114750604</ele>
+      </trkpt>
+      <trkpt lat="43.13852809010252" lon="-6.957350774546605">
+        <ele>1179.1278706481703</ele>
+      </trkpt>
+      <trkpt lat="43.13875751251405" lon="-6.957286130568917">
+        <ele>1184.5212653704932</ele>
+      </trkpt>
+      <trkpt lat="43.139185780029116" lon="-6.957098318937253">
+        <ele>1193.2500647205873</ele>
+      </trkpt>
+      <trkpt lat="43.13922704258195" lon="-6.957080223734835">
+        <ele>1193.6057394334125</ele>
+      </trkpt>
+      <trkpt lat="43.13943170250565" lon="-6.957080159983832">
+        <ele>1194.4005735258581</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
