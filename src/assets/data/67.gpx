@@ -9,42 +9,42 @@
     <link href="https://guitarranalon.github.io/MisTechosAsturias2">
       <text>Pico Cima - Techo de Sariego</text>
     </link>
-    <time>2020-10-15T15:41:05.000Z</time>
+    
   </metadata>
   <trk>
     <name>Pico Cima - Techo de Sariego</name>
     <trkseg>
       <trkpt lat="43.43286535807607" lon="-5.592850406515339">
         <ele>717.5292198440967</ele>
-        <time>2020-10-15T12:51:12.425Z</time>
+        
       </trkpt>
       <trkpt lat="43.43320239468248" lon="-5.592440508028352">
         <ele>717.0843394191943</ele>
-        <time>2020-10-15T12:52:07.022Z</time>
+        
       </trkpt>
       <trkpt lat="43.4335394312889" lon="-5.592030609541363">
         <ele>717.64487372255</ele>
-        <time>2020-10-15T12:53:01.618Z</time>
+        
       </trkpt>
       <trkpt lat="43.433572" lon="-5.591991">
         <ele>717.5098389963861</ele>
-        <time>2020-10-15T12:53:06.893Z</time>
+        
       </trkpt>
       <trkpt lat="43.433572" lon="-5.591991">
         <ele>431.733</ele>
-        <time>2020-10-15T12:53:06.996Z</time>
+        
       </trkpt>
       <trkpt lat="43.43406" lon="-5.591926">
         <ele>435.255</ele>
-        <time>2020-10-15T12:53:42.000Z</time>
+        
       </trkpt>
       <trkpt lat="43.434461" lon="-5.592031">
         <ele>438.107</ele>
-        <time>2020-10-15T12:54:13.000Z</time>
+        
       </trkpt>
       <trkpt lat="43.434578" lon="-5.592242">
         <ele>441.717</ele>
-        <time>2020-10-15T12:55:01.000Z</time>
+        
       </trkpt>
     </trkseg>
   </trk>

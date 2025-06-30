@@ -9,34 +9,34 @@
     <link href="https://guitarranalon.github.io/MisTechosAsturias2">
       <text>Pico Grandamiana - Techo de Santo Adriano</text>
     </link>
-    <time>2016-07-11T11:38:07.000Z</time>
+    
   </metadata>
   <trk>
     <name>Pico Grandamiana - Techo de Santo Adriano</name>
     <trkseg>
       <trkpt lat="43.282466" lon="-6.0247">
         <ele>754.948</ele>
-        <time>2016-07-11T09:36:50.000Z</time>
+        
       </trkpt>
       <trkpt lat="43.283094" lon="-6.024464">
         <ele>749.076</ele>
-        <time>2016-07-11T09:37:40.000Z</time>
+        
       </trkpt>
       <trkpt lat="43.283398" lon="-6.024533">
         <ele>747.19</ele>
-        <time>2016-07-11T09:38:05.000Z</time>
+        
       </trkpt>
       <trkpt lat="43.285124" lon="-6.023393">
         <ele>760.119</ele>
-        <time>2016-07-11T09:41:33.000Z</time>
+        
       </trkpt>
       <trkpt lat="43.286497" lon="-6.022032">
         <ele>787.608</ele>
-        <time>2016-07-11T09:45:20.000Z</time>
+        
       </trkpt>
       <trkpt lat="43.287241" lon="-6.021054">
         <ele>797.358</ele>
-        <time>2016-07-11T09:51:07.000Z</time>
+        
       </trkpt>
     </trkseg>
   </trk>
