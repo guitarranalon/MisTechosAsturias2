@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Pico Cueto - Techo de Cudillero</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+    <link href="https://guitarranalon.github.io/MisTechosAsturias2">
+      <text>Pico Cueto - Techo de Cudillero</text>
+    </link>
+    
+  </metadata>
+  <trk>
+    <name>Pico Cueto - Techo de Cudillero</name>
+    <trkseg>
+      <trkpt lat="43.512132" lon="-6.254557">
+        <ele>621.163</ele>
+        
+      </trkpt>
+      <trkpt lat="43.511622" lon="-6.255846">
+        <ele>633.944</ele>
+        
+      </trkpt>
+      <trkpt lat="43.511587" lon="-6.256612">
+        <ele>645.418</ele>
+        
+      </trkpt>
+      <trkpt lat="43.512124" lon="-6.257564">
+        <ele>664.507</ele>
+        
+      </trkpt>
+      <trkpt lat="43.512731" lon="-6.258239">
+        <ele>679.033</ele>
+        
+      </trkpt>
+      <trkpt lat="43.512113" lon="-6.258752">
+        <ele>692.056</ele>
+        
+      </trkpt>
+      <trkpt lat="43.511546" lon="-6.261745">
+        <ele>714.526</ele>
+        
+      </trkpt>
+      <trkpt lat="43.511422" lon="-6.26214">
+        <ele>718.322</ele>
+        
+      </trkpt>
+      <trkpt lat="43.510907" lon="-6.262787">
+        <ele>722.565</ele>
+        
+      </trkpt>
+      <trkpt lat="43.509267" lon="-6.263972">
+        <ele>751.227</ele>
+        
+      </trkpt>
+      <trkpt lat="43.507933" lon="-6.264602">
+        <ele>763.184</ele>
+        
+      </trkpt>
+      <trkpt lat="43.507072" lon="-6.265284">
+        <ele>779.676</ele>
+        
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

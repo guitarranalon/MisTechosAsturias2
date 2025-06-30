@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Peña Cruzada - Techo de Yernes y Tameza</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+    <link href="https://guitarranalon.github.io/MisTechosAsturias2">
+      <text>Peña Cruzada - Techo de Yernes y Tameza</text>
+    </link>
+    
+  </metadata>
+  <trk>
+    <name>Peña Cruzada - Techo de Yernes y Tameza</name>
+    <trkseg>
+      <trkpt lat="43.210979" lon="-6.129574">
+        <ele>1077.234</ele>
+        
+      </trkpt>
+      <trkpt lat="43.210636" lon="-6.129493">
+        <ele>1079.255</ele>
+        
+      </trkpt>
+      <trkpt lat="43.209705" lon="-6.130489">
+        <ele>1097.01</ele>
+        
+      </trkpt>
+      <trkpt lat="43.20932" lon="-6.131173">
+        <ele>1103.208</ele>
+        
+      </trkpt>
+      <trkpt lat="43.210014" lon="-6.132082">
+        <ele>1108.015</ele>
+        
+      </trkpt>
+      <trkpt lat="43.210964" lon="-6.132667">
+        <ele>1112.314</ele>
+        
+      </trkpt>
+      <trkpt lat="43.210262" lon="-6.134538">
+        <ele>1135.967</ele>
+        
+      </trkpt>
+      <trkpt lat="43.209618" lon="-6.135485">
+        <ele>1149.813</ele>
+        
+      </trkpt>
+      <trkpt lat="43.209526" lon="-6.136099">
+        <ele>1153.715</ele>
+        
+      </trkpt>
+      <trkpt lat="43.209957" lon="-6.136041">
+        <ele>1152.761</ele>
+        
+      </trkpt>
+      <trkpt lat="43.210907" lon="-6.136539">
+        <ele>1173.433</ele>
+        
+      </trkpt>
+      <trkpt lat="43.211323" lon="-6.138324">
+        <ele>1220.599</ele>
+        
+      </trkpt>
+      <trkpt lat="43.211689" lon="-6.138644">
+        <ele>1223.985</ele>
+        
+      </trkpt>
+      <trkpt lat="43.212372" lon="-6.139787">
+        <ele>1261.889</ele>
+        
+      </trkpt>
+      <trkpt lat="43.212818" lon="-6.141511">
+        <ele>1299.317</ele>
+        
+      </trkpt>
+      <trkpt lat="43.213558" lon="-6.142656">
+        <ele>1326.208</ele>
+        
+      </trkpt>
+      <trkpt lat="43.214203" lon="-6.143112">
+        <ele>1333.41</ele>
+        
+      </trkpt>
+      <trkpt lat="43.215359" lon="-6.143402">
+        <ele>1343.549</ele>
+        
+      </trkpt>
+      <trkpt lat="43.21566" lon="-6.14381">
+        <ele>1345.512</ele>
+        
+      </trkpt>
+      <trkpt lat="43.216122" lon="-6.144068">
+        <ele>1346.958</ele>
+        
+      </trkpt>
+      <trkpt lat="43.216465" lon="-6.14462">
+        <ele>1363.28</ele>
+        
+      </trkpt>
+      <trkpt lat="43.216896" lon="-6.144819">
+        <ele>1373.346</ele>
+        
+      </trkpt>
+      <trkpt lat="43.217133" lon="-6.144635">
+        <ele>1355.628</ele>
+        
+      </trkpt>
+      <trkpt lat="43.218433" lon="-6.144558">
+        <ele>1357.084</ele>
+        
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

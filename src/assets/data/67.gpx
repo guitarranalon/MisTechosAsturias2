@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Pico Cima - Techo de Sariego</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+    <link href="https://guitarranalon.github.io/MisTechosAsturias2">
+      <text>Pico Cima - Techo de Sariego</text>
+    </link>
+    
+  </metadata>
+  <trk>
+    <name>Pico Cima - Techo de Sariego</name>
+    <trkseg>
+      <trkpt lat="43.43286535807607" lon="-5.592850406515339">
+        <ele>717.5292198440967</ele>
+        
+      </trkpt>
+      <trkpt lat="43.43320239468248" lon="-5.592440508028352">
+        <ele>717.0843394191943</ele>
+        
+      </trkpt>
+      <trkpt lat="43.4335394312889" lon="-5.592030609541363">
+        <ele>717.64487372255</ele>
+        
+      </trkpt>
+      <trkpt lat="43.433572" lon="-5.591991">
+        <ele>717.5098389963861</ele>
+        
+      </trkpt>
+      <trkpt lat="43.433572" lon="-5.591991">
+        <ele>431.733</ele>
+        
+      </trkpt>
+      <trkpt lat="43.43406" lon="-5.591926">
+        <ele>435.255</ele>
+        
+      </trkpt>
+      <trkpt lat="43.434461" lon="-5.592031">
+        <ele>438.107</ele>
+        
+      </trkpt>
+      <trkpt lat="43.434578" lon="-5.592242">
+        <ele>441.717</ele>
+        
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

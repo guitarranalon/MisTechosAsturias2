@@ -160,6 +160,12 @@ svg.icon{
     font-size: 1.17rem;
 }
 
+.card-body .card-title a,
+.card-body .card-subtitle a{
+    color: var(--bs-card-title-color);
+    text-decoration: none;
+}
+
 .map-container #popup {
     h2 {
         font-family: $font-family-serif;

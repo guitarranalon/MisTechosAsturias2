@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Pico Abrego de Ouroso - Techo de Taramundi</name>
+    <author>
+      <name>Mis techos de asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+  </metadata>
+  <trk>
+    <name>Pico Abrego de Ouroso - Techo de Taramundi</name>
+    <trkseg>
+      <trkpt lat="43.33799357331307" lon="-7.028682185676786">
+        <ele>998.6531830262404</ele>
+      </trkpt>
+      <trkpt lat="43.33794394394107" lon="-7.0292451337301145">
+        <ele>999.4588823812253</ele>
+      </trkpt>
+      <trkpt lat="43.33808042461652" lon="-7.029290624481575">
+        <ele>1001.8844671101781</ele>
+      </trkpt>
+      <trkpt lat="43.33837406381798" lon="-7.029029052658927">
+        <ele>1005.6873602536828</ele>
+      </trkpt>
+      <trkpt lat="43.33866770159884" lon="-7.028932384811782">
+        <ele>1009.5795863619596</ele>
+      </trkpt>
+      <trkpt lat="43.339093680644424" lon="-7.028812971588508">
+        <ele>1014.0018570535251</ele>
+      </trkpt>
+      <trkpt lat="43.339543266208956" lon="-7.028801732400027">
+        <ele>1018.2629667964517</ele>
+      </trkpt>
+      <trkpt lat="43.33954860642177" lon="-7.02880159890006">
+        <ele>1018.2992033367393</ele>
+      </trkpt>
+      <trkpt lat="43.339929087182185" lon="-7.028807285244284">
+        <ele>1020.4784653617546</ele>
+      </trkpt>
+      <trkpt lat="43.34037023256161" lon="-7.028896858396337">
+        <ele>1022.4052405041098</ele>
+      </trkpt>
+      <trkpt lat="43.34055219945557" lon="-7.029039016995739">
+        <ele>1023.7359426599271</ele>
+      </trkpt>
+      <trkpt lat="43.340597691094274" lon="-7.029340393225624">
+        <ele>1024.5015544720795</ele>
+      </trkpt>
+      <trkpt lat="43.34056874187365" lon="-7.029556474296811">
+        <ele>1023.5127652868634</ele>
+      </trkpt>
+      <trkpt lat="43.340395046261136" lon="-7.029772555367231">
+        <ele>1023.2874550338837</ele>
+      </trkpt>
+      <trkpt lat="43.34023789265987" lon="-7.029749809991102">
+        <ele>1024.335053073188</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

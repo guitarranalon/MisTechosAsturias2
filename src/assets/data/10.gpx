@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Monte Incós - Techo de Cabranes</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+    <link href="https://guitarranalon.github.io/MisTechosAsturias2">
+      <text>Monte Incós - Techo de Cabranes</text>
+    </link>
+    
+  </metadata>
+  <trk>
+    <name>Monte Incós - Techo de Cabranes</name>
+    <trkseg>
+      <trkpt lat="43.396349" lon="-5.384083">
+        <ele>451.415</ele>
+        
+      </trkpt>
+      <trkpt lat="43.396178" lon="-5.384023">
+        <ele>454.308</ele>
+        
+      </trkpt>
+      <trkpt lat="43.395704" lon="-5.38411">
+        <ele>457.281</ele>
+        
+      </trkpt>
+      <trkpt lat="43.395269" lon="-5.384504">
+        <ele>467.824</ele>
+        
+      </trkpt>
+      <trkpt lat="43.394882" lon="-5.384631">
+        <ele>477.412</ele>
+        
+      </trkpt>
+      <trkpt lat="43.394834" lon="-5.38483">
+        <ele>482.234</ele>
+        
+      </trkpt>
+      <trkpt lat="43.394683" lon="-5.384783">
+        <ele>486.599</ele>
+        
+      </trkpt>
+      <trkpt lat="43.393734" lon="-5.385075">
+        <ele>519.248</ele>
+        
+      </trkpt>
+      <trkpt lat="43.393419" lon="-5.385036">
+        <ele>530.767</ele>
+        
+      </trkpt>
+      <trkpt lat="43.393098" lon="-5.384857">
+        <ele>540.477</ele>
+        
+      </trkpt>
+      <trkpt lat="43.392536" lon="-5.384719">
+        <ele>551.485</ele>
+        
+      </trkpt>
+      <trkpt lat="43.391904" lon="-5.384698">
+        <ele>564.489</ele>
+        
+      </trkpt>
+      <trkpt lat="43.3916" lon="-5.38464">
+        <ele>571.117</ele>
+        
+      </trkpt>
+      <trkpt lat="43.391401" lon="-5.384713">
+        <ele>575.908</ele>
+        
+      </trkpt>
+      <trkpt lat="43.391396" lon="-5.384678">
+        <ele>557.25</ele>
+        
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <reversedirection>yes</reversedirection>
+              <highway>track</highway>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="43.391372" lon="-5.384683">
+        <ele>557.25</ele>
+        
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <reversedirection>yes</reversedirection>
+              <highway>track</highway>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="43.391355" lon="-5.384686">
+        <ele>557.25</ele>
+        
+        <extensions>
+          <gpxtpx:TrackPointExtension>
+            <gpxtpx:Extensions>
+              <reversedirection>yes</reversedirection>
+              <highway>track</highway>
+            </gpxtpx:Extensions>
+          </gpxtpx:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="43.391332" lon="-5.384746">
+        <ele>558</ele>
+        
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
