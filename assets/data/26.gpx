@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Tabladas - Techo de Gozón</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+  </metadata>
+  <trk>
+    <name>Tabladas - Techo de Gozón</name>
+    <trkseg>
+      <trkpt lat="43.575755" lon="-5.883255">
+        <ele>131.22700982347305</ele>
+      </trkpt>
+      <trkpt lat="43.57583776174829" lon="-5.883366352466226">
+        <ele>131.5920656181413</ele>
+      </trkpt>
+      <trkpt lat="43.57583776174829" lon="-5.883366352466226">
+        <ele>131.5920656181413</ele>
+      </trkpt>
+      <trkpt lat="43.57625676100926" lon="-5.883271374821533">
+        <ele>133.5945460655032</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

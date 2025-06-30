@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Penouta - Techo de El Franco</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+  </metadata>
+  <trk>
+    <name>Penouta - Techo de El Franco</name>
+    <trkseg>
+      <trkpt lat="43.44994614912932" lon="-6.822915526409616">
+        <ele>875.3727687066421</ele>
+      </trkpt>
+      <trkpt lat="43.45034509509898" lon="-6.822629768661119">
+        <ele>874.1173249923402</ele>
+      </trkpt>
+      <trkpt lat="43.450648180205945" lon="-6.822412674306605">
+        <ele>872.3041855718931</ele>
+      </trkpt>
+      <trkpt lat="43.45109404442092" lon="-6.82233235969347">
+        <ele>870.3134368315474</ele>
+      </trkpt>
+      <trkpt lat="43.4515399086359" lon="-6.822252045080335">
+        <ele>872.1568150545944</ele>
+      </trkpt>
+      <trkpt lat="43.45156080842315" lon="-6.822248280350465">
+        <ele>872.176593166491</ele>
+      </trkpt>
+      <trkpt lat="43.45156080842315" lon="-6.822248280350465">
+        <ele>872.176593166491</ele>
+      </trkpt>
+      <trkpt lat="43.45200183546724" lon="-6.8221274872851465">
+        <ele>870.8553614333283</ele>
+      </trkpt>
+      <trkpt lat="43.45244286251134" lon="-6.822006694219828">
+        <ele>867.8166674154352</ele>
+      </trkpt>
+      <trkpt lat="43.45276124456828" lon="-6.82191949243682">
+        <ele>867.404985621773</ele>
+      </trkpt>
+      <trkpt lat="43.453199629207916" lon="-6.822057336288141">
+        <ele>872.5629856693328</ele>
+      </trkpt>
+      <trkpt lat="43.45340708339643" lon="-6.822122567324385">
+        <ele>873.9910502642401</ele>
+      </trkpt>
+      <trkpt lat="43.4538565934594" lon="-6.822106573405391">
+        <ele>875.9019644694406</ele>
+      </trkpt>
+      <trkpt lat="43.454116381218626" lon="-6.82209732995409">
+        <ele>878.2829908012121</ele>
+      </trkpt>
+      <trkpt lat="43.45456315610986" lon="-6.8220272778229605">
+        <ele>882.6031840993419</ele>
+      </trkpt>
+      <trkpt lat="43.45457637791122" lon="-6.82202520470878">
+        <ele>882.8179541978056</ele>
+      </trkpt>
+      <trkpt lat="43.454845642644244" lon="-6.821999445693677">
+        <ele>888.1911273517547</ele>
+      </trkpt>
+      <trkpt lat="43.45513360499024" lon="-6.822432197162755">
+        <ele>891.1373706580475</ele>
+      </trkpt>
+      <trkpt lat="43.45553596286001" lon="-6.822708753258138">
+        <ele>887.6790395889909</ele>
+      </trkpt>
+      <trkpt lat="43.45558567719027" lon="-6.822742923836358">
+        <ele>886.5852966828097</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

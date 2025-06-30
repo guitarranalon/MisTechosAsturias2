@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Prado del Marqués - Techo de Castrillón</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+  </metadata>
+  <trk>
+    <name>Prado del Marqués - Techo de Castrillón</name>
+    <trkseg>
+      <trkpt lat="43.51300312035954" lon="-6.020669618032144">
+        <ele>431.29546202381846</ele>
+      </trkpt>
+      <trkpt lat="43.51289078556198" lon="-6.020615877979054">
+        <ele>431.5982652587002</ele>
+      </trkpt>
+      <trkpt lat="43.51282758163316" lon="-6.020305815581736">
+        <ele>431.56445924625814</ele>
+      </trkpt>
+      <trkpt lat="43.51279493011185" lon="-6.020096780723691">
+        <ele>430.79425035291376</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Mis techos de Asturias" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>Peña de los Cuatro Jueces - Techo de Gijón</name>
+    <author>
+      <name>Mis techos de Asturias</name>
+      <link href="https://guitarranalon.github.io/MisTechosAsturias2"/>
+    </author>
+    <link href="https://guitarranalon.github.io/MisTechosAsturias2">
+      <text>Peña de los Cuatro Jueces - Techo de Gijón</text>
+    </link>
+    
+  </metadata>
+  <trk>
+    <name>Peña de los Cuatro Jueces - Techo de Gijón</name>
+    <trkseg>
+      <trkpt lat="43.432532" lon="-5.593244">
+        <ele>717.006</ele>
+        
+      </trkpt>
+      <trkpt lat="43.433534" lon="-5.592014">
+        <ele>725.816</ele>
+        
+      </trkpt>
+      <trkpt lat="43.433534" lon="-5.592014">
+        <ele>717.8005949698256</ele>
+        
+      </trkpt>
+      <trkpt lat="43.4337" lon="-5.59197">
+        <ele>718.0227220960564</ele>
+        
+      </trkpt>
+      <trkpt lat="43.4337" lon="-5.59197">
+        <ele>726.588</ele>
+        
+      </trkpt>
+      <trkpt lat="43.433824" lon="-5.591796">
+        <ele>727.997</ele>
+        
+      </trkpt>
+      <trkpt lat="43.434289" lon="-5.591746">
+        <ele>731.415</ele>
+        
+      </trkpt>
+      <trkpt lat="43.434686" lon="-5.591381">
+        <ele>731.196</ele>
+        
+      </trkpt>
+      <trkpt lat="43.435643" lon="-5.591219">
+        <ele>724.458</ele>
+        
+      </trkpt>
+      <trkpt lat="43.437361" lon="-5.589134">
+        <ele>712.856</ele>
+        
+      </trkpt>
+      <trkpt lat="43.440557" lon="-5.588704">
+        <ele>665.794</ele>
+        
+      </trkpt>
+      <trkpt lat="43.441148" lon="-5.588292">
+        <ele>663.189</ele>
+        
+      </trkpt>
+      <trkpt lat="43.441904" lon="-5.587108">
+        <ele>665.606</ele>
+        
+      </trkpt>
+      <trkpt lat="43.442421" lon="-5.584329">
+        <ele>645.226</ele>
+        
+      </trkpt>
+      <trkpt lat="43.442606" lon="-5.5841">
+        <ele>644.708</ele>
+        
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
