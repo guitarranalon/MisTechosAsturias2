@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1751533604415,
+  "timestamp": 1757522833725,
   "index": "/MisTechosAsturias2/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/MisTechosAsturias2/favicon.ico",
         "/MisTechosAsturias2/index.html",
-        "/MisTechosAsturias2/main.1e63299eaf64219e.js",
+        "/MisTechosAsturias2/main.bf64fe165ecff7a6.js",
         "/MisTechosAsturias2/manifest.webmanifest",
         "/MisTechosAsturias2/polyfills.d4a657ab59034526.js",
         "/MisTechosAsturias2/runtime.23d1466caa581a97.js",
@@ -243,6 +243,7 @@
         "/MisTechosAsturias2/assets/img/panondres.jpg",
         "/MisTechosAsturias2/assets/img/pedroso.jpg",
         "/MisTechosAsturias2/assets/img/piedraredonda.jpg",
+        "/MisTechosAsturias2/assets/img/piedrasapanadas.avif",
         "/MisTechosAsturias2/assets/img/pinMapa.svg",
         "/MisTechosAsturias2/assets/img/pinMapaAscendido.svg",
         "/MisTechosAsturias2/assets/img/pradomarques.jpg",
@@ -487,6 +488,7 @@
     "/MisTechosAsturias2/assets/img/panondres.jpg": "665cdd81b33be306efe64fc4b820acb2e1aecc56",
     "/MisTechosAsturias2/assets/img/pedroso.jpg": "4aeaaa6d0b8d74ab1b459f9462b25260f7774c14",
     "/MisTechosAsturias2/assets/img/piedraredonda.jpg": "85c6a8a0b520a39e9a1c0195b4f193a7b0561ab6",
+    "/MisTechosAsturias2/assets/img/piedrasapanadas.avif": "665d13c8e003b46f48f50dcee26d1f55a9acff52",
     "/MisTechosAsturias2/assets/img/pinMapa.svg": "b2aa6019865d468de4545d5dfd95a689ccbcfa2f",
     "/MisTechosAsturias2/assets/img/pinMapaAscendido.svg": "c264bc34c89f377d19cf8a0e50aa95d82358b1b5",
     "/MisTechosAsturias2/assets/img/pradomarques.jpg": "ea144a89b6ff6c90dadaf013f69e97efbd41d3da",
@@ -512,8 +514,8 @@
     "/MisTechosAsturias2/faunaone-regular-webfont.97c7c870b8620693.woff": "1ff4cea8b5d46e2254ab361c978b9b7faada24d1",
     "/MisTechosAsturias2/favicon.ico": "1166968f861ece3267dc91a7a46c5721c09f1d0d",
     "/MisTechosAsturias2/header-bg.2977c8ad0dc58f39.jpg": "d5687c8cbc81c9b769280208c71e39268f336b3a",
-    "/MisTechosAsturias2/index.html": "9a0502d78ccc093cc2bbbce64682fd15bd569e51",
-    "/MisTechosAsturias2/main.1e63299eaf64219e.js": "373f204bb6b0e7ccf61acfd3557506577b9b037a",
+    "/MisTechosAsturias2/index.html": "a8451c14a6e894c7b98680c99fa4a64ae853d2b6",
+    "/MisTechosAsturias2/main.bf64fe165ecff7a6.js": "9c7148359d250a117c3d5bc6cea0d511ef2ddaca",
     "/MisTechosAsturias2/manifest.webmanifest": "b5d6c76a755d53e6f6364d11a8add77f4aa22d67",
     "/MisTechosAsturias2/polyfills.d4a657ab59034526.js": "66357497c69ecc981fa5de4b1dec98fdf6fba3fe",
     "/MisTechosAsturias2/runtime.23d1466caa581a97.js": "d77e3790e110ad61bf02ab425f0b5a2f8015f83b",
