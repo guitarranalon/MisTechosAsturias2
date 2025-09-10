@@ -5,7 +5,7 @@
 
         <div class="map-container" id="map"></div>
 
-        <div class="navigation my-3" *ngIf="geolocation">
+        <div class="navigation my-3 d-inline-block me-3" *ngIf="geolocation">
             <ng-container *ngIf="!navigating else detenernavegacion">
                 <button class="btn btn-primary" (click)="empezarNavegacion()"><svg class="icon navigation"><use xlink:href="#compass" /></svg> Navegar</button>
             </ng-container>
@@ -13,6 +13,9 @@
             <ng-template #detenernavegacion>
                 <button class="btn btn-primary" (click)="detenerNavegacion()"><svg class="icon navigation"><use xlink:href="#stop" /></svg> Detener navegación</button>
             </ng-template>
+        </div>
+        <div class="download-track d-inline-block">
+            <app-download-track-button [peakId]="id" [peakName]="pico.nombre"></app-download-track-button>
         </div>
 
         <ul class="list-unstyled mt-4">

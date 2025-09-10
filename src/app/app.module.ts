@@ -29,6 +29,7 @@ import { DificultadPipe } from './pipes/dificultad.pipe';
 import { DetallePicoComponent } from './components/detalle-pico/detalle-pico.component';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { SvgShareComponent } from './components/svg-share/svg-share.component';
+import { DownloadTrackButtonComponent } from './components/download-track-button/download-track-button.component';
 
 registerLocaleData(localeEsES, 'es');
 
@@ -63,6 +64,7 @@ const dbConfig: DBConfig  = {
         PicoMasCercanoComponent,
         AlertBoardComponent,
         DificultadPipe,
+        DownloadTrackButtonComponent,
         DetallePicoComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
