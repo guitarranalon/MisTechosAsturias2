@@ -68,7 +68,7 @@ const listado: Array<Pico> = [
   ,
   { id: 27, concejo:"Grado", nombre:"Pico la Berza", altura:1454, dificultad:1, latitud:43.1833305, longitud:-6.2005111, ascendido: false, imagen: 'berza.jpg' }
   ,
-  { id: 28, concejo:"Grandas de Salime", nombre:"Piedras Apañadas", altura:1201, dificultad:1, latitud:43.1394583, longitud:-6.9571194, ascendido: false }
+  { id: 28, concejo:"Grandas de Salime", nombre:"Piedras Apañadas", altura:1201, dificultad:1, latitud:43.1394583, longitud:-6.9571194, ascendido: false, imagen: 'piedrasapanadas.avif' }
   ,
   { id: 29, concejo:"Ibias", nombre:"Peña Roguera o Torrunteira", altura:1961, dificultad:2, latitud:42.9166055, longitud:-6.7050361, ascendido: false }
   ,
