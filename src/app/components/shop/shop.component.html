@@ -1,0 +1,10 @@
+<h2 class="mt-4">Apoya el proyecto</h2>
+<p>Este proyecto ha sido desarrollado con ilusión y cariño con acceso gratuito para todo el mundo. Si te gusta y quieres que sigamos mejorándolo, tu apoyo marcará la diferencia.</p>
+
+<div class="row">
+        @for (product of products$ | async; track product.id) {
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 my-3">
+                <app-product [product]="product" />
+            </div>
+        }
+</div>

@@ -1,0 +1,22 @@
+<div class="product card h-100">
+  <a [href]="product.link" class="product__image-link" title="Ver detalle"
+    ><img
+      src="assets/img/shop/{{ product.img }}"
+      alt="Imagen de {{ product.text }}"
+      class="product__image card-img-top"
+      loading="lazy"
+  /></a>
+  <div class="product__info card-body">
+    <a [href]="product.link" class="product__title card-title" title="Ver detalle">
+      {{ product.text }}
+    </a>
+
+    <a
+      [href]="product.link"
+      class="product__btn btn btn-secondary btn-block align-self-end w-100"
+      title="Ver detalle"
+    >
+      Comprar
+    </a>
+  </div>
+</div>

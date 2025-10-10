@@ -7,6 +7,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ObservacionesComponent } from './components/observaciones/observaciones.component';
 import { AvisoLegalComponent } from './components/aviso-legal/aviso-legal.component';
 import { DetallePicoComponent } from './components/detalle-pico/detalle-pico.component';
+import { ShopComponent } from './components/shop/shop.component';
 
 const routes: Routes = [
   { 
@@ -25,6 +26,10 @@ const routes: Routes = [
   {
     path: 'progreso',
     component: MapaProgresoComponent
+  },
+  {
+    path: 'apoyanos',
+    component: ShopComponent,
   },
   {
     path: 'observaciones',

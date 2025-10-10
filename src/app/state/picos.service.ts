@@ -3,7 +3,6 @@ import { ID } from '@datorama/akita';
 import { HttpClient } from '@angular/common/http';
 import { PicosStore } from './picos.store';
 import { Pico } from './pico.model';
-import { Observable, of } from 'rxjs';
 import { PicosQuery } from './picos.query';
 import { NgxIndexedDBService } from 'ngx-indexed-db';
 import { Utils } from '../classes/utils';
