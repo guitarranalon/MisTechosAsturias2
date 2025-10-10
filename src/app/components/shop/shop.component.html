@@ -1,0 +1,3 @@
+@for (product of products$ | async; track product.id) {
+    <app-product [product]="product" />
+}

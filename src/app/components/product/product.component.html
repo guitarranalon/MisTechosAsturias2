@@ -1,0 +1,22 @@
+<div class="product">
+  <a [href]="product.link" class="product__image-link" title="Ver detalle"
+    ><img
+      src="assets/img/shop/{{ product.img }}"
+      alt="Imagen de {{ product.text }}"
+      class="product__image"
+      loading="lazy"
+  /></a>
+  <div class="product__info">
+    <a [href]="product.link" class="product__title" title="Ver detalle">
+      {{ product.text }}
+    </a>
+
+    <a
+      [href]="product.link"
+      class="product__btn btn btn-secondary"
+      title="Ver detalle"
+    >
+      Comprar
+    </a>
+  </div>
+</div>
