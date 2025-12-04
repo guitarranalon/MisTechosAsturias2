@@ -202,3 +202,15 @@ svg.icon{
 .menu-ordenacion .dropdown-toggle {
     width: 100%;
 }
+
+body .main-content .estadistica {
+    @include media-breakpoint-up(md) {
+        overflow-x: hidden;
+    }
+
+    .panel-picos {
+        @include media-breakpoint-up(md) {
+            flex-wrap: wrap;
+        }
+    }
+}
